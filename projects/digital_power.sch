@@ -1,0 +1,158 @@
+EESchema Schematic File Version 2
+LIBS:conn_gosselin
+LIBS:ti_gosselin
+LIBS:oscillator_gosselin
+LIBS:wolfson_gosselin
+LIBS:analog_devices_gosselin
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:microchip_gosselin
+LIBS:linear_technology_gosselin
+LIBS:mStereo2-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 7000 3850 2    60   Input ~ 0
+VIN
+Wire Wire Line
+	6500 4050 6400 4050
+Text HLabel 7000 4650 2    60   Input ~ 0
+GND
+Connection ~ 6500 4650
+$Comp
+L C C203
+U 1 1 54126F5E
+P 6800 4150
+AR Path="/54126B8F/54126F5E" Ref="C203"  Part="1" 
+AR Path="/541597AB/54126F5E" Ref="C503"  Part="1" 
+F 0 "C503" H 6800 4250 40  0000 L CNN
+F 1 "1" H 6806 4065 40  0000 L CNN
+F 2 "" H 6838 4000 30  0000 C CNN
+F 3 "" H 6800 4150 60  0000 C CNN
+F 4 "Digi-Key" H 6800 4150 60  0001 C CNN "Supplier"
+F 5 "445-8189-1-ND" H 6800 4150 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 6800 4150 60  0001 C CNN "Manu"
+F 7 "CGJ4J2X7R1C105K125AA" H 6800 4150 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 1UF 16V 10% X7R 0805" H 6800 4150 60  0001 C CNN "Description"
+	1    6800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 541271AA
+P 4450 4150
+AR Path="/54126B8F/541271AA" Ref="C201"  Part="1" 
+AR Path="/541597AB/541271AA" Ref="C501"  Part="1" 
+F 0 "C501" H 4450 4250 40  0000 L CNN
+F 1 "22" H 4456 4065 40  0000 L CNN
+F 2 "" H 4488 4000 30  0000 C CNN
+F 3 "" H 4450 4150 60  0000 C CNN
+F 4 "Digi-Key" H 4450 4150 60  0001 C CNN "Supplier"
+F 5 "P16405CT-ND" H 4450 4150 60  0001 C CNN "Supplier-PN"
+F 6 "Panasonic" H 4450 4150 60  0001 C CNN "Manu"
+F 7 "32SEPF22M+TSS" H 4450 4150 60  0001 C CNN "Manu-PN"
+F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 4450 4150 60  0001 C CNN "Description"
+	1    4450 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 3850
+Connection ~ 6800 4650
+Text HLabel 4200 3850 0    60   Input ~ 0
+VOUT
+$Comp
+L C C202
+U 1 1 544A1569
+P 4700 4150
+AR Path="/54126B8F/544A1569" Ref="C202"  Part="1" 
+AR Path="/541597AB/544A1569" Ref="C502"  Part="1" 
+F 0 "C502" H 4700 4250 40  0000 L CNN
+F 1 "0.01" H 4706 4065 40  0000 L CNN
+F 2 "" H 4738 4000 30  0000 C CNN
+F 3 "" H 4700 4150 60  0000 C CNN
+F 4 "Digi-Key" H 4700 4150 60  0001 C CNN "Supplier"
+F 5 "445-9190-1-ND" H 4700 4150 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 4700 4150 60  0001 C CNN "Manu"
+F 7 "CGJ4J3X7R2D103K125AA" H 4700 4150 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 10000PF 200V X7R 0805" H 4700 4150 60  0001 C CNN "Description"
+	1    4700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT1763 U501
+U 1 1 544E0B1D
+P 5700 4000
+F 0 "U501" H 5700 3700 60  0000 C CNN
+F 1 "LT1763" H 5700 4300 60  0000 C CNN
+F 2 "" H 5750 4000 60  0000 C CNN
+F 3 "" H 5750 4000 60  0000 C CNN
+F 4 "Digi-key" H 5900 4850 60  0001 C CNN "Supplier"
+F 5 "LT1763CS8-3.3#PBF-ND" H 6350 4750 60  0001 C CNN "Supplier-PN"
+F 6 "Linear Technology" H 6050 4650 60  0001 C CNN "Manu"
+F 7 "LT1763CS8-3.3#PBF" H 6200 4550 60  0001 C CNN "Manu-PN"
+F 8 "IC REG LDO 3.3V 0.5A 8SOIC" H 6400 4450 60  0001 C CNN "Description"
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3850 5000 3850
+Wire Wire Line
+	6400 3850 7000 3850
+Wire Wire Line
+	6400 3950 6500 3950
+Wire Wire Line
+	6500 3950 6500 4650
+Connection ~ 6500 4050
+Wire Wire Line
+	6800 3850 6800 3950
+Wire Wire Line
+	6800 4650 6800 4350
+Wire Wire Line
+	6400 4150 6600 4150
+Wire Wire Line
+	6600 4150 6600 3850
+Connection ~ 6600 3850
+Wire Wire Line
+	5000 4050 4900 4050
+Wire Wire Line
+	4900 4050 4900 4650
+Connection ~ 4900 4650
+Wire Wire Line
+	4700 3950 5000 3950
+Wire Wire Line
+	4700 3950 4700 3850
+Connection ~ 4700 3850
+Wire Wire Line
+	4700 4350 5000 4350
+Wire Wire Line
+	5000 4350 5000 4150
+Wire Wire Line
+	4450 3950 4450 3850
+Connection ~ 4450 3850
+Wire Wire Line
+	4450 4350 4450 4650
+Wire Wire Line
+	4450 4650 7000 4650
+$Comp
+L LED D?
+U 1 1 544F5650
+P 8100 4100
+F 0 "D?" H 8100 4200 50  0000 C CNN
+F 1 "LED_G" H 8100 4000 50  0000 C CNN
+F 2 "" H 8100 4100 60  0000 C CNN
+F 3 "" H 8100 4100 60  0000 C CNN
+	1    8100 4100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

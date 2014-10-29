@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Mon 24 Jun 2013 05:53:04 PM PDT
+#
+$CMP OKI-78SR-5
+D Murata 7-36VDC in, 5VDC@8W out regulator module
+K 5v regulator module
+$ENDCMP
+#
+#End Doc Library

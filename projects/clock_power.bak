@@ -1,0 +1,203 @@
+EESchema Schematic File Version 2
+LIBS:conn_gosselin
+LIBS:ti_gosselin
+LIBS:oscillator_gosselin
+LIBS:wolfson_gosselin
+LIBS:analog_devices_gosselin
+LIBS:power
+LIBS:device
+LIBS:conn
+LIBS:microchip_gosselin
+LIBS:linear_technology_gosselin
+LIBS:mStereo2-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 7000 3850 2    60   Input ~ 0
+VIN
+Wire Wire Line
+	6400 3850 7000 3850
+Wire Wire Line
+	6400 3950 6500 3950
+Wire Wire Line
+	6500 3950 6500 3850
+Connection ~ 6500 3850
+Wire Wire Line
+	6400 4150 6500 4150
+Wire Wire Line
+	6500 4050 6500 4250
+Wire Wire Line
+	6500 4050 6400 4050
+Connection ~ 6500 4150
+Text HLabel 7000 4750 2    60   Input ~ 0
+GND
+Wire Wire Line
+	6500 4750 6500 4650
+Wire Wire Line
+	4150 4750 7000 4750
+Wire Wire Line
+	5000 4150 4900 4150
+Wire Wire Line
+	4900 4150 4900 4750
+Connection ~ 6500 4750
+Wire Wire Line
+	4650 4050 4650 4250
+Wire Wire Line
+	4650 4650 4650 4750
+Connection ~ 4900 4750
+$Comp
+L C C203
+U 1 1 54126F5E
+P 4650 4450
+AR Path="/54126B8F/54126F5E" Ref="C203"  Part="1" 
+AR Path="/541597AB/54126F5E" Ref="C503"  Part="1" 
+F 0 "C203" H 4650 4550 40  0000 L CNN
+F 1 "1" H 4656 4365 40  0000 L CNN
+F 2 "" H 4688 4300 30  0000 C CNN
+F 3 "" H 4650 4450 60  0000 C CNN
+F 4 "Digi-Key" H 4650 4450 60  0001 C CNN "Supplier"
+F 5 "445-8189-1-ND" H 4650 4450 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 4650 4450 60  0001 C CNN "Manu"
+F 7 "CGJ4J2X7R1C105K125AA" H 4650 4450 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 1UF 16V 10% X7R 0805" H 4650 4450 60  0001 C CNN "Description"
+	1    4650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 541271AA
+P 4150 4450
+AR Path="/54126B8F/541271AA" Ref="C201"  Part="1" 
+AR Path="/541597AB/541271AA" Ref="C501"  Part="1" 
+F 0 "C201" H 4150 4550 40  0000 L CNN
+F 1 "22" H 4156 4365 40  0000 L CNN
+F 2 "" H 4188 4300 30  0000 C CNN
+F 3 "" H 4150 4450 60  0000 C CNN
+F 4 "Digi-Key" H 4150 4450 60  0001 C CNN "Supplier"
+F 5 "P16405CT-ND" H 4150 4450 60  0001 C CNN "Supplier-PN"
+F 6 "Panasonic" H 4150 4450 60  0001 C CNN "Manu"
+F 7 "32SEPF22M+TSS" H 4150 4450 60  0001 C CNN "Manu-PN"
+F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 4150 4450 60  0001 C CNN "Description"
+	1    4150 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3950 4400 4250
+Wire Wire Line
+	4150 3850 4150 4250
+Wire Wire Line
+	4400 4650 4400 4750
+Connection ~ 4650 4750
+Wire Wire Line
+	4150 4650 4150 4750
+Connection ~ 4400 4750
+Wire Wire Line
+	3950 3850 5000 3850
+Wire Wire Line
+	4400 3950 5000 3950
+Wire Wire Line
+	4650 4050 5000 4050
+Wire Wire Line
+	6800 4250 6800 3850
+Connection ~ 6800 3850
+Wire Wire Line
+	6800 4650 6800 4750
+Connection ~ 6800 4750
+Text HLabel 3950 3850 0    60   Input ~ 0
+VOUT
+Connection ~ 4150 3850
+$Comp
+L ADM7150 U201
+U 1 1 5432B584
+P 5700 4000
+AR Path="/54126B8F/5432B584" Ref="U201"  Part="1" 
+AR Path="/541597AB/5432B584" Ref="U501"  Part="1" 
+F 0 "U201" H 5700 3700 60  0000 C CNN
+F 1 "ADM7150" H 5700 4300 60  0000 C CNN
+F 2 "" H 5750 4000 60  0000 C CNN
+F 3 "" H 5750 4000 60  0000 C CNN
+F 4 "Digi-key" H 5900 4850 60  0001 C CNN "Supplier"
+F 5 "ADM7150ARDZ-3.3-ND" H 6350 4750 60  0001 C CNN "Supplier-PN"
+F 6 "Analog Devices" H 6050 4650 60  0001 C CNN "Manu"
+F 7 "ADM7150ARDZ-3.3" H 6200 4550 60  0001 C CNN "Manu-PN"
+F 8 "IC REG LDO 3.3V 0.8A 8SOIC" H 6400 4450 60  0001 C CNN "Description"
+	1    5700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C202
+U 1 1 544A1569
+P 4400 4450
+AR Path="/54126B8F/544A1569" Ref="C202"  Part="1" 
+AR Path="/541597AB/544A1569" Ref="C502"  Part="1" 
+F 0 "C202" H 4400 4550 40  0000 L CNN
+F 1 "22" H 4406 4365 40  0000 L CNN
+F 2 "" H 4438 4300 30  0000 C CNN
+F 3 "" H 4400 4450 60  0000 C CNN
+F 4 "Digi-Key" H 4400 4450 60  0001 C CNN "Supplier"
+F 5 "P16405CT-ND" H 4400 4450 60  0001 C CNN "Supplier-PN"
+F 6 "Panasonic" H 4400 4450 60  0001 C CNN "Manu"
+F 7 "32SEPF22M+TSS" H 4400 4450 60  0001 C CNN "Manu-PN"
+F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 4400 4450 60  0001 C CNN "Description"
+	1    4400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C205
+U 1 1 544A157E
+P 6800 4450
+AR Path="/54126B8F/544A157E" Ref="C205"  Part="1" 
+AR Path="/541597AB/544A157E" Ref="C505"  Part="1" 
+F 0 "C205" H 6800 4550 40  0000 L CNN
+F 1 "22" H 6806 4365 40  0000 L CNN
+F 2 "" H 6838 4300 30  0000 C CNN
+F 3 "" H 6800 4450 60  0000 C CNN
+F 4 "Digi-Key" H 6800 4450 60  0001 C CNN "Supplier"
+F 5 "P16405CT-ND" H 6800 4450 60  0001 C CNN "Supplier-PN"
+F 6 "Panasonic" H 6800 4450 60  0001 C CNN "Manu"
+F 7 "32SEPF22M+TSS" H 6800 4450 60  0001 C CNN "Manu-PN"
+F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 6800 4450 60  0001 C CNN "Description"
+	1    6800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C204
+U 1 1 544A1C6E
+P 6500 4450
+AR Path="/54126B8F/544A1C6E" Ref="C204"  Part="1" 
+AR Path="/541597AB/544A1C6E" Ref="C504"  Part="1" 
+F 0 "C204" H 6500 4550 40  0000 L CNN
+F 1 "1" H 6506 4365 40  0000 L CNN
+F 2 "" H 6538 4300 30  0000 C CNN
+F 3 "" H 6500 4450 60  0000 C CNN
+F 4 "Digi-Key" H 6500 4450 60  0001 C CNN "Supplier"
+F 5 "445-8189-1-ND" H 6500 4450 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 6500 4450 60  0001 C CNN "Manu"
+F 7 "CGJ4J2X7R1C105K125AA" H 6500 4450 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 1UF 16V 10% X7R 0805" H 6500 4450 60  0001 C CNN "Description"
+	1    6500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 544F59C8
+P 7950 4200
+F 0 "D?" H 7950 4300 50  0000 C CNN
+F 1 "LED_G" H 7950 4100 50  0000 C CNN
+F 2 "" H 7950 4200 60  0000 C CNN
+F 3 "" H 7950 4200 60  0000 C CNN
+	1    7950 4200
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

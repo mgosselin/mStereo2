@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Wed 23 Oct 2013 01:35:18 PM PDT
+#
+$CMP KSZ8051MLL
+D Ethernet PHY supporting the MII interface
+K Ethernet, MII
+$ENDCMP
+#
+#End Doc Library

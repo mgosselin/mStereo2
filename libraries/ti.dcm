@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN65HVD11P
+D 3.3V Bidirectional RS-485 Transceiver (10mbps max)
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,2184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export version="D">
+    <design>
+        <source>/home/uwhpsc/Documents/kicad/ee/projects/mStereo2/mStereo2.sch</source>
+        <date>Mon 27 Oct 2014 12:03:41 AM PDT</date>
+        <tool>eeschema (2013-04-01 BZR 4058)-product</tool>
+    </design>
+    <components>
+        <comp ref="C101">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5400AA65</tstamp>
+        </comp>
+        <comp ref="C103">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BCEC2</tstamp>
+        </comp>
+        <comp ref="C104">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BD775</tstamp>
+        </comp>
+        <comp ref="U102">
+            <value>CDCLVC1104</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-27549-1-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">CDCLVC1104PWR</field>
+                <field name="Description">C CLK BUFFER 1:4 250MHZ 8TSSOP</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="CDCLVC1104"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BE429</tstamp>
+        </comp>
+        <comp ref="U101">
+            <value>ISO7640</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-29703-5-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">ISO7640FMDW</field>
+                <field name="Description">IC DGTL ISO 4CH LOGIC 16SOIC</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="ISO7640"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BE64C</tstamp>
+        </comp>
+        <comp ref="P101">
+            <value>CONN_AMANERO</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">S7078-ND</field>
+                <field name="Manu">Sullins</field>
+                <field name="Manu-PN">PPTC102LFBN-RC</field>
+                <field name="Description">CONN HEADER FMAL 20PS .1" DL TIN</field>
+            </fields>
+            <libsource lib="conn_gosselin" part="CONN_AMANERO"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BE84F</tstamp>
+        </comp>
+        <comp ref="X101">
+            <value>XTAL</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">549-C3391-24.576</field>
+                <field name="Manu">Crystek</field>
+                <field name="Manu-PN">C3391-24.576</field>
+                <field name="Description">Standard Clock Oscillators 24.576MHz </field>
+            </fields>
+            <libsource lib="oscillator_gosselin" part="XTAL"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BECB7</tstamp>
+        </comp>
+        <comp ref="C102">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540BF170</tstamp>
+        </comp>
+        <comp ref="U104">
+            <value>SRC4192</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">595-SRC4192IDB</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">SRC4192IDB</field>
+                <field name="Description">Audio Sample Rate Converters High-End Sample Rate Converter</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="SRC4192"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>540CB151</tstamp>
+        </comp>
+        <comp ref="C106">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>54130548</tstamp>
+        </comp>
+        <comp ref="C107">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>541306D8</tstamp>
+        </comp>
+        <comp ref="P103">
+            <value>MOLEX KK 1X3</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">WM4201-ND</field>
+                <field name="Manu">Molex</field>
+                <field name="Manu-PN">0022232031</field>
+            </fields>
+            <libsource lib="conn" part="CONN_01X03"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>541BD1A1</tstamp>
+        </comp>
+        <comp ref="P102">
+            <value>MOLEX KK 1x2</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">WM4200-ND</field>
+                <field name="Manu">Molex</field>
+                <field name="Manu-PN">0022232021</field>
+            </fields>
+            <libsource lib="conn" part="CONN_01X02"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>541BD256</tstamp>
+        </comp>
+        <comp ref="P104">
+            <value>NC3MAHL</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">568-NC3MAHL</field>
+                <field name="Manu">Neutrik</field>
+                <field name="Manu-PN">NC3MAHL</field>
+                <field name="Description">XLR connectors 3C MALE COMBO</field>
+            </fields>
+            <libsource lib="conn" part="CONN_01X03"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>541BE4D6</tstamp>
+        </comp>
+        <comp ref="C105">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>542A546D</tstamp>
+        </comp>
+        <comp ref="U103">
+            <value>MCP100-315DI</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
+                <field name="Manu">Microchip</field>
+                <field name="Manu-PN">MCP100T-315I/TT</field>
+                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
+            </fields>
+            <libsource lib="microchip_gosselin" part="MCP100-315DI"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>5431B8A4</tstamp>
+        </comp>
+        <comp ref="P105">
+            <value>NC3MAHL</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">568-NC3MAHL</field>
+                <field name="Manu">Neutrik</field>
+                <field name="Manu-PN">NC3MAHL</field>
+                <field name="Description">XLR connectors 3C MALE COMBO</field>
+            </fields>
+            <libsource lib="conn" part="CONN_01X03"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>543297CE</tstamp>
+        </comp>
+        <comp ref="C203">
+            <value>1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8189-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C105K125AA</field>
+                <field name="Description">CAP CER 1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
+            <tstamp>54126F5E</tstamp>
+        </comp>
+        <comp ref="C201">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
+            <tstamp>541271AA</tstamp>
+        </comp>
+        <comp ref="C202">
+            <value>0.01</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-9190-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J3X7R2D103K125AA</field>
+                <field name="Description">CAP CER 10000PF 200V X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
+            <tstamp>544A1569</tstamp>
+        </comp>
+        <comp ref="U201">
+            <value>LT1761</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">LT1761ES5-3.3#TRMPBFCT-ND</field>
+                <field name="Manu">Linear Technology</field>
+                <field name="Manu-PN">LT1761ES5-3.3#TRMPBF</field>
+                <field name="Description">IC REG LDO 3.3V 0.1A TSOT23-5</field>
+            </fields>
+            <libsource lib="linear_technology_gosselin" part="LT1761"/>
+            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
+            <tstamp>544DFFAE</tstamp>
+        </comp>
+        <comp ref="U301">
+            <value>WM874XX</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">238-WM8741GEDS/V</field>
+                <field name="Manu">Wolfson Microelectronics</field>
+                <field name="Manu-PN">WM8741GEDS/V</field>
+                <field name="Description">Audio D/A Converter ICs Stereo DAC, High End </field>
+            </fields>
+            <libsource lib="wolfson_gosselin" part="WM874XX"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8571</tstamp>
+        </comp>
+        <comp ref="C303">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8572</tstamp>
+        </comp>
+        <comp ref="C307">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8573</tstamp>
+        </comp>
+        <comp ref="C305">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>54153DC6</tstamp>
+        </comp>
+        <comp ref="C309">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8575</tstamp>
+        </comp>
+        <comp ref="C311">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8576</tstamp>
+        </comp>
+        <comp ref="C302">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8577</tstamp>
+        </comp>
+        <comp ref="C301">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544B8578</tstamp>
+        </comp>
+        <comp ref="C304">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544A0699</tstamp>
+        </comp>
+        <comp ref="C306">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544A06AE</tstamp>
+        </comp>
+        <comp ref="C308">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544A076D</tstamp>
+        </comp>
+        <comp ref="C310">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544A0796</tstamp>
+        </comp>
+        <comp ref="C312">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>544A07AB</tstamp>
+        </comp>
+        <comp ref="U401">
+            <value>WM874XX</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">238-WM8741GEDS/V</field>
+                <field name="Manu">Wolfson Microelectronics</field>
+                <field name="Manu-PN">WM8741GEDS/V</field>
+                <field name="Description">Audio D/A Converter ICs Stereo DAC, High End </field>
+            </fields>
+            <libsource lib="wolfson_gosselin" part="WM874XX"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>541316E3</tstamp>
+        </comp>
+        <comp ref="C403">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54152646</tstamp>
+        </comp>
+        <comp ref="C407">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54152CE9</tstamp>
+        </comp>
+        <comp ref="C405">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B8574</tstamp>
+        </comp>
+        <comp ref="C409">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54153E52</tstamp>
+        </comp>
+        <comp ref="C411">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>541C1104</tstamp>
+        </comp>
+        <comp ref="C402">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>541C1175</tstamp>
+        </comp>
+        <comp ref="C401">
+            <value>0.1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>541C118A</tstamp>
+        </comp>
+        <comp ref="C404">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B8579</tstamp>
+        </comp>
+        <comp ref="C406">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B857A</tstamp>
+        </comp>
+        <comp ref="C408">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B857B</tstamp>
+        </comp>
+        <comp ref="C410">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B857C</tstamp>
+        </comp>
+        <comp ref="C412">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>544B857D</tstamp>
+        </comp>
+        <comp ref="C503">
+            <value>1</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8189-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C105K125AA</field>
+                <field name="Description">CAP CER 1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
+            <tstamp>54126F5E</tstamp>
+        </comp>
+        <comp ref="C501">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
+            <tstamp>541271AA</tstamp>
+        </comp>
+        <comp ref="C502">
+            <value>0.01</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-9190-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J3X7R2D103K125AA</field>
+                <field name="Description">CAP CER 10000PF 200V X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
+            <tstamp>544A1569</tstamp>
+        </comp>
+        <comp ref="U501">
+            <value>LT1763</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">LT1763CS8-3.3#PBF-ND</field>
+                <field name="Manu">Linear Technology</field>
+                <field name="Manu-PN">LT1763CS8-3.3#PBF</field>
+                <field name="Description">IC REG LDO 3.3V 0.5A 8SOIC</field>
+            </fields>
+            <libsource lib="linear_technology_gosselin" part="LT1763"/>
+            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
+            <tstamp>544E0B1D</tstamp>
+        </comp>
+        <comp ref="C607">
+            <value>470pF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">399-7715-ND</field>
+                <field name="Manu">Kemet</field>
+                <field name="Manu-PN">PFR5471H100J11L4BULK</field>
+                <field name="Description">CAP FILM 470PF 100VDC RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5428A511</tstamp>
+        </comp>
+        <comp ref="R601">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5428A539</tstamp>
+        </comp>
+        <comp ref="R605">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5428B1BE</tstamp>
+        </comp>
+        <comp ref="R613">
+            <value>49.9</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1389-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805-13-49R9BT1</field>
+                <field name="Description">RES 49.9 OHM 1/10W .1% 0805 SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5428B212</tstamp>
+        </comp>
+        <comp ref="U601">
+            <value>OPA1632</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-17008-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">OPA1632DGN</field>
+                <field name="Description">IC OPAMP AUDIO 180MHZ 8MSOP</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="OPA1632"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431C69B</tstamp>
+        </comp>
+        <comp ref="U602">
+            <value>OPA1632</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-17008-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">OPA1632DGN</field>
+                <field name="Description">IC OPAMP AUDIO 180MHZ 8MSOP</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="OPA1632"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431C6F1</tstamp>
+        </comp>
+        <comp ref="R603">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DA55</tstamp>
+        </comp>
+        <comp ref="R607">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DA6A</tstamp>
+        </comp>
+        <comp ref="R609">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DA7F</tstamp>
+        </comp>
+        <comp ref="R611">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DA94</tstamp>
+        </comp>
+        <comp ref="R602">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DAA9</tstamp>
+        </comp>
+        <comp ref="R604">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DABE</tstamp>
+        </comp>
+        <comp ref="R606">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DB2C</tstamp>
+        </comp>
+        <comp ref="R608">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DB41</tstamp>
+        </comp>
+        <comp ref="R610">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DB56</tstamp>
+        </comp>
+        <comp ref="R612">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DB6B</tstamp>
+        </comp>
+        <comp ref="C608">
+            <value>470pF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">399-7715-ND</field>
+                <field name="Manu">Kemet</field>
+                <field name="Manu-PN">PFR5471H100J11L4BULK</field>
+                <field name="Description">CAP FILM 470PF 100VDC RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431DDDC</tstamp>
+        </comp>
+        <comp ref="R614">
+            <value>49.9</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1389-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805-13-49R9BT1</field>
+                <field name="Description">RES 49.9 OHM 1/10W .1% 0805 SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5431E4D7</tstamp>
+        </comp>
+        <comp ref="C601">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>543A32F8</tstamp>
+        </comp>
+        <comp ref="C605">
+            <value>0.1uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>543A33EF</tstamp>
+        </comp>
+        <comp ref="C606">
+            <value>0.1uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5449F9E9</tstamp>
+        </comp>
+        <comp ref="C603">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5449FA42</tstamp>
+        </comp>
+        <comp ref="C602">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5449FA57</tstamp>
+        </comp>
+        <comp ref="C604">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5449FA6C</tstamp>
+        </comp>
+        <comp ref="C707">
+            <value>470pF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">399-7715-ND</field>
+                <field name="Manu">Kemet</field>
+                <field name="Manu-PN">PFR5471H100J11L4BULK</field>
+                <field name="Description">CAP FILM 470PF 100VDC RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5428A511</tstamp>
+        </comp>
+        <comp ref="R701">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5428A539</tstamp>
+        </comp>
+        <comp ref="R705">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5428B1BE</tstamp>
+        </comp>
+        <comp ref="R713">
+            <value>49.9</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1389-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805-13-49R9BT1</field>
+                <field name="Description">RES 49.9 OHM 1/10W .1% 0805 SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5428B212</tstamp>
+        </comp>
+        <comp ref="U701">
+            <value>OPA1632</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-17008-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">OPA1632DGN</field>
+                <field name="Description">IC OPAMP AUDIO 180MHZ 8MSOP</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="OPA1632"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431C69B</tstamp>
+        </comp>
+        <comp ref="U702">
+            <value>OPA1632</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">296-17008-ND</field>
+                <field name="Manu">Texas Instruments</field>
+                <field name="Manu-PN">OPA1632DGN</field>
+                <field name="Description">IC OPAMP AUDIO 180MHZ 8MSOP</field>
+            </fields>
+            <libsource lib="ti_gosselin" part="OPA1632"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431C6F1</tstamp>
+        </comp>
+        <comp ref="R703">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DA55</tstamp>
+        </comp>
+        <comp ref="R707">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DA6A</tstamp>
+        </comp>
+        <comp ref="R709">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DA7F</tstamp>
+        </comp>
+        <comp ref="R711">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DA94</tstamp>
+        </comp>
+        <comp ref="R702">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DAA9</tstamp>
+        </comp>
+        <comp ref="R704">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DABE</tstamp>
+        </comp>
+        <comp ref="R706">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DB2C</tstamp>
+        </comp>
+        <comp ref="R708">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DB41</tstamp>
+        </comp>
+        <comp ref="R710">
+            <value>1.21k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1300-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-1K21BT1</field>
+                <field name="Description">RES 1.21K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DB56</tstamp>
+        </comp>
+        <comp ref="R712">
+            <value>2.49k</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1307-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805R-2K49BT1</field>
+                <field name="Description">RES 2.49K OHM 0.1W 0805 0.1% SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DB6B</tstamp>
+        </comp>
+        <comp ref="C708">
+            <value>470pF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">399-7715-ND</field>
+                <field name="Manu">Kemet</field>
+                <field name="Manu-PN">PFR5471H100J11L4BULK</field>
+                <field name="Description">CAP FILM 470PF 100VDC RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431DDDC</tstamp>
+        </comp>
+        <comp ref="R714">
+            <value>49.9</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">985-1389-1-ND</field>
+                <field name="Manu">Welwyn</field>
+                <field name="Manu-PN">PCF0805-13-49R9BT1</field>
+                <field name="Description">RES 49.9 OHM 1/10W .1% 0805 SMD</field>
+            </fields>
+            <libsource lib="device" part="R"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5431E4D7</tstamp>
+        </comp>
+        <comp ref="C701">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>543A32F8</tstamp>
+        </comp>
+        <comp ref="C705">
+            <value>0.1uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>543A33EF</tstamp>
+        </comp>
+        <comp ref="C706">
+            <value>0.1uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">445-8183-1-ND</field>
+                <field name="Manu">TDK</field>
+                <field name="Manu-PN">CGJ4J2X7R1C104K125AA</field>
+                <field name="Description">CAP CER 0.1UF 16V 10% X7R 0805</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5449F9E9</tstamp>
+        </comp>
+        <comp ref="C703">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5449FA42</tstamp>
+        </comp>
+        <comp ref="C702">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5449FA57</tstamp>
+        </comp>
+        <comp ref="C704">
+            <value>100uF</value>
+            <fields>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="C"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5449FA6C</tstamp>
+        </comp>
+    </components>
+    <libparts>
+        <libpart lib="linear_technology_gosselin" part="LT1763">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">LT1763</field>
+                <field name="Manu-PN">LT1763CS8-3.3#PBF</field>
+                <field name="Supplier-PN">LT1763CS8-3.3#PBF-ND</field>
+                <field name="Manu">Linear Technology</field>
+                <field name="Supplier">Digi-key</field>
+                <field name="Description">IC REG LDO 3.3V 0.5A 8SOIC</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VOUT" type="input"/>
+                <pin num="2" name="SENSE" type="input"/>
+                <pin num="3" name="GND" type="input"/>
+                <pin num="4" name="BYP" type="input"/>
+                <pin num="5" name="~SHDN" type="input"/>
+                <pin num="6" name="GND" type="input"/>
+                <pin num="7" name="GND" type="input"/>
+                <pin num="8" name="VIN" type="input"/>
+            </pins>
+        </libpart>
+        <libpart lib="ti_gosselin" part="CDCLVC1104">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">CDCLVC1104</field>
+                <field name="Supplier-PN">296-27549-1-ND</field>
+                <field name="Description">C CLK BUFFER 1:4 250MHZ 8TSSOP</field>
+                <field name="Manu-PN">CDCLVC1104PWR</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Manu">Texas Instruments</field>
+            </fields>
+            <pins>
+                <pin num="1" name="CLKIN" type="input"/>
+                <pin num="2" name="1G" type="passive"/>
+                <pin num="3" name="Y0" type="passive"/>
+                <pin num="4" name="GND" type="passive"/>
+                <pin num="5" name="Y2" type="passive"/>
+                <pin num="6" name="VDD" type="passive"/>
+                <pin num="7" name="Y3" type="passive"/>
+                <pin num="8" name="Y1" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn_gosselin" part="CONN_AMANERO">
+            <footprints>
+                <fp>Pin_Header_Straight_2X10</fp>
+                <fp>Pin_Header_Angled_2X10</fp>
+                <fp>Socket_Strip_Straight_2X10</fp>
+                <fp>Socket_Strip_Angled_2X10</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_AMANERO</field>
+                <field name="Description">CONN HEADER FMAL 20PS .1" DL TIN</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Manu-PN">PPTC102LFBN-RC</field>
+                <field name="Supplier-PN">S7078-ND</field>
+                <field name="Manu">Sullins</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="P2" type="passive"/>
+                <pin num="3" name="P3" type="passive"/>
+                <pin num="4" name="P4" type="passive"/>
+                <pin num="5" name="P5" type="passive"/>
+                <pin num="6" name="P6" type="passive"/>
+                <pin num="7" name="P7" type="passive"/>
+                <pin num="8" name="P8" type="passive"/>
+                <pin num="9" name="P9" type="passive"/>
+                <pin num="10" name="P10" type="passive"/>
+                <pin num="11" name="P11" type="passive"/>
+                <pin num="12" name="P12" type="passive"/>
+                <pin num="13" name="P13" type="passive"/>
+                <pin num="14" name="P14" type="passive"/>
+                <pin num="15" name="P15" type="passive"/>
+                <pin num="16" name="P16" type="passive"/>
+                <pin num="17" name="P17" type="passive"/>
+                <pin num="18" name="P18" type="passive"/>
+                <pin num="19" name="P19" type="passive"/>
+                <pin num="20" name="P20" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="wolfson_gosselin" part="WM874xx">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">WM874xx</field>
+                <field name="Supplier-PN">238-WM8741GEDS/V</field>
+                <field name="Supplier">Mouser</field>
+                <field name="Description">Audio D/A Converter ICs Stereo DAC, High End </field>
+                <field name="Manu-PN">WM8741GEDS/V</field>
+                <field name="Manu">Wolfson Microelectronics</field>
+            </fields>
+            <pins>
+                <pin num="1" name="LRCLK" type="passive"/>
+                <pin num="2" name="DIN" type="passive"/>
+                <pin num="3" name="BCLK" type="passive"/>
+                <pin num="4" name="FSEL" type="passive"/>
+                <pin num="5" name="MCLK" type="passive"/>
+                <pin num="6" name="DIFFHW" type="passive"/>
+                <pin num="7" name="DGND" type="passive"/>
+                <pin num="8" name="DVDD" type="passive"/>
+                <pin num="9" name="AVDDR" type="passive"/>
+                <pin num="10" name="AGNDR" type="passive"/>
+                <pin num="11" name="VMIDR" type="passive"/>
+                <pin num="12" name="VOUTRP" type="passive"/>
+                <pin num="13" name="VOUTRN" type="passive"/>
+                <pin num="14" name="AGND" type="passive"/>
+                <pin num="15" name="AVDD" type="passive"/>
+                <pin num="16" name="VOUTLN" type="passive"/>
+                <pin num="17" name="VOUTLP" type="passive"/>
+                <pin num="18" name="VMIDL" type="passive"/>
+                <pin num="19" name="AGNDL" type="passive"/>
+                <pin num="20" name="AVDDL" type="passive"/>
+                <pin num="21" name="ZFLAG" type="passive"/>
+                <pin num="22" name="OSR" type="passive"/>
+                <pin num="23" name="IWO" type="passive"/>
+                <pin num="24" name="MODE" type="passive"/>
+                <pin num="25" name="MUTEB" type="passive"/>
+                <pin num="26" name="DEEMPH" type="passive"/>
+                <pin num="27" name="SCLK" type="passive"/>
+                <pin num="28" name="I2S" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="ti_gosselin" part="ISO7640">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">ISO7640</field>
+                <field name="Supplier-PN">296-29703-5-ND</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Description">IC DGTL ISO 4CH LOGIC 16SOIC</field>
+                <field name="Manu-PN">ISO7640FMDW</field>
+                <field name="Manu">Texas Instruments</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VCC1" type="passive"/>
+                <pin num="2" name="GND1" type="passive"/>
+                <pin num="3" name="IN_A" type="passive"/>
+                <pin num="4" name="IN_B" type="passive"/>
+                <pin num="5" name="IN_C" type="passive"/>
+                <pin num="6" name="IN_D" type="passive"/>
+                <pin num="7" name="NC" type="NotConnected"/>
+                <pin num="8" name="GND1" type="passive"/>
+                <pin num="9" name="GND2" type="passive"/>
+                <pin num="10" name="EN" type="output"/>
+                <pin num="11" name="OUT_D" type="passive"/>
+                <pin num="12" name="OUT_C" type="passive"/>
+                <pin num="13" name="OUT_B" type="passive"/>
+                <pin num="14" name="OUT_A" type="passive"/>
+                <pin num="15" name="GND2" type="passive"/>
+                <pin num="16" name="VCC2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="ti_gosselin" part="OPA1632">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">OPA1632</field>
+                <field name="Supplier-PN">296-17008-ND</field>
+                <field name="Description">IC OPAMP AUDIO 180MHZ 8MSOP</field>
+                <field name="Manu-PN">OPA1632DGN</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Manu">Texas Instruments</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VIN-" type="passive"/>
+                <pin num="2" name="VCOM" type="passive"/>
+                <pin num="3" name="V+" type="passive"/>
+                <pin num="4" name="VOUT+" type="passive"/>
+                <pin num="5" name="VOUT-" type="passive"/>
+                <pin num="6" name="V-" type="passive"/>
+                <pin num="7" name="EN" type="passive"/>
+                <pin num="8" name="VIN+" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="ti_gosselin" part="SRC4192">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">SRC4192</field>
+                <field name="Supplier-PN">595-SRC4192IDB</field>
+                <field name="Supplier">Mouser</field>
+                <field name="Description">Audio Sample Rate Converters High-End Sample Rate Converter</field>
+                <field name="Manu-PN">SRC4192IDB</field>
+                <field name="Manu">Texas Instruments</field>
+            </fields>
+            <pins>
+                <pin num="1" name="LGRP" type="passive"/>
+                <pin num="2" name="RCKI" type="passive"/>
+                <pin num="3" name="NC" type="NotConnected"/>
+                <pin num="4" name="SDIN" type="passive"/>
+                <pin num="5" name="BCKI" type="passive"/>
+                <pin num="6" name="LRCKI" type="passive"/>
+                <pin num="7" name="VIO" type="passive"/>
+                <pin num="8" name="DGND" type="passive"/>
+                <pin num="9" name="BYPAS" type="passive"/>
+                <pin num="10" name="IFMT0" type="passive"/>
+                <pin num="11" name="IFMT1" type="passive"/>
+                <pin num="12" name="IFMT2" type="passive"/>
+                <pin num="13" name="~RST" type="passive"/>
+                <pin num="14" name="MUTE" type="passive"/>
+                <pin num="15" name="~RDY" type="passive"/>
+                <pin num="16" name="OWL1" type="passive"/>
+                <pin num="17" name="OWL0" type="passive"/>
+                <pin num="18" name="OFMT1" type="passive"/>
+                <pin num="19" name="OFMT0" type="passive"/>
+                <pin num="20" name="TDMI" type="passive"/>
+                <pin num="21" name="DGND" type="passive"/>
+                <pin num="22" name="VDD" type="passive"/>
+                <pin num="23" name="SDOUT" type="passive"/>
+                <pin num="24" name="LRCKO" type="passive"/>
+                <pin num="25" name="BCKO" type="passive"/>
+                <pin num="26" name="MODE0" type="passive"/>
+                <pin num="27" name="MODE1" type="passive"/>
+                <pin num="28" name="MODE2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="oscillator_gosselin" part="XTAL">
+            <fields>
+                <field name="Reference">X</field>
+                <field name="Value">XTAL</field>
+            </fields>
+            <pins>
+                <pin num="1" name="EN" type="passive"/>
+                <pin num="2" name="GND" type="passive"/>
+                <pin num="3" name="OUT" type="passive"/>
+                <pin num="4" name="VDD" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="microchip_gosselin" part="MCP100-315DI">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">MCP100-315DI</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
+                <field name="Manu-PN">MCP100T-315I/TT</field>
+                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
+                <field name="Manu">Microchip</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~RST" type="passive"/>
+                <pin num="2" name="VCC" type="passive"/>
+                <pin num="3" name="GND" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="device" part="C">
+            <description>Condensateur non polarise</description>
+            <footprints>
+                <fp>SM*</fp>
+                <fp>C?</fp>
+                <fp>C1-1</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">C</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="device" part="R">
+            <description>Resistance</description>
+            <footprints>
+                <fp>R?</fp>
+                <fp>SM0603</fp>
+                <fp>SM0805</fp>
+                <fp>R?-*</fp>
+                <fp>SM1206</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">R</field>
+                <field name="Value">R</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_01X02">
+            <footprints>
+                <fp>Pin_Header_Straight_1X02</fp>
+                <fp>Pin_Header_Angled_1X02</fp>
+                <fp>Socket_Strip_Straight_1X02</fp>
+                <fp>Socket_Strip_Angled_1X02</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_01X02</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="P2" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="conn" part="CONN_01X03">
+            <footprints>
+                <fp>Pin_Header_Straight_1X03</fp>
+                <fp>Pin_Header_Angled_1X03</fp>
+                <fp>Socket_Strip_Straight_1X03</fp>
+                <fp>Socket_Strip_Angled_1X03</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">P</field>
+                <field name="Value">CONN_01X03</field>
+            </fields>
+            <pins>
+                <pin num="1" name="P1" type="passive"/>
+                <pin num="2" name="P2" type="passive"/>
+                <pin num="3" name="P3" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="linear_technology_gosselin" part="LT1761">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">LT1761</field>
+                <field name="Manu-PN">LT1761ES5-3.3#TRMPBF</field>
+                <field name="Supplier-PN">LT1761ES5-3.3#TRMPBFCT-ND</field>
+                <field name="Manu">Linear Technology</field>
+                <field name="Supplier">Digi-key</field>
+                <field name="Description">IC REG LDO 3.3V 0.1A TSOT23-5</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VIN" type="input"/>
+                <pin num="2" name="GND" type="input"/>
+                <pin num="3" name="~SHDN" type="input"/>
+                <pin num="4" name="BYP" type="input"/>
+                <pin num="5" name="VOUT" type="input"/>
+            </pins>
+        </libpart>
+    </libparts>
+    <libraries>
+        <library logical="conn_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/conn_gosselin.lib</uri>
+        </library>
+        <library logical="ti_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/ti_gosselin.lib</uri>
+        </library>
+        <library logical="oscillator_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/oscillator_gosselin.lib</uri>
+        </library>
+        <library logical="wolfson_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/wolfson_gosselin.lib</uri>
+        </library>
+        <library logical="device">
+            <uri>/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library/device.lib</uri>
+        </library>
+        <library logical="conn">
+            <uri>/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library/conn.lib</uri>
+        </library>
+        <library logical="microchip_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/microchip_gosselin.lib</uri>
+        </library>
+        <library logical="linear_technology_gosselin">
+            <uri>/home/uwhpsc/Documents/kicad/ee/kicad-libs/linear_technology_gosselin.lib</uri>
+        </library>
+    </libraries>
+    <nets>
+        <net code="1" name="DGND">
+            <node ref="U401" pin="10"/>
+            <node ref="U401" pin="14"/>
+            <node ref="U401" pin="24"/>
+            <node ref="C405" pin="2"/>
+            <node ref="C409" pin="2"/>
+            <node ref="U401" pin="7"/>
+            <node ref="C407" pin="2"/>
+            <node ref="U201" pin="2"/>
+            <node ref="C201" pin="2"/>
+            <node ref="C203" pin="2"/>
+            <node ref="C411" pin="2"/>
+            <node ref="C402" pin="2"/>
+            <node ref="C404" pin="2"/>
+            <node ref="C406" pin="2"/>
+            <node ref="C408" pin="2"/>
+            <node ref="C410" pin="2"/>
+            <node ref="C412" pin="2"/>
+            <node ref="U401" pin="26"/>
+            <node ref="U401" pin="27"/>
+            <node ref="U401" pin="19"/>
+            <node ref="C403" pin="2"/>
+            <node ref="U401" pin="4"/>
+            <node ref="U104" pin="16"/>
+            <node ref="C107" pin="2"/>
+            <node ref="C106" pin="2"/>
+            <node ref="U101" pin="9"/>
+            <node ref="U101" pin="15"/>
+            <node ref="C103" pin="2"/>
+            <node ref="C104" pin="2"/>
+            <node ref="U102" pin="4"/>
+            <node ref="U104" pin="20"/>
+            <node ref="U104" pin="11"/>
+            <node ref="U104" pin="21"/>
+            <node ref="U104" pin="12"/>
+            <node ref="U104" pin="18"/>
+            <node ref="U104" pin="28"/>
+            <node ref="U104" pin="17"/>
+            <node ref="X101" pin="2"/>
+            <node ref="C603" pin="2"/>
+            <node ref="U501" pin="7"/>
+            <node ref="U501" pin="6"/>
+            <node ref="U501" pin="3"/>
+            <node ref="C501" pin="2"/>
+            <node ref="C503" pin="2"/>
+            <node ref="C602" pin="1"/>
+            <node ref="C701" pin="2"/>
+            <node ref="U702" pin="2"/>
+            <node ref="U701" pin="2"/>
+            <node ref="C704" pin="1"/>
+            <node ref="C702" pin="1"/>
+            <node ref="C703" pin="2"/>
+            <node ref="C601" pin="2"/>
+            <node ref="U602" pin="2"/>
+            <node ref="U601" pin="2"/>
+            <node ref="C604" pin="1"/>
+            <node ref="C307" pin="2"/>
+            <node ref="U301" pin="14"/>
+            <node ref="C305" pin="2"/>
+            <node ref="C309" pin="2"/>
+            <node ref="C303" pin="2"/>
+            <node ref="U301" pin="10"/>
+            <node ref="C401" pin="2"/>
+            <node ref="C308" pin="2"/>
+            <node ref="C311" pin="2"/>
+            <node ref="C302" pin="2"/>
+            <node ref="C301" pin="2"/>
+            <node ref="C304" pin="2"/>
+            <node ref="C306" pin="2"/>
+            <node ref="C310" pin="2"/>
+            <node ref="C312" pin="2"/>
+            <node ref="U301" pin="26"/>
+            <node ref="U301" pin="27"/>
+            <node ref="U301" pin="19"/>
+            <node ref="U301" pin="4"/>
+            <node ref="U301" pin="7"/>
+            <node ref="U103" pin="3"/>
+            <node ref="C105" pin="2"/>
+            <node ref="U104" pin="9"/>
+            <node ref="U104" pin="8"/>
+            <node ref="P103" pin="2"/>
+            <node ref="P102" pin="2"/>
+            <node ref="P104" pin="2"/>
+            <node ref="P105" pin="2"/>
+            <node ref="U104" pin="1"/>
+            <node ref="C102" pin="2"/>
+        </net>
+        <net code="2" name="/FILTER_R/VOUT-">
+            <node ref="P105" pin="3"/>
+            <node ref="R714" pin="2"/>
+        </net>
+        <net code="3" name="/FILTER_R/VOUT+">
+            <node ref="P105" pin="1"/>
+            <node ref="R713" pin="2"/>
+        </net>
+        <net code="4" name="+12V">
+            <node ref="C603" pin="1"/>
+            <node ref="C705" pin="1"/>
+            <node ref="C701" pin="1"/>
+            <node ref="C703" pin="1"/>
+            <node ref="C706" pin="1"/>
+            <node ref="U701" pin="3"/>
+            <node ref="U702" pin="3"/>
+            <node ref="C606" pin="1"/>
+            <node ref="U601" pin="3"/>
+            <node ref="U602" pin="3"/>
+            <node ref="C605" pin="1"/>
+            <node ref="C601" pin="1"/>
+            <node ref="P103" pin="1"/>
+        </net>
+        <net code="5" name="-12V">
+            <node ref="C604" pin="2"/>
+            <node ref="U702" pin="6"/>
+            <node ref="C605" pin="2"/>
+            <node ref="P103" pin="3"/>
+            <node ref="C705" pin="2"/>
+            <node ref="C606" pin="2"/>
+            <node ref="C702" pin="2"/>
+            <node ref="U601" pin="6"/>
+            <node ref="U602" pin="6"/>
+            <node ref="C704" pin="2"/>
+            <node ref="C602" pin="2"/>
+            <node ref="U701" pin="6"/>
+            <node ref="C706" pin="2"/>
+        </net>
+        <net code="6" name="+5V">
+            <node ref="C311" pin="1"/>
+            <node ref="C408" pin="1"/>
+            <node ref="C403" pin="1"/>
+            <node ref="U501" pin="5"/>
+            <node ref="U401" pin="20"/>
+            <node ref="U401" pin="15"/>
+            <node ref="U401" pin="9"/>
+            <node ref="C407" pin="1"/>
+            <node ref="C307" pin="1"/>
+            <node ref="C503" pin="1"/>
+            <node ref="C303" pin="1"/>
+            <node ref="U301" pin="9"/>
+            <node ref="U301" pin="20"/>
+            <node ref="U301" pin="15"/>
+            <node ref="U501" pin="8"/>
+            <node ref="C404" pin="1"/>
+            <node ref="C304" pin="1"/>
+            <node ref="C411" pin="1"/>
+            <node ref="C412" pin="1"/>
+            <node ref="C308" pin="1"/>
+            <node ref="P102" pin="1"/>
+            <node ref="C312" pin="1"/>
+            <node ref="U201" pin="3"/>
+            <node ref="U201" pin="1"/>
+            <node ref="C203" pin="1"/>
+        </net>
+        <net code="7" name="/FILTER_L/VIN-">
+            <node ref="R602" pin="1"/>
+            <node ref="U401" pin="12"/>
+            <node ref="U401" pin="16"/>
+        </net>
+        <net code="8" name="/FILTER_L/VIN+">
+            <node ref="U401" pin="17"/>
+            <node ref="R601" pin="1"/>
+            <node ref="U401" pin="13"/>
+        </net>
+        <net code="9" name="/FILTER_R/VIN+">
+            <node ref="U301" pin="12"/>
+            <node ref="R701" pin="1"/>
+            <node ref="U301" pin="16"/>
+        </net>
+        <net code="10" name="/FILTER_R/VIN-">
+            <node ref="R702" pin="1"/>
+            <node ref="U301" pin="17"/>
+            <node ref="U301" pin="13"/>
+        </net>
+        <net code="11" name="/DAC_R/MCLK">
+            <node ref="U102" pin="7"/>
+            <node ref="U301" pin="5"/>
+        </net>
+        <net code="12" name="/FILTER_L/VOUT-">
+            <node ref="R614" pin="2"/>
+            <node ref="P104" pin="3"/>
+        </net>
+        <net code="13" name="/FILTER_L/VOUT+">
+            <node ref="P104" pin="1"/>
+            <node ref="R613" pin="2"/>
+        </net>
+        <net code="14" name="GNDA">
+            <node ref="U101" pin="8"/>
+            <node ref="P101" pin="8"/>
+            <node ref="U101" pin="2"/>
+            <node ref="C101" pin="2"/>
+        </net>
+        <net code="15" name="VAA">
+            <node ref="U101" pin="1"/>
+            <node ref="C101" pin="1"/>
+            <node ref="P101" pin="9"/>
+        </net>
+        <net code="16" name="VCC">
+            <node ref="X101" pin="1"/>
+            <node ref="C104" pin="1"/>
+            <node ref="C102" pin="1"/>
+            <node ref="U201" pin="5"/>
+            <node ref="C201" pin="1"/>
+            <node ref="C202" pin="1"/>
+            <node ref="X101" pin="4"/>
+            <node ref="U102" pin="6"/>
+        </net>
+        <net code="17" name="Net-(U101-Pad6)">
+            <node ref="U101" pin="6"/>
+        </net>
+        <net code="18" name="/~RST">
+            <node ref="U104" pin="13"/>
+            <node ref="U103" pin="1"/>
+        </net>
+        <net code="19" name="VDD">
+            <node ref="C103" pin="1"/>
+            <node ref="U501" pin="2"/>
+            <node ref="U501" pin="1"/>
+            <node ref="U104" pin="19"/>
+            <node ref="U104" pin="22"/>
+            <node ref="C302" pin="1"/>
+            <node ref="C301" pin="1"/>
+            <node ref="U104" pin="26"/>
+            <node ref="U104" pin="27"/>
+            <node ref="U104" pin="10"/>
+            <node ref="U101" pin="16"/>
+            <node ref="U101" pin="10"/>
+            <node ref="C502" pin="1"/>
+            <node ref="U104" pin="7"/>
+            <node ref="C402" pin="1"/>
+            <node ref="C105" pin="1"/>
+            <node ref="C401" pin="1"/>
+            <node ref="U401" pin="23"/>
+            <node ref="U401" pin="25"/>
+            <node ref="U401" pin="8"/>
+            <node ref="U401" pin="6"/>
+            <node ref="U401" pin="28"/>
+            <node ref="U103" pin="2"/>
+            <node ref="U301" pin="23"/>
+            <node ref="U301" pin="24"/>
+            <node ref="U301" pin="8"/>
+            <node ref="U301" pin="6"/>
+            <node ref="U301" pin="28"/>
+            <node ref="U301" pin="25"/>
+            <node ref="C106" pin="1"/>
+            <node ref="C107" pin="1"/>
+            <node ref="C501" pin="1"/>
+        </net>
+        <net code="20" name="/DAC_L/MCLK">
+            <node ref="U401" pin="5"/>
+            <node ref="U102" pin="8"/>
+        </net>
+        <net code="21" name="Net-(U104-Pad14)">
+            <node ref="U104" pin="14"/>
+            <node ref="U104" pin="15"/>
+        </net>
+        <net code="22" name="Net-(U102-Pad1)">
+            <node ref="X101" pin="3"/>
+            <node ref="U102" pin="1"/>
+        </net>
+        <net code="23" name="/SRC_MCLK">
+            <node ref="U104" pin="2"/>
+            <node ref="U102" pin="5"/>
+        </net>
+        <net code="24" name="Net-(P101-Pad6)">
+            <node ref="P101" pin="6"/>
+        </net>
+        <net code="25" name="Net-(U104-Pad3)">
+            <node ref="U104" pin="3"/>
+        </net>
+        <net code="26" name="/DATA_1">
+            <node ref="P101" pin="3"/>
+            <node ref="U101" pin="5"/>
+        </net>
+        <net code="27" name="/BCLK_1">
+            <node ref="U101" pin="4"/>
+            <node ref="P101" pin="4"/>
+        </net>
+        <net code="28" name="/LRCLK_1">
+            <node ref="P101" pin="5"/>
+            <node ref="U101" pin="3"/>
+        </net>
+        <net code="29" name="Net-(P101-Pad10)">
+            <node ref="P101" pin="10"/>
+        </net>
+        <net code="30" name="Net-(P101-Pad1)">
+            <node ref="P101" pin="1"/>
+        </net>
+        <net code="31" name="Net-(P101-Pad20)">
+            <node ref="P101" pin="20"/>
+        </net>
+        <net code="32" name="Net-(P101-Pad19)">
+            <node ref="P101" pin="19"/>
+        </net>
+        <net code="33" name="Net-(P101-Pad18)">
+            <node ref="P101" pin="18"/>
+        </net>
+        <net code="34" name="Net-(P101-Pad17)">
+            <node ref="P101" pin="17"/>
+        </net>
+        <net code="35" name="Net-(P101-Pad16)">
+            <node ref="P101" pin="16"/>
+        </net>
+        <net code="36" name="Net-(P101-Pad15)">
+            <node ref="P101" pin="15"/>
+        </net>
+        <net code="37" name="Net-(P101-Pad14)">
+            <node ref="P101" pin="14"/>
+        </net>
+        <net code="38" name="Net-(P101-Pad13)">
+            <node ref="P101" pin="13"/>
+        </net>
+        <net code="39" name="Net-(U102-Pad3)">
+            <node ref="U102" pin="3"/>
+        </net>
+        <net code="40" name="Net-(U102-Pad2)">
+            <node ref="U102" pin="2"/>
+        </net>
+        <net code="41" name="Net-(U101-Pad11)">
+            <node ref="U101" pin="11"/>
+        </net>
+        <net code="42" name="Net-(P101-Pad2)">
+            <node ref="P101" pin="2"/>
+        </net>
+        <net code="43" name="Net-(P101-Pad7)">
+            <node ref="P101" pin="7"/>
+        </net>
+        <net code="44" name="Net-(P101-Pad12)">
+            <node ref="P101" pin="12"/>
+        </net>
+        <net code="45" name="Net-(P101-Pad11)">
+            <node ref="P101" pin="11"/>
+        </net>
+        <net code="46" name="Net-(U101-Pad7)">
+            <node ref="U101" pin="7"/>
+        </net>
+        <net code="47" name="/DAC_L/DATA">
+            <node ref="U301" pin="2"/>
+            <node ref="U401" pin="2"/>
+            <node ref="U104" pin="23"/>
+        </net>
+        <net code="48" name="/DAC_L/LRCLK">
+            <node ref="U301" pin="1"/>
+            <node ref="U104" pin="24"/>
+            <node ref="U401" pin="1"/>
+        </net>
+        <net code="49" name="/DAC_L/BCLK">
+            <node ref="U401" pin="3"/>
+            <node ref="U301" pin="3"/>
+            <node ref="U104" pin="25"/>
+        </net>
+        <net code="50" name="/DATA_2">
+            <node ref="U104" pin="4"/>
+            <node ref="U101" pin="12"/>
+        </net>
+        <net code="51" name="/BCLK_2">
+            <node ref="U101" pin="13"/>
+            <node ref="U104" pin="5"/>
+        </net>
+        <net code="52" name="/LRCLK_2">
+            <node ref="U104" pin="6"/>
+            <node ref="U101" pin="14"/>
+        </net>
+        <net code="53" name="Net-(C202-Pad2)">
+            <node ref="U201" pin="4"/>
+            <node ref="C202" pin="2"/>
+        </net>
+        <net code="54" name="Net-(U401-Pad22)">
+            <node ref="U401" pin="22"/>
+        </net>
+        <net code="55" name="Net-(U401-Pad21)">
+            <node ref="U401" pin="21"/>
+        </net>
+        <net code="56" name="Net-(C409-Pad1)">
+            <node ref="C409" pin="1"/>
+            <node ref="U401" pin="18"/>
+            <node ref="C410" pin="1"/>
+        </net>
+        <net code="57" name="Net-(C405-Pad1)">
+            <node ref="U401" pin="11"/>
+            <node ref="C406" pin="1"/>
+            <node ref="C405" pin="1"/>
+        </net>
+        <net code="58" name="Net-(U301-Pad22)">
+            <node ref="U301" pin="22"/>
+        </net>
+        <net code="59" name="Net-(U301-Pad21)">
+            <node ref="U301" pin="21"/>
+        </net>
+        <net code="60" name="Net-(C309-Pad1)">
+            <node ref="C310" pin="1"/>
+            <node ref="U301" pin="18"/>
+            <node ref="C309" pin="1"/>
+        </net>
+        <net code="61" name="Net-(C305-Pad1)">
+            <node ref="C305" pin="1"/>
+            <node ref="U301" pin="11"/>
+            <node ref="C306" pin="1"/>
+        </net>
+        <net code="62" name="Net-(C502-Pad2)">
+            <node ref="C502" pin="2"/>
+            <node ref="U501" pin="4"/>
+        </net>
+        <net code="63" name="Net-(R610-Pad2)">
+            <node ref="R610" pin="2"/>
+            <node ref="U602" pin="1"/>
+            <node ref="R612" pin="1"/>
+        </net>
+        <net code="64" name="Net-(C608-Pad1)">
+            <node ref="R607" pin="2"/>
+            <node ref="C608" pin="1"/>
+            <node ref="R609" pin="1"/>
+        </net>
+        <net code="65" name="Net-(R604-Pad2)">
+            <node ref="R606" pin="1"/>
+            <node ref="R604" pin="2"/>
+            <node ref="U601" pin="1"/>
+        </net>
+        <net code="66" name="Net-(R606-Pad2)">
+            <node ref="R608" pin="1"/>
+            <node ref="U601" pin="4"/>
+            <node ref="R606" pin="2"/>
+        </net>
+        <net code="67" name="Net-(R609-Pad2)">
+            <node ref="R611" pin="1"/>
+            <node ref="R609" pin="2"/>
+            <node ref="U602" pin="8"/>
+        </net>
+        <net code="68" name="Net-(C608-Pad2)">
+            <node ref="R610" pin="1"/>
+            <node ref="R608" pin="2"/>
+            <node ref="C608" pin="2"/>
+        </net>
+        <net code="69" name="Net-(C607-Pad2)">
+            <node ref="C607" pin="2"/>
+            <node ref="R604" pin="1"/>
+            <node ref="R602" pin="2"/>
+        </net>
+        <net code="70" name="Net-(R611-Pad2)">
+            <node ref="U602" pin="5"/>
+            <node ref="R611" pin="2"/>
+            <node ref="R613" pin="1"/>
+        </net>
+        <net code="71" name="Net-(R612-Pad2)">
+            <node ref="U602" pin="4"/>
+            <node ref="R614" pin="1"/>
+            <node ref="R612" pin="2"/>
+        </net>
+        <net code="72" name="Net-(C607-Pad1)">
+            <node ref="C607" pin="1"/>
+            <node ref="R601" pin="2"/>
+            <node ref="R603" pin="1"/>
+        </net>
+        <net code="73" name="Net-(R603-Pad2)">
+            <node ref="U601" pin="8"/>
+            <node ref="R605" pin="1"/>
+            <node ref="R603" pin="2"/>
+        </net>
+        <net code="74" name="Net-(R605-Pad2)">
+            <node ref="R605" pin="2"/>
+            <node ref="U601" pin="5"/>
+            <node ref="R607" pin="1"/>
+        </net>
+        <net code="75" name="Net-(U601-Pad7)">
+            <node ref="U601" pin="7"/>
+        </net>
+        <net code="76" name="Net-(U602-Pad7)">
+            <node ref="U602" pin="7"/>
+        </net>
+        <net code="77" name="Net-(C708-Pad2)">
+            <node ref="R710" pin="1"/>
+            <node ref="R708" pin="2"/>
+            <node ref="C708" pin="2"/>
+        </net>
+        <net code="78" name="Net-(R706-Pad2)">
+            <node ref="U701" pin="4"/>
+            <node ref="R708" pin="1"/>
+            <node ref="R706" pin="2"/>
+        </net>
+        <net code="79" name="Net-(C708-Pad1)">
+            <node ref="C708" pin="1"/>
+            <node ref="R707" pin="2"/>
+            <node ref="R709" pin="1"/>
+        </net>
+        <net code="80" name="Net-(R710-Pad2)">
+            <node ref="U702" pin="1"/>
+            <node ref="R710" pin="2"/>
+            <node ref="R712" pin="1"/>
+        </net>
+        <net code="81" name="Net-(R704-Pad2)">
+            <node ref="U701" pin="1"/>
+            <node ref="R704" pin="2"/>
+            <node ref="R706" pin="1"/>
+        </net>
+        <net code="82" name="Net-(R709-Pad2)">
+            <node ref="U702" pin="8"/>
+            <node ref="R709" pin="2"/>
+            <node ref="R711" pin="1"/>
+        </net>
+        <net code="83" name="Net-(C707-Pad2)">
+            <node ref="R704" pin="1"/>
+            <node ref="R702" pin="2"/>
+            <node ref="C707" pin="2"/>
+        </net>
+        <net code="84" name="Net-(R711-Pad2)">
+            <node ref="R713" pin="1"/>
+            <node ref="R711" pin="2"/>
+            <node ref="U702" pin="5"/>
+        </net>
+        <net code="85" name="Net-(R712-Pad2)">
+            <node ref="U702" pin="4"/>
+            <node ref="R712" pin="2"/>
+            <node ref="R714" pin="1"/>
+        </net>
+        <net code="86" name="Net-(C707-Pad1)">
+            <node ref="C707" pin="1"/>
+            <node ref="R701" pin="2"/>
+            <node ref="R703" pin="1"/>
+        </net>
+        <net code="87" name="Net-(R703-Pad2)">
+            <node ref="U701" pin="8"/>
+            <node ref="R705" pin="1"/>
+            <node ref="R703" pin="2"/>
+        </net>
+        <net code="88" name="Net-(U701-Pad7)">
+            <node ref="U701" pin="7"/>
+        </net>
+        <net code="89" name="Net-(U702-Pad7)">
+            <node ref="U702" pin="7"/>
+        </net>
+        <net code="90" name="Net-(R705-Pad2)">
+            <node ref="R707" pin="1"/>
+            <node ref="R705" pin="2"/>
+            <node ref="U701" pin="5"/>
+        </net>
+    </nets>
+</export>

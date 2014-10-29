@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Mon 01 Sep 2014 08:02:44 PM PDT
+
+BeginCmp
+TimeStamp = /5400AA65;
+Reference = C1;
+ValeurCmp = 0.1;
+IdModule  = smd_transcriptic:SM0805_topbotrefs;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FFD541;
+Reference = J1;
+ValeurCmp = CONN_AMANERO;
+IdModule  = sullins_gosselin:2x10_female;
+EndCmp
+
+BeginCmp
+TimeStamp = /5400A64A;
+Reference = U1;
+ValeurCmp = ISO7240;
+IdModule  = ti_gosselin:ISO7240;
+EndCmp
+
+EndListe
