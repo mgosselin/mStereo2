@@ -3,7 +3,7 @@ mStereo: revision 2
 
 mStereo is a two-channel digital-to-analog converter (DAC) for audio. Its design is public-domain.  It is a small part of an eventual comprehensive hardware solution for playback of digital audio files stored on computers and mobile devices. 
 
-Hardware Description
+Technical Description
 --------
 At present, mStereo is supported by two additional pieces of electronic hardware. Both are open-source designs, which I chose to use as temporary stand-ins. I will develop and implement my own designs to replace them at a later stage.
 
@@ -17,6 +17,23 @@ The hardware has gone through 3 iterations. Each was fabricated (right) and test
 
 Schematic
 --------
+
+Circuit Board
+--------
+
+Bill of Materials
+--------
+
+Assembly
+--------
+
+Specifications
+--------
+
+Ordering
+--------
+
+At present, mStereo2 is not available.
 
 History
 --------
