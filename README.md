@@ -15,6 +15,9 @@ The scope of the hardware I have designed has been limited to an I2S-to-analog c
 
 The hardware has gone through 3 iterations. Each was fabricated (right) and tested using the rapid PCB prototyping methods outlined below. Parts were populated by hand, using solder paste, tweezers, and an oven. The fourth iteration will be fabricated and tested, and if satisfactory it will be sent out to a professional fab for production with silkscreen and solder mask.
 
+Schematic
+--------
+
 History
 --------
 
