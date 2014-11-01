@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0  Date: Mon 24 Jun 2013 05:56:47 PM PDT
-#
-$CMP STM32F407-DISCOVERY
-D Stm32f4 discovery board pin footprint. 
-$ENDCMP
-#
-#End Doc Library
