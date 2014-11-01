@@ -40,6 +40,9 @@ Specifications
 Ordering
 --------
 
+Downloads
+--------
+
 At present, mStereo2 is not available.
 
 History
