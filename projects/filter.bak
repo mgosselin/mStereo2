@@ -9,6 +9,7 @@ LIBS:device
 LIBS:conn
 LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
+LIBS:led_gosselin
 LIBS:mStereo2-cache
 EELAYER 24 0
 EELAYER END

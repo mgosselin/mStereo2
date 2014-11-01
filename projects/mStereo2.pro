@@ -1,4 +1,4 @@
-update=Sun 26 Oct 2014 11:04:32 PM PDT
+update=Sat 01 Nov 2014 12:37:52 AM PDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=/home/uwhpsc/Documents/kicad/ee/kicad-libs;/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library
+LibDir=/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library;/home/uwhpsc/Documents/ee/kicad-libs
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -67,3 +67,4 @@ LibName7=device
 LibName8=conn
 LibName9=microchip_gosselin
 LibName10=linear_technology_gosselin
+LibName11=/home/uwhpsc/Documents/mStereo2/libraries/led_gosselin
