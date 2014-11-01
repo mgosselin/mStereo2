@@ -39,11 +39,10 @@ Specifications
 
 Ordering
 --------
+At present, mStereo2 is not available.
 
 Downloads
 --------
-
-At present, mStereo2 is not available.
 
 History
 --------
