@@ -28,21 +28,11 @@ $EndDescr
 Text HLabel 4300 3800 0    60   Input ~ 0
 VIN
 Wire Wire Line
-	6400 3800 6650 3800
-Wire Wire Line
-	6650 3800 6900 3800
-Wire Wire Line
-	6900 3800 7200 3800
-Wire Wire Line
-	7200 3800 7450 3800
+	6400 3800 7450 3800
 Text HLabel 7450 5000 2    60   Input ~ 0
 GND
 Wire Wire Line
-	4600 5000 4800 5000
-Wire Wire Line
-	4800 5000 6900 5000
-Wire Wire Line
-	6900 5000 7450 5000
+	4600 5000 7450 5000
 Wire Wire Line
 	4600 3800 4600 4200
 $Comp
@@ -157,9 +147,7 @@ F 8 "IC REG LDO 3.3V 0.1A TSOT23-5" H 6400 4300 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 3800 4600 3800
-Wire Wire Line
-	4600 3800 5000 3800
+	4300 3800 5000 3800
 Wire Wire Line
 	5000 4000 4600 4000
 Connection ~ 4600 3800
