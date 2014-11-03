@@ -1,6 +1,9 @@
 (fp_lib_table
-  (lib (name sullins_gosselin)(type KiCad)(uri ${KI_TRANSCRIPTIC_LIBS}/sullins_gosselin.pretty)(options "")(descr ""))
-  (lib (name ti_gosselin)(type KiCad)(uri ${KI_TRANSCRIPTIC_LIBS}/ti_gosselin.pretty)(options "")(descr ""))
+  (lib (name sullins_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/sullins_gosselin.pretty)(options "")(descr ""))
+  (lib (name ti_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/ti_gosselin.pretty)(options "")(descr ""))
   (lib (name smd_transcriptic)(type Legacy)(uri ${KI_TRANSCRIPTIC_LIBS}/smd_transcriptic.mod)(options "")(descr ""))
+  (lib (name molex)(type Legacy)(uri ${KI_TRANSCRIPTIC_LIBS}/molex.mod)(options "")(descr ""))
+  (lib (name ti_transcriptic)(type Legacy)(uri ${KI_TRANSCRIPTIC_LIBS}/ti_transcriptic.mod)(options "")(descr ""))
   (lib (name mounting_transcriptic)(type Legacy)(uri ${KI_TRANSCRIPTIC_LIBS}/mounting_transcriptic.mod)(options "")(descr ""))
+  (lib (name nichicon_transcriptic)(type Legacy)(uri ${KI_TRANSCRIPTIC_LIBS}/nichicon_transcriptic.mod)(options "")(descr ""))
 )

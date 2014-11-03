@@ -107,7 +107,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3950 6500 3950
 Wire Wire Line
-	6500 5050 6500 3950
+	6500 3950 6500 5050
 Connection ~ 6500 4050
 Wire Wire Line
 	6800 3850 6800 3950
@@ -121,7 +121,7 @@ Connection ~ 6600 3850
 Wire Wire Line
 	5000 4050 4900 4050
 Wire Wire Line
-	4900 5050 4900 4050
+	4900 4050 4900 5050
 Connection ~ 4900 5050
 Wire Wire Line
 	4700 3950 5000 3950

@@ -1719,4 +1719,6 @@ Wire Wire Line
 	10450 3500 10600 3500
 Wire Wire Line
 	10450 4600 10600 4600
+Text Notes 550  750  0    60   ~ 0
+MAKE BOARD FIT IN STD 1U x 8in. deep rack case (400mm W x 200mm L)
 $EndSCHEMATC

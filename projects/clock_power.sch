@@ -128,8 +128,6 @@ Wire Wire Line
 Connection ~ 7200 3800
 Wire Wire Line
 	7200 4300 7200 4400
-Wire Wire Line
-	7200 4900 7200 5000
 $Comp
 L LT1761 U201
 U 1 1 545739AA
@@ -148,8 +146,6 @@ F 8 "IC REG LDO 3.3V 0.1A TSOT23-5" H 6400 4300 60  0001 C CNN "Description"
 $EndComp
 Wire Wire Line
 	4300 3800 5000 3800
-Wire Wire Line
-	5000 4000 4600 4000
 Connection ~ 4600 3800
 Wire Wire Line
 	5000 3900 4800 3900
@@ -167,4 +163,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 4600 4600 5000
 Connection ~ 4800 5000
+Wire Wire Line
+	7200 4900 7200 5000
+Connection ~ 7200 5000
+Wire Wire Line
+	5000 4000 4600 4000
+Connection ~ 4600 4000
 $EndSCHEMATC
