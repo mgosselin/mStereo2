@@ -1,6 +1,6 @@
-update=Mon 03 Nov 2014 12:05:26 AM PST
+update=Tue 04 Nov 2014 12:23:02 AM PST
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -38,6 +38,13 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -61,10 +68,3 @@ LibName8=conn
 LibName9=microchip_gosselin
 LibName10=linear_technology_gosselin
 LibName11=/home/uwhpsc/Documents/mStereo2/libraries/led_gosselin
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
