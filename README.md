@@ -25,6 +25,8 @@ The hardware has gone through 3 iterations. Each was fabricated (right) and test
 Schematic
 --------
 
+/projects/mStereo.pdf
+
 Circuit Board
 --------
 
