@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Mon 03 Nov 2014 12:05:21 AM PST
+Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Sun 09 Nov 2014 01:27:24 AM PST
 
 BeginCmp
 TimeStamp = /5400AA65;
@@ -438,7 +438,7 @@ BeginCmp
 TimeStamp = /540BE84F;
 Reference = P101;
 ValeurCmp = CONN_AMANERO;
-IdModule  = ;
+IdModule  = sullins_gosselin:2x10_female;
 EndCmp
 
 BeginCmp
@@ -732,7 +732,7 @@ BeginCmp
 TimeStamp = /540BE64C;
 Reference = U101;
 ValeurCmp = ISO7640;
-IdModule  = ;
+IdModule  = ti_gosselin:SOIC-16-W;
 EndCmp
 
 BeginCmp
@@ -753,7 +753,7 @@ BeginCmp
 TimeStamp = /540CB151;
 Reference = U104;
 ValeurCmp = SRC4192;
-IdModule  = ;
+IdModule  = ti_gosselin:TSSOP-28;
 EndCmp
 
 BeginCmp
@@ -767,14 +767,14 @@ BeginCmp
 TimeStamp = /5413151A/544B8571;
 Reference = U301;
 ValeurCmp = WM874XX;
-IdModule  = ;
+IdModule  = ti_gosselin:TSSOP-28;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/541316E3;
 Reference = U401;
 ValeurCmp = WM874XX;
-IdModule  = ;
+IdModule  = ti_gosselin:TSSOP-28;
 EndCmp
 
 BeginCmp
@@ -788,28 +788,28 @@ BeginCmp
 TimeStamp = /541690F5/5431C69B;
 Reference = U601;
 ValeurCmp = OPA1632;
-IdModule  = ;
+IdModule  = ti_gosselin:MSOP-8-PWP;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431C6F1;
 Reference = U602;
 ValeurCmp = OPA1632;
-IdModule  = ;
+IdModule  = ti_gosselin:MSOP-8-PWP;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431C69B;
 Reference = U701;
 ValeurCmp = OPA1632;
-IdModule  = ;
+IdModule  = ti_gosselin:MSOP-8-PWP;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431C6F1;
 Reference = U702;
 ValeurCmp = OPA1632;
-IdModule  = ;
+IdModule  = ti_gosselin:MSOP-8-PWP;
 EndCmp
 
 BeginCmp
