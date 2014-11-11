@@ -1,4 +1,4 @@
-update=Tue 04 Nov 2014 12:23:02 AM PST
+update=Mon 10 Nov 2014 01:12:42 PM PST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -50,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library;/home/uwhpsc/Documents/ee/kicad-libs
+LibDir=../libraries;../../kicad_sources/kicad-lib.bzr/library
 NetFmtName=
 RptD_X=0
 RptD_Y=100
