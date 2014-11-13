@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Mon 10 Nov 2014 11:09:53 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Wed 12 Nov 2014 11:54:21 PM PST
 
 BeginCmp
 TimeStamp = /5400AA65;
@@ -739,14 +739,14 @@ BeginCmp
 TimeStamp = /540BE429;
 Reference = U102;
 ValeurCmp = CDCLVC1104;
-IdModule  = ;
+IdModule  = ti_gosselin:TSSOP-8;
 EndCmp
 
 BeginCmp
 TimeStamp = /5431B8A4;
 Reference = U103;
 ValeurCmp = MCP100-315DI;
-IdModule  = ;
+IdModule  = microchip_gosselin:SOT-23-3;
 EndCmp
 
 BeginCmp
@@ -760,7 +760,7 @@ BeginCmp
 TimeStamp = /54126B8F/545739AA;
 Reference = U201;
 ValeurCmp = LT1761;
-IdModule  = ;
+IdModule  = linear_gosselin:SOT-23-5;
 EndCmp
 
 BeginCmp
@@ -781,7 +781,7 @@ BeginCmp
 TimeStamp = /541597AB/544E0B1D;
 Reference = U501;
 ValeurCmp = LT1763;
-IdModule  = ;
+IdModule  = linear_gosselin:SOIC-8;
 EndCmp
 
 BeginCmp
@@ -816,7 +816,7 @@ BeginCmp
 TimeStamp = /540BECB7;
 Reference = X101;
 ValeurCmp = XTAL;
-IdModule  = ;
+IdModule  = crystek_gosselin:XTAL-5x7mm;
 EndCmp
 
 EndListe
