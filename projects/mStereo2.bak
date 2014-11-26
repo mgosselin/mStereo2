@@ -3,12 +3,12 @@ LIBS:conn_gosselin
 LIBS:ti_gosselin
 LIBS:oscillator_gosselin
 LIBS:wolfson_gosselin
-LIBS:analog_devices_gosselin
 LIBS:power
 LIBS:device
 LIBS:conn
 LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
+LIBS:led_gosselin
 LIBS:mStereo2-cache
 EELAYER 24 0
 EELAYER END
@@ -1720,4 +1720,6 @@ Wire Wire Line
 	10450 4600 10600 4600
 Text Notes 550  750  0    60   ~ 0
 MAKE BOARD FIT IN STD 1U x 8in. deep rack case (400mm W x 200mm L)
+Text Notes 550  1000 0    60   ~ 0
+Internal layers for GND and VCC. Top and Bottom for signals.\nThis allows solid planes (VCC and GND) under components.
 $EndSCHEMATC

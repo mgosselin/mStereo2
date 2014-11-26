@@ -3,12 +3,12 @@ LIBS:conn_gosselin
 LIBS:ti_gosselin
 LIBS:oscillator_gosselin
 LIBS:wolfson_gosselin
-LIBS:analog_devices_gosselin
 LIBS:power
 LIBS:device
 LIBS:conn
 LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
+LIBS:led_gosselin
 LIBS:mStereo2-cache
 EELAYER 24 0
 EELAYER END
