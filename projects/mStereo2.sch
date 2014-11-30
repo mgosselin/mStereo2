@@ -1748,4 +1748,6 @@ F 8 "XLR Connectors 3P MALE CHASS HORIZONTAL 1" H 10800 4700 60  0001 C CNN "Des
 	1    10800 4700
 	1    0    0    -1  
 $EndComp
+Text Notes 550  1550 0    60   ~ 0
+Need mating height of Amanero connector\nNeed max capacitor height\nNeed new power connectors\nNeed to specify mating connector part numbers\nNeed alternate XLR connector part number\n
 $EndSCHEMATC
