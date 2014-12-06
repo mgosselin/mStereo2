@@ -1748,4 +1748,8 @@ F 8 "XLR Connectors 3P MALE CHASS HORIZONTAL 1" H 10800 4700 60  0001 C CNN "Des
 	1    10800 4700
 	1    0    0    -1  
 $EndComp
+Text Notes 550  7700 0    60   ~ 0
+Rec. Amanero standoff = 12.0 mm (0.472 in) [24434K-ND]\nAlt. Amanero standoff = 12.7 mm (0.500 in) [2203K-ND]\nRec. male connector for Amanero: [S9172-ND]\nAlt. male connector for Amanero: [952-2130-ND]\nNew 2 pin power connector: [277-1247-ND]\nNew 3 pin power connector: [277-1248-ND]\nMating XLR connector: [NC3FXX-B]\nAlternate XLR connector part number: [NC3MAAH]\n
+Text Notes 550  1250 0    60   ~ 0
+Board top clearance = 23.83 mm\nMating height for Amanero connectors = 11.6 mm\n
 $EndSCHEMATC
