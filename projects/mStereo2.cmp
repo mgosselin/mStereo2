@@ -1,444 +1,444 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Sat 06 Dec 2014 07:33:07 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Tue 09 Dec 2014 11:32:58 AM PST
 
 BeginCmp
 TimeStamp = /5400AA65;
 Reference = C101;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BF170;
 Reference = C102;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BCEC2;
 Reference = C103;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BD775;
 Reference = C104;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /542A546D;
 Reference = C105;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54130548;
 Reference = C106;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541306D8;
 Reference = C107;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54126B8F/54126F5E;
 Reference = C201;
 ValeurCmp = 1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54126B8F/544A1C6E;
 Reference = C202;
 ValeurCmp = 0.01;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /54126B8F/544A157E;
+TimeStamp = /54126B8F/54858D85;
 Reference = C203;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8578;
 Reference = C301;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5413151A/544B8577;
-Reference = C302;
+TimeStamp = /5413151A/548583ED;
+Reference = c301;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8572;
-Reference = C303;
+Reference = C302;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5413151A/544A0699;
-Reference = C304;
+TimeStamp = /5413151A/548584EC;
+Reference = c302;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5413151A/54858501;
+Reference = c303;
+ValeurCmp = 22;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/54153DC6;
-Reference = C305;
+Reference = C303;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5413151A/544A06AE;
-Reference = C306;
+TimeStamp = /5413151A/54858516;
+Reference = c304;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8573;
-Reference = C307;
+Reference = C304;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5413151A/544A076D;
-Reference = C308;
-ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8575;
-Reference = C309;
+Reference = C305;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5413151A/544A0796;
-Reference = C310;
+TimeStamp = /5413151A/5485853F;
+Reference = c305;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8576;
-Reference = C311;
+Reference = C306;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5413151A/544A07AB;
-Reference = C312;
+TimeStamp = /5413151A/54858554;
+Reference = c306;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/541C118A;
 Reference = C401;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/541C1175;
+TimeStamp = /541311B9/54857C2B;
 Reference = C402;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/54152646;
 Reference = C403;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/544B8579;
+TimeStamp = /541311B9/54857D44;
 Reference = C404;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/544B8574;
 Reference = C405;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/544B857A;
+TimeStamp = /541311B9/54857D59;
 Reference = C406;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/54152CE9;
 Reference = C407;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/544B857B;
+TimeStamp = /541311B9/54857D6E;
 Reference = C408;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/54153E52;
 Reference = C409;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/544B857C;
+TimeStamp = /541311B9/54857D97;
 Reference = C410;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/541C1104;
 Reference = C411;
 ValeurCmp = 0.1;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541311B9/544B857D;
+TimeStamp = /541311B9/54857DAC;
 Reference = C412;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /541597AB/54571D8D;
+TimeStamp = /541597AB/5485939A;
 Reference = C501;
 ValeurCmp = 22;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541597AB/54571D8E;
 Reference = C502;
 ValeurCmp = 0.01;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541597AB/54571D8C;
 Reference = C503;
 ValeurCmp = 1;
-IdModule  = discrete_gosselin:0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /541690F5/543A32F8;
-Reference = C601;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /541690F5/5449FA57;
-Reference = C602;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /541690F5/5449FA42;
-Reference = C603;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /541690F5/5449FA6C;
-Reference = C604;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/543A33EF;
-Reference = C605;
-ValeurCmp = 0.1uF;
-IdModule  = discrete_gosselin:0805;
+Reference = C601;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /541690F5/548575CB;
+Reference = c601;
+ValeurCmp = 100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /541690F5/54857740;
+Reference = c602;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5449F9E9;
-Reference = C606;
-ValeurCmp = 0.1uF;
-IdModule  = discrete_gosselin:0805;
+Reference = C602;
+ValeurCmp = 0.1;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5428A511;
-Reference = C607;
-ValeurCmp = 470pF;
-IdModule  = th_gosselin:CAP-BOX-5.00-mm;
+Reference = C603;
+ValeurCmp = 470p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /541690F5/54857755;
+Reference = c603;
+ValeurCmp = 100;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /541690F5/5485776A;
+Reference = c604;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DDDC;
-Reference = C608;
-ValeurCmp = 470pF;
-IdModule  = th_gosselin:CAP-BOX-5.00-mm;
+Reference = C604;
+ValeurCmp = 470p;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5428BABE/543A32F8;
-Reference = C701;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5428BABE/5449FA57;
-Reference = C702;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5428BABE/5449FA42;
-Reference = C703;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5428BABE/5449FA6C;
-Reference = C704;
-ValeurCmp = 100uF;
-IdModule  = th_gosselin:CAP-POL-2.54-mm;
+TimeStamp = /5428BABE/548575CB;
+Reference = c701;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/543A33EF;
-Reference = C705;
-ValeurCmp = 0.1uF;
-IdModule  = discrete_gosselin:0805;
+Reference = C701;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428BABE/54857740;
+Reference = c702;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5449F9E9;
-Reference = C706;
-ValeurCmp = 0.1uF;
-IdModule  = discrete_gosselin:0805;
+Reference = C702;
+ValeurCmp = 0.1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428BABE/54857755;
+Reference = c703;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5428A511;
-Reference = C707;
-ValeurCmp = 470pF;
-IdModule  = th_gosselin:CAP-BOX-5.00-mm;
+Reference = C703;
+ValeurCmp = 470p;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DDDC;
-Reference = C708;
-ValeurCmp = 470pF;
-IdModule  = th_gosselin:CAP-BOX-5.00-mm;
+Reference = C704;
+ValeurCmp = 470p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5428BABE/5485776A;
+Reference = c704;
+ValeurCmp = 100;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5455668B;
 Reference = D101;
 ValeurCmp = AMBER_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454DE9D;
 Reference = D102;
 ValeurCmp = GREEN_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5455968D;
 Reference = D103;
 ValeurCmp = RED_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454BA40;
 Reference = D104;
 ValeurCmp = GREEN_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454BB10;
 Reference = D105;
 ValeurCmp = GREEN_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54126B8F/5454A7EC;
 Reference = D201;
 ValeurCmp = GREEN_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/5455D948;
 Reference = D301;
 ValeurCmp = RED_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/5455D418;
 Reference = D401;
 ValeurCmp = RED_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541597AB/5454AC46;
 Reference = D501;
 ValeurCmp = GREEN_LED;
-IdModule  = smd_gosselin:1206_LED;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BE84F;
 Reference = P101;
 ValeurCmp = CONN_AMANERO;
-IdModule  = sullins_gosselin:2x10_female;
+IdModule  = ;
 EndCmp
 
 BeginCmp
@@ -473,350 +473,350 @@ BeginCmp
 TimeStamp = /54556747;
 Reference = R101;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5454DFE8;
 Reference = R102;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5455B453;
 Reference = R103;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54554A5A;
 Reference = R104;
 ValeurCmp = 825;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /545557E1;
 Reference = R105;
 ValeurCmp = 825;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54126B8F/5454D1C3;
 Reference = R201;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/5455D997;
 Reference = R301;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/5455D467;
 Reference = R401;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541597AB/5454CACE;
 Reference = R501;
 ValeurCmp = 121;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5428A539;
 Reference = R601;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DAA9;
 Reference = R602;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DA55;
 Reference = R603;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DABE;
 Reference = R604;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5428B1BE;
 Reference = R605;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DB2C;
 Reference = R606;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DA6A;
 Reference = R607;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DB41;
 Reference = R608;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DA7F;
 Reference = R609;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DB56;
 Reference = R610;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DA94;
 Reference = R611;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431DB6B;
 Reference = R612;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5428B212;
 Reference = R613;
 ValeurCmp = 10;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431E4D7;
 Reference = R614;
 ValeurCmp = 10;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5428A539;
 Reference = R701;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DAA9;
 Reference = R702;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DA55;
 Reference = R703;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DABE;
 Reference = R704;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5428B1BE;
 Reference = R705;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DB2C;
 Reference = R706;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DA6A;
 Reference = R707;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DB41;
 Reference = R708;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DA7F;
 Reference = R709;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DB56;
 Reference = R710;
 ValeurCmp = 1.21k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DA94;
 Reference = R711;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431DB6B;
 Reference = R712;
 ValeurCmp = 2.49k;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5428B212;
 Reference = R713;
 ValeurCmp = 10;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431E4D7;
 Reference = R714;
 ValeurCmp = 10;
-IdModule  = discrete_gosselin:0805;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BE64C;
 Reference = U101;
 ValeurCmp = ISO7640;
-IdModule  = ti_gosselin:SOIC-16-W;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BE429;
 Reference = U102;
 ValeurCmp = CDCLVC1104;
-IdModule  = ti_gosselin:TSSOP-8;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5431B8A4;
 Reference = U103;
 ValeurCmp = MCP100-315DI;
-IdModule  = microchip_gosselin:SOT-23-3;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540CB151;
 Reference = U104;
 ValeurCmp = SRC4192;
-IdModule  = ti_gosselin:TSSOP-28;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /54126B8F/545739AA;
 Reference = U201;
 ValeurCmp = LT1761;
-IdModule  = linear_gosselin:SOT-23-5;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5413151A/544B8571;
 Reference = U301;
 ValeurCmp = WM874XX;
-IdModule  = ti_gosselin:TSSOP-28;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541311B9/541316E3;
 Reference = U401;
 ValeurCmp = WM874XX;
-IdModule  = ti_gosselin:TSSOP-28;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541597AB/544E0B1D;
 Reference = U501;
 ValeurCmp = LT1763;
-IdModule  = linear_gosselin:SOIC-8;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431C69B;
 Reference = U601;
 ValeurCmp = OPA1632;
-IdModule  = ti_gosselin:MSOP-8-PWP;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541690F5/5431C6F1;
 Reference = U602;
 ValeurCmp = OPA1632;
-IdModule  = ti_gosselin:MSOP-8-PWP;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431C69B;
 Reference = U701;
 ValeurCmp = OPA1632;
-IdModule  = ti_gosselin:MSOP-8-PWP;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /5428BABE/5431C6F1;
 Reference = U702;
 ValeurCmp = OPA1632;
-IdModule  = ti_gosselin:MSOP-8-PWP;
+IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /540BECB7;
 Reference = X101;
 ValeurCmp = XTAL;
-IdModule  = crystek_gosselin:XTAL-5x7mm;
+IdModule  = ;
 EndCmp
 
 EndListe

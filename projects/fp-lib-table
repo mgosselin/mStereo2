@@ -6,4 +6,6 @@
   (lib (name crystek_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/crystek_gosselin.pretty)(options "")(descr ""))
   (lib (name smd_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/discrete-smd_gosselin.pretty)(options "")(descr ""))
   (lib (name th_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/discrete-th_gosselin.pretty)(options "")(descr ""))
+  (lib (name neutrik_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/neutrik_gosselin.pretty)(options "")(descr ""))
+  (lib (name phoenix_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/phoenix_gosselin.pretty)(options "")(descr ""))
 )

@@ -74,17 +74,17 @@ NoConn ~ 4150 5450
 $Comp
 L C C104
 U 1 1 540BD775
-P 4450 6350
-F 0 "C104" H 4450 6450 40  0000 L CNN
-F 1 "0.1" H 4456 6265 40  0000 L CNN
-F 2 "" H 4488 6200 30  0000 C CNN
-F 3 "" H 4450 6350 60  0000 C CNN
-F 4 "Digi-Key" H 4450 6350 60  0001 C CNN "Supplier"
-F 5 "445-8183-1-ND" H 4450 6350 60  0001 C CNN "Supplier-PN"
-F 6 "TDK" H 4450 6350 60  0001 C CNN "Manu"
-F 7 "CGJ4J2X7R1C104K125AA" H 4450 6350 60  0001 C CNN "Manu-PN"
-F 8 "CAP CER 0.1UF 16V 10% X7R 0805" H 4450 6350 60  0001 C CNN "Description"
-	1    4450 6350
+P 4450 6325
+F 0 "C104" H 4450 6425 40  0000 L CNN
+F 1 "0.1" H 4456 6240 40  0000 L CNN
+F 2 "" H 4488 6175 30  0000 C CNN
+F 3 "" H 4450 6325 60  0000 C CNN
+F 4 "Digi-Key" H 4450 6325 60  0001 C CNN "Supplier"
+F 5 "445-8183-1-ND" H 4450 6325 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 4450 6325 60  0001 C CNN "Manu"
+F 7 "CGJ4J2X7R1C104K125AA" H 4450 6325 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 0.1UF 16V 10% X7R 0805" H 4450 6325 60  0001 C CNN "Description"
+	1    4450 6325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -163,17 +163,17 @@ DATA_1
 $Comp
 L C C102
 U 1 1 540BF170
-P 2950 6350
-F 0 "C102" H 2950 6450 40  0000 L CNN
-F 1 "0.1" H 2956 6265 40  0000 L CNN
-F 2 "" H 2988 6200 30  0000 C CNN
-F 3 "" H 2950 6350 60  0000 C CNN
-F 4 "Digi-Key" H 2950 6350 60  0001 C CNN "Supplier"
-F 5 "445-8183-1-ND" H 2950 6350 60  0001 C CNN "Supplier-PN"
-F 6 "TDK" H 2950 6350 60  0001 C CNN "Manu"
-F 7 "CGJ4J2X7R1C104K125AA" H 2950 6350 60  0001 C CNN "Manu-PN"
-F 8 "CAP CER 0.1UF 16V 10% X7R 0805" H 2950 6350 60  0001 C CNN "Description"
-	1    2950 6350
+P 2950 6325
+F 0 "C102" H 2950 6425 40  0000 L CNN
+F 1 "0.1" H 2956 6240 40  0000 L CNN
+F 2 "" H 2988 6175 30  0000 C CNN
+F 3 "" H 2950 6325 60  0000 C CNN
+F 4 "Digi-Key" H 2950 6325 60  0001 C CNN "Supplier"
+F 5 "445-8183-1-ND" H 2950 6325 60  0001 C CNN "Supplier-PN"
+F 6 "TDK" H 2950 6325 60  0001 C CNN "Manu"
+F 7 "CGJ4J2X7R1C104K125AA" H 2950 6325 60  0001 C CNN "Manu-PN"
+F 8 "CAP CER 0.1UF 16V 10% X7R 0805" H 2950 6325 60  0001 C CNN "Description"
+	1    2950 6325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -358,12 +358,12 @@ $EndComp
 $Comp
 L DGND #PWR015
 U 1 1 5412F183
-P 2950 6650
-F 0 "#PWR015" H 2950 6650 40  0001 C CNN
-F 1 "DGND" H 2950 6580 40  0000 C CNN
-F 2 "" H 2950 6650 60  0000 C CNN
-F 3 "" H 2950 6650 60  0000 C CNN
-	1    2950 6650
+P 2950 6625
+F 0 "#PWR015" H 2950 6625 40  0001 C CNN
+F 1 "DGND" H 2950 6555 40  0000 C CNN
+F 2 "" H 2950 6625 60  0000 C CNN
+F 3 "" H 2950 6625 60  0000 C CNN
+	1    2950 6625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -391,12 +391,12 @@ $EndComp
 $Comp
 L DGND #PWR018
 U 1 1 5412F341
-P 4450 6650
-F 0 "#PWR018" H 4450 6650 40  0001 C CNN
-F 1 "DGND" H 4450 6580 40  0000 C CNN
-F 2 "" H 4450 6650 60  0000 C CNN
-F 3 "" H 4450 6650 60  0000 C CNN
-	1    4450 6650
+P 4450 6625
+F 0 "#PWR018" H 4450 6625 40  0001 C CNN
+F 1 "DGND" H 4450 6555 40  0000 C CNN
+F 2 "" H 4450 6625 60  0000 C CNN
+F 3 "" H 4450 6625 60  0000 C CNN
+	1    4450 6625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -446,23 +446,23 @@ $EndComp
 $Comp
 L VCC #PWR023
 U 1 1 5412FAA7
-P 2950 6050
-F 0 "#PWR023" H 2950 6150 30  0001 C CNN
-F 1 "VCC" H 2950 6150 30  0000 C CNN
-F 2 "" H 2950 6050 60  0000 C CNN
-F 3 "" H 2950 6050 60  0000 C CNN
-	1    2950 6050
+P 2950 6025
+F 0 "#PWR023" H 2950 6125 30  0001 C CNN
+F 1 "VCC" H 2950 6125 30  0000 C CNN
+F 2 "" H 2950 6025 60  0000 C CNN
+F 3 "" H 2950 6025 60  0000 C CNN
+	1    2950 6025
 	1    0    0    -1  
 $EndComp
 $Comp
 L VCC #PWR024
 U 1 1 5412FAC4
-P 4450 6050
-F 0 "#PWR024" H 4450 6150 30  0001 C CNN
-F 1 "VCC" H 4450 6150 30  0000 C CNN
-F 2 "" H 4450 6050 60  0000 C CNN
-F 3 "" H 4450 6050 60  0000 C CNN
-	1    4450 6050
+P 4450 6025
+F 0 "#PWR024" H 4450 6125 30  0001 C CNN
+F 1 "VCC" H 4450 6125 30  0000 C CNN
+F 2 "" H 4450 6025 60  0000 C CNN
+F 3 "" H 4450 6025 60  0000 C CNN
+	1    4450 6025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -902,13 +902,14 @@ L CONN_01X03 P103
 U 1 1 541BD1A1
 P 10000 1700
 F 0 "P103" H 10000 1900 50  0000 C CNN
-F 1 "MOLEX KK 1X3" V 10100 1700 50  0000 C CNN
+F 1 "Screw-term 1X3" V 10100 1700 50  0000 C CNN
 F 2 "" H 10000 1700 60  0000 C CNN
 F 3 "" H 10000 1700 60  0000 C CNN
 F 4 "Digi-Key" H 10000 1700 60  0001 C CNN "Supplier"
-F 5 "WM4201-ND" H 10000 1700 60  0001 C CNN "Supplier-PN"
-F 6 "Molex" H 10000 1700 60  0001 C CNN "Manu"
-F 7 "0022232031" H 10000 1700 60  0001 C CNN "Manu-PN"
+F 5 "77-1248-ND" H 10000 1700 60  0001 C CNN "Supplier-PN"
+F 6 "Phoenix Contact" H 10000 1700 60  0001 C CNN "Manu"
+F 7 "1729131" H 10000 1700 60  0001 C CNN "Manu-PN"
+F 8 "CONN TERM BLOCK 3POS 5.08MM PCB" H 10000 1700 60  0001 C CNN "Description"
 	1    10000 1700
 	0    -1   -1   0   
 $EndComp
@@ -917,13 +918,14 @@ L CONN_01X02 P102
 U 1 1 541BD256
 P 9350 1700
 F 0 "P102" H 9350 1850 50  0000 C CNN
-F 1 "MOLEX KK 1x2" V 9450 1700 50  0000 C CNN
+F 1 "Screw-term 1x2" V 9450 1700 50  0000 C CNN
 F 2 "" H 9350 1700 60  0000 C CNN
 F 3 "" H 9350 1700 60  0000 C CNN
 F 4 "Digi-Key" H 9350 1700 60  0001 C CNN "Supplier"
-F 5 "WM4200-ND" H 9350 1700 60  0001 C CNN "Supplier-PN"
-F 6 "Molex" H 9350 1700 60  0001 C CNN "Manu"
-F 7 "0022232021" H 9350 1700 60  0001 C CNN "Manu-PN"
+F 5 "277-1247-ND" H 9350 1700 60  0001 C CNN "Supplier-PN"
+F 6 "Phoenix Contact" H 9350 1700 60  0001 C CNN "Manu"
+F 7 "1729128" H 9350 1700 60  0001 C CNN "Manu-PN"
+F 8 "CONN TERM BLOCK 2POS 5.08MM PCB" H 9350 1700 60  0001 C CNN "Description"
 	1    9350 1700
 	0    -1   -1   0   
 $EndComp
@@ -1173,7 +1175,7 @@ F 8 "IC SUPERVISOR ACTIVE LOW SOT23-3" H 6400 2350 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 Text Notes 550  650  0    60   ~ 0
-MAKE BOARD FIT HAMMOND 1445T2201 (160mm W x 220mm L)
+Board perimeter must fit 1445T2201 (160mm W x 220mm L)
 $Comp
 L GREEN_LED D104
 U 1 1 5454BA40
@@ -1390,16 +1392,12 @@ Connection ~ 2800 2950
 Wire Wire Line
 	2800 2950 2800 3050
 Wire Wire Line
-	2650 2950 2800 2950
-Wire Wire Line
-	2800 2950 2950 2950
+	2650 2950 2950 2950
 Connection ~ 2800 1950
 Wire Wire Line
 	2800 1850 2800 1950
 Wire Wire Line
-	2650 1950 2800 1950
-Wire Wire Line
-	2800 1950 2950 1950
+	2650 1950 2950 1950
 Wire Wire Line
 	2650 2350 2650 2450
 Wire Wire Line
@@ -1418,9 +1416,7 @@ Wire Wire Line
 Wire Wire Line
 	10700 3000 10700 3100
 Wire Wire Line
-	10700 1800 10700 1900
-Wire Wire Line
-	10700 1900 10700 2000
+	10700 1800 10700 2000
 Wire Wire Line
 	9900 1900 9900 2050
 Wire Wire Line
@@ -1440,9 +1436,7 @@ Connection ~ 4700 1350
 Wire Wire Line
 	4700 1450 4700 1350
 Wire Wire Line
-	4400 1350 4700 1350
-Wire Wire Line
-	4700 1350 5000 1350
+	4400 1350 5000 1350
 Wire Wire Line
 	10150 5000 10300 5000
 Wire Wire Line
@@ -1458,17 +1452,15 @@ Connection ~ 8850 4550
 Connection ~ 8850 3750
 Connection ~ 8950 3550
 Wire Wire Line
-	8750 4550 8850 4550
+	8750 4550 9250 4550
 Wire Wire Line
-	8850 4550 9250 4550
+	4450 6525 4450 6625
 Wire Wire Line
-	4450 6550 4450 6650
-Wire Wire Line
-	4450 6050 4450 6150
+	4450 6025 4450 6125
 Wire Wire Line
 	4000 5650 4150 5650
 Wire Wire Line
-	2950 6550 2950 6650
+	2950 6525 2950 6625
 Wire Wire Line
 	2500 5350 2650 5350
 Wire Wire Line
@@ -1505,13 +1497,11 @@ Wire Wire Line
 Wire Wire Line
 	2500 3900 1650 3900
 Wire Wire Line
-	2050 3200 2050 3400
-Wire Wire Line
-	2050 3400 2050 3600
+	2050 3200 2050 3600
 Wire Wire Line
 	1650 3800 2500 3800
 Wire Wire Line
-	2950 6050 2950 6150
+	2950 6025 2950 6125
 Wire Wire Line
 	2500 5050 2650 5050
 Wire Wire Line
@@ -1555,9 +1545,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 4800 6700 4600
 Wire Wire Line
-	6650 4600 6700 4600
-Wire Wire Line
-	6700 4600 6800 4600
+	6650 4600 6800 4600
 Wire Wire Line
 	5100 3300 5250 3300
 Wire Wire Line
@@ -1606,25 +1594,19 @@ Wire Wire Line
 Wire Wire Line
 	6650 3600 7350 3600
 Wire Wire Line
-	7350 3350 7350 3600
-Wire Wire Line
-	7350 3600 7350 4450
+	7350 3350 7350 4450
 Wire Wire Line
 	7350 3350 7850 3350
 Wire Wire Line
 	6650 3700 7450 3700
 Wire Wire Line
-	7450 3450 7450 3700
-Wire Wire Line
-	7450 3700 7450 4550
+	7450 3450 7450 4550
 Wire Wire Line
 	7450 3450 7850 3450
 Wire Wire Line
 	6650 3800 7550 3800
 Wire Wire Line
-	7550 3550 7550 3800
-Wire Wire Line
-	7550 3800 7550 4650
+	7550 3550 7550 4650
 Wire Wire Line
 	7550 3550 7850 3550
 Wire Wire Line
@@ -1677,13 +1659,9 @@ Wire Wire Line
 Wire Wire Line
 	8850 3450 8850 3750
 Wire Wire Line
-	8750 3750 8850 3750
+	8750 3750 9250 3750
 Wire Wire Line
-	8850 3750 9250 3750
-Wire Wire Line
-	8750 3550 8950 3550
-Wire Wire Line
-	8950 3550 9250 3550
+	8750 3550 9250 3550
 Wire Wire Line
 	8950 3650 8950 3550
 Wire Wire Line
@@ -1697,9 +1675,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4750 8950 4650
 Wire Wire Line
-	8750 4750 8950 4750
-Wire Wire Line
-	8950 4750 9250 4750
+	8750 4750 9250 4750
 $Comp
 L DGND #PWR075
 U 1 1 545687AD
@@ -1729,7 +1705,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 4600 10600 4600
 Text Notes 550  750  0    60   ~ 0
-MAKE BOARD FIT IN STD 1U x 8in. deep rack case (400mm W x 200mm L)
+Board perimiter must fit 1U x 8in. deep rack case (400mm W x 200mm L)
 Text Notes 550  1000 0    60   ~ 0
 Internal layers for GND and VCC. Top and Bottom for signals.\nThis allows solid planes (VCC and GND) under components.
 $Comp
@@ -1749,7 +1725,7 @@ F 8 "XLR Connectors 3P MALE CHASS HORIZONTAL 1" H 10800 4700 60  0001 C CNN "Des
 	1    0    0    -1  
 $EndComp
 Text Notes 550  7700 0    60   ~ 0
-Rec. Amanero standoff = 12.0 mm (0.472 in) [24434K-ND]\nAlt. Amanero standoff = 12.7 mm (0.500 in) [2203K-ND]\nRec. male connector for Amanero: [S9172-ND]\nAlt. male connector for Amanero: [952-2130-ND]\nNew 2 pin power connector: [277-1247-ND]\nNew 3 pin power connector: [277-1248-ND]\nMating XLR connector: [NC3FXX-B]\nAlternate XLR connector part number: [NC3MAAH]\n
-Text Notes 550  1250 0    60   ~ 0
-Required board top clearance = 23.83 mm\nBoard-to-board mating height for Amanero connectors = 11.6 mm\n
+Meaured mating length for Sullins connectors = 13.11 mm\n\nRec. Amanero standoff = 12.0 mm (0.472 in) [24434K-ND]\nAlt. Amanero standoff = 12.7 mm (0.500 in) [2203K-ND]\nRec. male connector for Amanero: [S9172-ND]\nAlt. male connector for Amanero: [952-2130-ND]\nMating XLR connector: [NC3FXX-B]\nAlternate XLR connector part number: [NC3MAAH]\n
+Text Notes 550  1325 0    60   ~ 0
+Required board top clearance = 23.83 mm\nBoard-to-board mating height for Amanero connectors = 11.6 mm\nGap from board to rear panel = 1 mm\n
 $EndSCHEMATC
