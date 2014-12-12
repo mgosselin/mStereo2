@@ -2,7 +2,7 @@
 <export version="D">
     <design>
         <source>/home/uwhpsc/Documents/mStereo2/projects/mStereo2.sch</source>
-        <date>Tue 09 Dec 2014 11:31:43 AM PST</date>
+        <date>Thu 11 Dec 2014 10:37:27 PM PST</date>
         <tool>eeschema (2013-04-01 BZR 4058)-product</tool>
     </design>
     <components>
@@ -150,24 +150,26 @@
             <tstamp>541306D8</tstamp>
         </comp>
         <comp ref="P103">
-            <value>MOLEX KK 1X3</value>
+            <value>Screw-term 1X3</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">WM4201-ND</field>
-                <field name="Manu">Molex</field>
-                <field name="Manu-PN">0022232031</field>
+                <field name="Supplier-PN">77-1248-ND</field>
+                <field name="Manu">Phoenix Contact</field>
+                <field name="Manu-PN">1729131</field>
+                <field name="Description">CONN TERM BLOCK 3POS 5.08MM PCB</field>
             </fields>
             <libsource lib="conn" part="CONN_01X03"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>541BD1A1</tstamp>
         </comp>
         <comp ref="P102">
-            <value>MOLEX KK 1x2</value>
+            <value>Screw-term 1x2</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">WM4200-ND</field>
-                <field name="Manu">Molex</field>
-                <field name="Manu-PN">0022232021</field>
+                <field name="Supplier-PN">277-1247-ND</field>
+                <field name="Manu">Phoenix Contact</field>
+                <field name="Manu-PN">1729128</field>
+                <field name="Description">CONN TERM BLOCK 2POS 5.08MM PCB</field>
             </fields>
             <libsource lib="conn" part="CONN_01X02"/>
             <sheetpath names="/" tstamps="/"/>
@@ -1566,47 +1568,6 @@
                 <pin num="20" name="P20" type="passive"/>
             </pins>
         </libpart>
-        <libpart lib="wolfson_gosselin" part="WM874xx">
-            <fields>
-                <field name="Reference">U</field>
-                <field name="Value">WM874xx</field>
-                <field name="Supplier-PN">238-WM8741GEDS/V</field>
-                <field name="Supplier">Mouser</field>
-                <field name="Description">Audio D/A Converter ICs Stereo DAC, High End </field>
-                <field name="Manu-PN">WM8741GEDS/V</field>
-                <field name="Manu">Wolfson Microelectronics</field>
-            </fields>
-            <pins>
-                <pin num="1" name="LRCLK" type="passive"/>
-                <pin num="2" name="DIN" type="passive"/>
-                <pin num="3" name="BCLK" type="passive"/>
-                <pin num="4" name="FSEL" type="passive"/>
-                <pin num="5" name="MCLK" type="passive"/>
-                <pin num="6" name="DIFFHW" type="passive"/>
-                <pin num="7" name="DGND" type="passive"/>
-                <pin num="8" name="DVDD" type="passive"/>
-                <pin num="9" name="AVDDR" type="passive"/>
-                <pin num="10" name="AGNDR" type="passive"/>
-                <pin num="11" name="VMIDR" type="passive"/>
-                <pin num="12" name="VOUTRP" type="passive"/>
-                <pin num="13" name="VOUTRN" type="passive"/>
-                <pin num="14" name="AGND" type="passive"/>
-                <pin num="15" name="AVDD" type="passive"/>
-                <pin num="16" name="VOUTLN" type="passive"/>
-                <pin num="17" name="VOUTLP" type="passive"/>
-                <pin num="18" name="VMIDL" type="passive"/>
-                <pin num="19" name="AGNDL" type="passive"/>
-                <pin num="20" name="AVDDL" type="passive"/>
-                <pin num="21" name="ZFLAG" type="passive"/>
-                <pin num="22" name="OSR" type="passive"/>
-                <pin num="23" name="IWO" type="passive"/>
-                <pin num="24" name="MODE" type="passive"/>
-                <pin num="25" name="MUTEB" type="passive"/>
-                <pin num="26" name="DEEMPH" type="passive"/>
-                <pin num="27" name="SCLK" type="passive"/>
-                <pin num="28" name="I2S" type="passive"/>
-            </pins>
-        </libpart>
         <libpart lib="ti_gosselin" part="CDCLVC1104">
             <fields>
                 <field name="Reference">U</field>
@@ -1719,6 +1680,47 @@
                 <pin num="28" name="MODE2" type="passive"/>
             </pins>
         </libpart>
+        <libpart lib="wolfson_gosselin" part="WM874xx">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">WM874xx</field>
+                <field name="Supplier-PN">238-WM8741GEDS/V</field>
+                <field name="Supplier">Mouser</field>
+                <field name="Description">Audio D/A Converter ICs Stereo DAC, High End </field>
+                <field name="Manu-PN">WM8741GEDS/V</field>
+                <field name="Manu">Wolfson Microelectronics</field>
+            </fields>
+            <pins>
+                <pin num="1" name="LRCLK" type="passive"/>
+                <pin num="2" name="DIN" type="passive"/>
+                <pin num="3" name="BCLK" type="passive"/>
+                <pin num="4" name="FSEL" type="passive"/>
+                <pin num="5" name="MCLK" type="passive"/>
+                <pin num="6" name="DIFFHW" type="passive"/>
+                <pin num="7" name="DGND" type="passive"/>
+                <pin num="8" name="DVDD" type="passive"/>
+                <pin num="9" name="AVDDR" type="passive"/>
+                <pin num="10" name="AGNDR" type="passive"/>
+                <pin num="11" name="VMIDR" type="passive"/>
+                <pin num="12" name="VOUTRP" type="passive"/>
+                <pin num="13" name="VOUTRN" type="passive"/>
+                <pin num="14" name="AGND" type="passive"/>
+                <pin num="15" name="AVDD" type="passive"/>
+                <pin num="16" name="VOUTLN" type="passive"/>
+                <pin num="17" name="VOUTLP" type="passive"/>
+                <pin num="18" name="VMIDL" type="passive"/>
+                <pin num="19" name="AGNDL" type="passive"/>
+                <pin num="20" name="AVDDL" type="passive"/>
+                <pin num="21" name="ZFLAG" type="passive"/>
+                <pin num="22" name="OSR" type="passive"/>
+                <pin num="23" name="IWO" type="passive"/>
+                <pin num="24" name="MODE" type="passive"/>
+                <pin num="25" name="MUTEB" type="passive"/>
+                <pin num="26" name="DEEMPH" type="passive"/>
+                <pin num="27" name="SCLK" type="passive"/>
+                <pin num="28" name="I2S" type="passive"/>
+            </pins>
+        </libpart>
         <libpart lib="oscillator_gosselin" part="XTAL">
             <fields>
                 <field name="Reference">X</field>
@@ -1780,22 +1782,20 @@
                 <pin num="2" name="~" type="passive"/>
             </pins>
         </libpart>
-        <libpart lib="linear_technology_gosselin" part="LT1761">
+        <libpart lib="microchip_gosselin" part="MCP100-315DI">
             <fields>
                 <field name="Reference">U</field>
-                <field name="Value">LT1761</field>
-                <field name="Manu-PN">LT1761ES5-3.3#TRMPBF</field>
-                <field name="Supplier-PN">LT1761ES5-3.3#TRMPBFCT-ND</field>
-                <field name="Manu">Linear Technology</field>
-                <field name="Supplier">Digi-key</field>
-                <field name="Description">IC REG LDO 3.3V 0.1A TSOT23-5</field>
+                <field name="Value">MCP100-315DI</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
+                <field name="Manu-PN">MCP100T-315I/TT</field>
+                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
+                <field name="Manu">Microchip</field>
             </fields>
             <pins>
-                <pin num="1" name="VIN" type="input"/>
-                <pin num="2" name="GND" type="input"/>
-                <pin num="3" name="~SHDN" type="input"/>
-                <pin num="4" name="BYP" type="input"/>
-                <pin num="5" name="VOUT" type="input"/>
+                <pin num="1" name="~RST" type="passive"/>
+                <pin num="2" name="VCC" type="passive"/>
+                <pin num="3" name="GND" type="passive"/>
             </pins>
         </libpart>
         <libpart lib="conn" part="CONN_01X02">
@@ -1831,6 +1831,24 @@
                 <pin num="3" name="P3" type="passive"/>
             </pins>
         </libpart>
+        <libpart lib="linear_technology_gosselin" part="LT1761">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">LT1761</field>
+                <field name="Manu-PN">LT1761ES5-3.3#TRMPBF</field>
+                <field name="Supplier-PN">LT1761ES5-3.3#TRMPBFCT-ND</field>
+                <field name="Manu">Linear Technology</field>
+                <field name="Supplier">Digi-key</field>
+                <field name="Description">IC REG LDO 3.3V 0.1A TSOT23-5</field>
+            </fields>
+            <pins>
+                <pin num="1" name="VIN" type="input"/>
+                <pin num="2" name="GND" type="input"/>
+                <pin num="3" name="~SHDN" type="input"/>
+                <pin num="4" name="BYP" type="input"/>
+                <pin num="5" name="VOUT" type="input"/>
+            </pins>
+        </libpart>
         <libpart lib="led_gosselin" part="AMBER_LED">
             <footprints>
                 <fp>LED-3MM</fp>
@@ -1853,22 +1871,6 @@
             <pins>
                 <pin num="1" name="A" type="passive"/>
                 <pin num="2" name="K" type="passive"/>
-            </pins>
-        </libpart>
-        <libpart lib="microchip_gosselin" part="MCP100-315DI">
-            <fields>
-                <field name="Reference">U</field>
-                <field name="Value">MCP100-315DI</field>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
-                <field name="Manu-PN">MCP100T-315I/TT</field>
-                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
-                <field name="Manu">Microchip</field>
-            </fields>
-            <pins>
-                <pin num="1" name="~RST" type="passive"/>
-                <pin num="2" name="VCC" type="passive"/>
-                <pin num="3" name="GND" type="passive"/>
             </pins>
         </libpart>
         <libpart lib="linear_technology_gosselin" part="LT1763">
@@ -1945,11 +1947,11 @@
         <library logical="conn_gosselin">
             <uri>../libraries/conn_gosselin.lib</uri>
         </library>
-        <library logical="ti_gosselin">
-            <uri>../libraries/ti_gosselin.lib</uri>
-        </library>
         <library logical="oscillator_gosselin">
             <uri>../libraries/oscillator_gosselin.lib</uri>
+        </library>
+        <library logical="ti_gosselin">
+            <uri>../libraries/ti_gosselin.lib</uri>
         </library>
         <library logical="wolfson_gosselin">
             <uri>../libraries/wolfson_gosselin.lib</uri>

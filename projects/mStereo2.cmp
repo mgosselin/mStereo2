@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Tue 09 Dec 2014 11:32:58 AM PST
+Cmp-Mod V01 Created by CvPcb (2013-04-01 BZR 4058)-product date = Thu 11 Dec 2014 10:36:47 PM PST
 
 BeginCmp
 TimeStamp = /5400AA65;
@@ -444,14 +444,14 @@ EndCmp
 BeginCmp
 TimeStamp = /541BD256;
 Reference = P102;
-ValeurCmp = MOLEX KK 1x2;
+ValeurCmp = Screw-term 1x2;
 IdModule  = ;
 EndCmp
 
 BeginCmp
 TimeStamp = /541BD1A1;
 Reference = P103;
-ValeurCmp = MOLEX KK 1X3;
+ValeurCmp = Screw-term 1X3;
 IdModule  = ;
 EndCmp
 
