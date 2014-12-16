@@ -10,6 +10,11 @@ In this repository
     ├── projects                    # kicad project files
     └── libraries                   # kicad library files
     
+Using the contents of this repository
+--------------------
+
+This repo is built and maintained with Linux users in mind.  Some contents are .pdf or plain text so the repo may be cloned and those files may be opened irrespective of the platform.  Users wishing to use the Kicad project and other Kicad files by cloning and/or forking the repo can do so in Linux: no support is implied for OSX or windows users (although generally, OSX users should experience no problems).  
+    
 Technical Description
 --------
 At present, mStereo is supported by two additional pieces of electronic hardware. Both are open-source designs, which I chose to use as temporary stand-ins. I will develop and implement my own designs to replace them at a later stage.
