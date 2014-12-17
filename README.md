@@ -43,6 +43,26 @@ Bill of Materials
 Assembly
 --------
 
+Key Dimensions
+
+| Dimension                              |                     | Notes                 |
+| -------------                          |:-------------:      | -------------         |
+| Board perimeter                        | 160 mm W x 120 mm L | Fit Hammond 1445T2201 |
+| Board perimeter                        | 400 mm W x 250 mm L | Fit 1U rack case      |
+| Required board top clearance           | 23.83mm             |                       |
+| Board-to-board mating distance         | 11.60 mm            | Calculated            |
+| Board-to-board mating distance         | 13.11 mm            | Measured              |
+| Board-to-board mating distance         | 11.6mm              | Calculated            |
+| Required gap from board edge to rear chassis panel                      | 1.0 mm |   |
+| Required distance from XLR silkscreen centerpoint to rear chassis panel | 10 mm  |   |
+| Recommended Amanero standoff           | 12.0 mm (0.472")    | 24434K-ND             |
+| Alternate Amanero standoff             | 12.7 mm (0.500")    | 2203K-ND              |
+| Recommended male connector for Amanero |                     | S9172-ND              |
+| Alternate male connector for Amanero   |                     | 952-2130-ND           |
+| Recommended mating XLR Connector       |                     | NC3FXX-B              |
+| Alternate panel XLR Connector:         |                     | NC3MAAH               |
+
+
 Specifications
 --------
 
