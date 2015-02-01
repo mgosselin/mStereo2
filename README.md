@@ -45,7 +45,7 @@ The circuit board is currently not complete.  Its hardware design has been exten
 Bill of Materials
 --------
 
-| Quantity | Supplier | Supplier-PN | Manufacturer | Manufacturer-PN | Refs |
+| Qty. | Supplier | Supplier-PN | MFG | MFG-PN | Refs |
 |----------|:--------:|:-----------:|:------------:|:---------------:|------|
 |2|Digi-key|RNCP0805FTD825RCT-ND|Stackpole|RNCP0805FTD825R|R104 R105|
 |5|Digi-key|RNCP0805FTD121RCT-ND|Stackpole|RNCP0805FTD121R|R102 R101 R103 R201 R501|
@@ -68,13 +68,13 @@ Bill of Materials
 |1|Digi-key|LT1763CS8-3.3#PBF-ND|Linear Technology|LT1763CS8-3.3#PBF|U501|
 |1|Digi-Key|MCP100T-315I/TTCT-ND|Microchip|MCP100T-315I/TT|U103|
 |4|Digi-Key|296-17008-ND|Texas Instruments|OPA1632DGN|U601 U602 U701 U702|
-|1|Digi-Key|296-27549-1-ND|Texas Instruments|CDCLVC1104PWR,U102|
+|1|Digi-Key|296-27549-1-ND|Texas Instruments|CDCLVC1104PWR|U102|
 |1|Digi-Key|296-29703-5-ND|Texas Instruments|ISO7640FMDW|U101|
 |1|Mouser|595-SRC4192IDB|Texas Instruments|SRC4192IDB|U104|
 |2|Mouser|238-WM8741GEDS/V|Wolfson Microelectronics|WM8741GEDS/V|U301 U401|
 |1|Mouser|549-C3391-24.576|Crystek|C3391-24.576|X101|
 |1|Digi-Key|277-1247-ND|Phoenix Contact|1729128|P102|
-|1|Digi-Key|S7078-ND|Sullins|PPTC102LFBN-RC,P101|
+|1|Digi-Key|S7078-ND|Sullins|PPTC102LFBN-RC|P101|
 |2|Mouser|568-NC3MAAH-1|Neutrik|NC3MAAH-1|P104 P105|
 
 Assembly
