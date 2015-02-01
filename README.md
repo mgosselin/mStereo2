@@ -30,7 +30,9 @@ The scope of the hardware I have designed has been limited to an I2S-to-analog c
 Schematic
 --------
 
-https://github.com/mgosselin/mStereo2/blob/master/projects/mStereo2.pdf
+
+
+![schematic](https://github.com/mgosselin/mStereo2/blob/master/doc/mStereo2.jpg)
 
 Circuit Description
 --------
