@@ -625,4 +625,10 @@ F 8 "CAP ALUM 100UF 16V 20% RADIAL" H 2450 4150 60  0001 C CNN "Description"
 	1    2450 4150
 	1    0    0    -1  
 $EndComp
+Text Notes 6100 1500 0    60   ~ 0
+Gain = (1/2) x 2 x (1/2) x 2 = 1
+Text Notes 6200 1650 0    60   ~ 0
+Fc = 1 / [2 x pi x R x C]
+Text Notes 6200 1800 0    60   ~ 0
+Fc = 1 / [2 x pi x 1.21 x 10^3 x (2x470) x 10^-12] = 139 KHz
 $EndSCHEMATC
