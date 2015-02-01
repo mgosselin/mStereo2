@@ -2,7 +2,7 @@
 <export version="D">
     <design>
         <source>/home/uwhpsc/Documents/mStereo2/projects/mStereo2.sch</source>
-        <date>Sun 02 Nov 2014 12:57:12 AM PDT</date>
+        <date>Thu 11 Dec 2014 10:37:27 PM PST</date>
         <tool>eeschema (2013-04-01 BZR 4058)-product</tool>
     </design>
     <components>
@@ -150,37 +150,39 @@
             <tstamp>541306D8</tstamp>
         </comp>
         <comp ref="P103">
-            <value>MOLEX KK 1X3</value>
+            <value>Screw-term 1X3</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">WM4201-ND</field>
-                <field name="Manu">Molex</field>
-                <field name="Manu-PN">0022232031</field>
+                <field name="Supplier-PN">77-1248-ND</field>
+                <field name="Manu">Phoenix Contact</field>
+                <field name="Manu-PN">1729131</field>
+                <field name="Description">CONN TERM BLOCK 3POS 5.08MM PCB</field>
             </fields>
             <libsource lib="conn" part="CONN_01X03"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>541BD1A1</tstamp>
         </comp>
         <comp ref="P102">
-            <value>MOLEX KK 1x2</value>
+            <value>Screw-term 1x2</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">WM4200-ND</field>
-                <field name="Manu">Molex</field>
-                <field name="Manu-PN">0022232021</field>
+                <field name="Supplier-PN">277-1247-ND</field>
+                <field name="Manu">Phoenix Contact</field>
+                <field name="Manu-PN">1729128</field>
+                <field name="Description">CONN TERM BLOCK 2POS 5.08MM PCB</field>
             </fields>
             <libsource lib="conn" part="CONN_01X02"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>541BD256</tstamp>
         </comp>
         <comp ref="P104">
-            <value>NC3MAHL</value>
+            <value>XLR-MALE</value>
             <fields>
                 <field name="Supplier">Mouser</field>
-                <field name="Supplier-PN">568-NC3MAHL</field>
+                <field name="Supplier-PN">568-NC3MAAH-1</field>
                 <field name="Manu">Neutrik</field>
-                <field name="Manu-PN">NC3MAHL</field>
-                <field name="Description">XLR connectors 3C MALE COMBO</field>
+                <field name="Manu-PN">NC3MAAH-1</field>
+                <field name="Description">XLR Connectors 3P MALE CHASS HORIZONTAL 1</field>
             </fields>
             <libsource lib="conn" part="CONN_01X03"/>
             <sheetpath names="/" tstamps="/"/>
@@ -211,19 +213,6 @@
             <libsource lib="microchip_gosselin" part="MCP100-315DI"/>
             <sheetpath names="/" tstamps="/"/>
             <tstamp>5431B8A4</tstamp>
-        </comp>
-        <comp ref="P105">
-            <value>NC3MAHL</value>
-            <fields>
-                <field name="Supplier">Mouser</field>
-                <field name="Supplier-PN">568-NC3MAHL</field>
-                <field name="Manu">Neutrik</field>
-                <field name="Manu-PN">NC3MAHL</field>
-                <field name="Description">XLR connectors 3C MALE COMBO</field>
-            </fields>
-            <libsource lib="conn" part="CONN_01X03"/>
-            <sheetpath names="/" tstamps="/"/>
-            <tstamp>543297CE</tstamp>
         </comp>
         <comp ref="D104">
             <value>GREEN_LED</value>
@@ -355,6 +344,19 @@
             <sheetpath names="/" tstamps="/"/>
             <tstamp>5455B453</tstamp>
         </comp>
+        <comp ref="P105">
+            <value>XLR-MALE</value>
+            <fields>
+                <field name="Supplier">Mouser</field>
+                <field name="Supplier-PN">568-NC3MAAH-1</field>
+                <field name="Manu">Neutrik</field>
+                <field name="Manu-PN">NC3MAAH-1</field>
+                <field name="Description">XLR Connectors 3P MALE CHASS HORIZONTAL 1</field>
+            </fields>
+            <libsource lib="conn" part="CONN_01X03"/>
+            <sheetpath names="/" tstamps="/"/>
+            <tstamp>54769445</tstamp>
+        </comp>
         <comp ref="C201">
             <value>1</value>
             <fields>
@@ -367,19 +369,6 @@
             <libsource lib="device" part="C"/>
             <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
             <tstamp>54126F5E</tstamp>
-        </comp>
-        <comp ref="C203">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
-            <tstamp>544A157E</tstamp>
         </comp>
         <comp ref="C202">
             <value>0.01</value>
@@ -433,6 +422,19 @@
             <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
             <tstamp>545739AA</tstamp>
         </comp>
+        <comp ref="C203">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/clock_power/" tstamps="/54126B8F/"/>
+            <tstamp>54858D85</tstamp>
+        </comp>
         <comp ref="U301">
             <value>WM874XX</value>
             <fields>
@@ -446,7 +448,7 @@
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8571</tstamp>
         </comp>
-        <comp ref="C303">
+        <comp ref="C302">
             <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
@@ -459,7 +461,7 @@
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8572</tstamp>
         </comp>
-        <comp ref="C307">
+        <comp ref="C304">
             <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
@@ -472,7 +474,7 @@
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8573</tstamp>
         </comp>
-        <comp ref="C305">
+        <comp ref="C303">
             <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
@@ -485,7 +487,7 @@
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>54153DC6</tstamp>
         </comp>
-        <comp ref="C309">
+        <comp ref="C305">
             <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
@@ -498,7 +500,7 @@
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8575</tstamp>
         </comp>
-        <comp ref="C311">
+        <comp ref="C306">
             <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
@@ -510,19 +512,6 @@
             <libsource lib="device" part="C"/>
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8576</tstamp>
-        </comp>
-        <comp ref="C302">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544B8577</tstamp>
         </comp>
         <comp ref="C301">
             <value>0.1</value>
@@ -536,71 +525,6 @@
             <libsource lib="device" part="C"/>
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>544B8578</tstamp>
-        </comp>
-        <comp ref="C304">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544A0699</tstamp>
-        </comp>
-        <comp ref="C306">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544A06AE</tstamp>
-        </comp>
-        <comp ref="C308">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544A076D</tstamp>
-        </comp>
-        <comp ref="C310">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544A0796</tstamp>
-        </comp>
-        <comp ref="C312">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
-            <tstamp>544A07AB</tstamp>
         </comp>
         <comp ref="D301">
             <value>RED_LED</value>
@@ -627,6 +551,84 @@
             <libsource lib="device" part="R"/>
             <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
             <tstamp>5455D997</tstamp>
+        </comp>
+        <comp ref="c301">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>548583ED</tstamp>
+        </comp>
+        <comp ref="c302">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>548584EC</tstamp>
+        </comp>
+        <comp ref="c303">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>54858501</tstamp>
+        </comp>
+        <comp ref="c304">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>54858516</tstamp>
+        </comp>
+        <comp ref="c305">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>5485853F</tstamp>
+        </comp>
+        <comp ref="c306">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_R/" tstamps="/5413151A/"/>
+            <tstamp>54858554</tstamp>
         </comp>
         <comp ref="U401">
             <value>WM874XX</value>
@@ -706,19 +708,6 @@
             <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
             <tstamp>541C1104</tstamp>
         </comp>
-        <comp ref="C402">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>541C1175</tstamp>
-        </comp>
         <comp ref="C401">
             <value>0.1</value>
             <fields>
@@ -731,71 +720,6 @@
             <libsource lib="device" part="C"/>
             <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
             <tstamp>541C118A</tstamp>
-        </comp>
-        <comp ref="C404">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>544B8579</tstamp>
-        </comp>
-        <comp ref="C406">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>544B857A</tstamp>
-        </comp>
-        <comp ref="C408">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>544B857B</tstamp>
-        </comp>
-        <comp ref="C410">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>544B857C</tstamp>
-        </comp>
-        <comp ref="C412">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
-            <tstamp>544B857D</tstamp>
         </comp>
         <comp ref="D401">
             <value>RED_LED</value>
@@ -823,6 +747,84 @@
             <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
             <tstamp>5455D467</tstamp>
         </comp>
+        <comp ref="C402">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857C2B</tstamp>
+        </comp>
+        <comp ref="C404">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857D44</tstamp>
+        </comp>
+        <comp ref="C406">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857D59</tstamp>
+        </comp>
+        <comp ref="C408">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857D6E</tstamp>
+        </comp>
+        <comp ref="C410">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857D97</tstamp>
+        </comp>
+        <comp ref="C412">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/DAC_L/" tstamps="/541311B9/"/>
+            <tstamp>54857DAC</tstamp>
+        </comp>
         <comp ref="C503">
             <value>1</value>
             <fields>
@@ -835,19 +837,6 @@
             <libsource lib="device" part="C"/>
             <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
             <tstamp>54571D8C</tstamp>
-        </comp>
-        <comp ref="C501">
-            <value>22</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16405CT-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">32SEPF22M+TSS</field>
-                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
-            <tstamp>54571D8D</tstamp>
         </comp>
         <comp ref="C502">
             <value>0.01</value>
@@ -901,8 +890,21 @@
             <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
             <tstamp>5454CACE</tstamp>
         </comp>
-        <comp ref="C607">
-            <value>470pF</value>
+        <comp ref="C501">
+            <value>22</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16405CT-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">32SEPF22M+TSS</field>
+                <field name="Description">CAP ALUM 22UF 32V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/digital_power/" tstamps="/541597AB/"/>
+            <tstamp>5485939A</tstamp>
+        </comp>
+        <comp ref="C603">
+            <value>470p</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">399-7715-ND</field>
@@ -1109,8 +1111,8 @@
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
             <tstamp>5431DB6B</tstamp>
         </comp>
-        <comp ref="C608">
-            <value>470pF</value>
+        <comp ref="C604">
+            <value>470p</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">399-7715-ND</field>
@@ -1136,20 +1138,7 @@
             <tstamp>5431E4D7</tstamp>
         </comp>
         <comp ref="C601">
-            <value>100uF</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16291-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">16SEPC100M</field>
-                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
-            <tstamp>543A32F8</tstamp>
-        </comp>
-        <comp ref="C605">
-            <value>0.1uF</value>
+            <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">445-8183-1-ND</field>
@@ -1161,8 +1150,8 @@
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
             <tstamp>543A33EF</tstamp>
         </comp>
-        <comp ref="C606">
-            <value>0.1uF</value>
+        <comp ref="C602">
+            <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">445-8183-1-ND</field>
@@ -1174,47 +1163,60 @@
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
             <tstamp>5449F9E9</tstamp>
         </comp>
-        <comp ref="C603">
-            <value>100uF</value>
+        <comp ref="c601">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
-            <tstamp>5449FA42</tstamp>
+            <tstamp>548575CB</tstamp>
         </comp>
-        <comp ref="C602">
-            <value>100uF</value>
+        <comp ref="c602">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
-            <tstamp>5449FA57</tstamp>
+            <tstamp>54857740</tstamp>
         </comp>
-        <comp ref="C604">
-            <value>100uF</value>
+        <comp ref="c603">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
-            <tstamp>5449FA6C</tstamp>
+            <tstamp>54857755</tstamp>
         </comp>
-        <comp ref="C707">
-            <value>470pF</value>
+        <comp ref="c604">
+            <value>100</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/FILTER_L/" tstamps="/541690F5/"/>
+            <tstamp>5485776A</tstamp>
+        </comp>
+        <comp ref="C703">
+            <value>470p</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">399-7715-ND</field>
@@ -1421,8 +1423,8 @@
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
             <tstamp>5431DB6B</tstamp>
         </comp>
-        <comp ref="C708">
-            <value>470pF</value>
+        <comp ref="C704">
+            <value>470p</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">399-7715-ND</field>
@@ -1448,20 +1450,7 @@
             <tstamp>5431E4D7</tstamp>
         </comp>
         <comp ref="C701">
-            <value>100uF</value>
-            <fields>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Supplier-PN">P16291-ND</field>
-                <field name="Manu">Panasonic</field>
-                <field name="Manu-PN">16SEPC100M</field>
-                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
-            </fields>
-            <libsource lib="device" part="C"/>
-            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
-            <tstamp>543A32F8</tstamp>
-        </comp>
-        <comp ref="C705">
-            <value>0.1uF</value>
+            <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">445-8183-1-ND</field>
@@ -1473,8 +1462,8 @@
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
             <tstamp>543A33EF</tstamp>
         </comp>
-        <comp ref="C706">
-            <value>0.1uF</value>
+        <comp ref="C702">
+            <value>0.1</value>
             <fields>
                 <field name="Supplier">Digi-Key</field>
                 <field name="Supplier-PN">445-8183-1-ND</field>
@@ -1486,44 +1475,57 @@
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
             <tstamp>5449F9E9</tstamp>
         </comp>
-        <comp ref="C703">
-            <value>100uF</value>
+        <comp ref="c701">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
-            <tstamp>5449FA42</tstamp>
+            <tstamp>548575CB</tstamp>
         </comp>
-        <comp ref="C702">
-            <value>100uF</value>
+        <comp ref="c702">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
-            <tstamp>5449FA57</tstamp>
+            <tstamp>54857740</tstamp>
         </comp>
-        <comp ref="C704">
-            <value>100uF</value>
+        <comp ref="c703">
+            <value>100</value>
             <fields>
-                <field name="Supplier">Digi-Key</field>
+                <field name="Supplier">Digi-key</field>
                 <field name="Supplier-PN">P16291-ND</field>
                 <field name="Manu">Panasonic</field>
                 <field name="Manu-PN">16SEPC100M</field>
                 <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
             </fields>
-            <libsource lib="device" part="C"/>
+            <libsource lib="device" part="CP1"/>
             <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
-            <tstamp>5449FA6C</tstamp>
+            <tstamp>54857755</tstamp>
+        </comp>
+        <comp ref="c704">
+            <value>100</value>
+            <fields>
+                <field name="Supplier">Digi-key</field>
+                <field name="Supplier-PN">P16291-ND</field>
+                <field name="Manu">Panasonic</field>
+                <field name="Manu-PN">16SEPC100M</field>
+                <field name="Description">CAP ALUM 100UF 16V 20% RADIAL</field>
+            </fields>
+            <libsource lib="device" part="CP1"/>
+            <sheetpath names="/FILTER_R/" tstamps="/5428BABE/"/>
+            <tstamp>5485776A</tstamp>
         </comp>
     </components>
     <libparts>
@@ -1747,6 +1749,21 @@
                 <pin num="2" name="~" type="passive"/>
             </pins>
         </libpart>
+        <libpart lib="device" part="CP1">
+            <description>Condensateur polarise</description>
+            <footprints>
+                <fp>CP*</fp>
+                <fp>SM*</fp>
+            </footprints>
+            <fields>
+                <field name="Reference">C</field>
+                <field name="Value">CP1</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~" type="passive"/>
+                <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
         <libpart lib="device" part="R">
             <description>Resistance</description>
             <footprints>
@@ -1763,6 +1780,22 @@
             <pins>
                 <pin num="1" name="~" type="passive"/>
                 <pin num="2" name="~" type="passive"/>
+            </pins>
+        </libpart>
+        <libpart lib="microchip_gosselin" part="MCP100-315DI">
+            <fields>
+                <field name="Reference">U</field>
+                <field name="Value">MCP100-315DI</field>
+                <field name="Supplier">Digi-Key</field>
+                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
+                <field name="Manu-PN">MCP100T-315I/TT</field>
+                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
+                <field name="Manu">Microchip</field>
+            </fields>
+            <pins>
+                <pin num="1" name="~RST" type="passive"/>
+                <pin num="2" name="VCC" type="passive"/>
+                <pin num="3" name="GND" type="passive"/>
             </pins>
         </libpart>
         <libpart lib="conn" part="CONN_01X02">
@@ -1796,22 +1829,6 @@
                 <pin num="1" name="P1" type="passive"/>
                 <pin num="2" name="P2" type="passive"/>
                 <pin num="3" name="P3" type="passive"/>
-            </pins>
-        </libpart>
-        <libpart lib="microchip_gosselin" part="MCP100-315DI">
-            <fields>
-                <field name="Reference">U</field>
-                <field name="Value">MCP100-315DI</field>
-                <field name="Supplier">Digi-Key</field>
-                <field name="Description">IC SUPERVISOR ACTIVE LOW SOT23-3</field>
-                <field name="Manu-PN">MCP100T-315I/TT</field>
-                <field name="Supplier-PN">MCP100T-315I/TTCT-ND</field>
-                <field name="Manu">Microchip</field>
-            </fields>
-            <pins>
-                <pin num="1" name="~RST" type="passive"/>
-                <pin num="2" name="VCC" type="passive"/>
-                <pin num="3" name="GND" type="passive"/>
             </pins>
         </libpart>
         <libpart lib="linear_technology_gosselin" part="LT1761">
@@ -1927,32 +1944,32 @@
         </libpart>
     </libparts>
     <libraries>
-        <library logical="wolfson_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/wolfson_gosselin.lib</uri>
-        </library>
         <library logical="conn_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/conn_gosselin.lib</uri>
+            <uri>../libraries/conn_gosselin.lib</uri>
         </library>
         <library logical="oscillator_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/oscillator_gosselin.lib</uri>
+            <uri>../libraries/oscillator_gosselin.lib</uri>
         </library>
         <library logical="ti_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/ti_gosselin.lib</uri>
+            <uri>../libraries/ti_gosselin.lib</uri>
         </library>
-        <library logical="conn">
-            <uri>/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library/conn.lib</uri>
+        <library logical="wolfson_gosselin">
+            <uri>../libraries/wolfson_gosselin.lib</uri>
         </library>
         <library logical="device">
-            <uri>/home/uwhpsc/Documents/kicad_sources/kicad-lib.bzr/library/device.lib</uri>
+            <uri>../libraries/kicad-built-in-libraries/device.lib</uri>
+        </library>
+        <library logical="conn">
+            <uri>../libraries/kicad-built-in-libraries/conn.lib</uri>
         </library>
         <library logical="microchip_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/microchip_gosselin.lib</uri>
+            <uri>../libraries/microchip_gosselin.lib</uri>
         </library>
         <library logical="linear_technology_gosselin">
-            <uri>/home/uwhpsc/Documents/ee/kicad-libs/linear_technology_gosselin.lib</uri>
+            <uri>../libraries/linear_technology_gosselin.lib</uri>
         </library>
         <library logical="led_gosselin">
-            <uri>/home/uwhpsc/Documents/mStereo2/libraries/led_gosselin.lib</uri>
+            <uri>../libraries/led_gosselin.lib</uri>
         </library>
     </libraries>
     <nets>
@@ -1966,294 +1983,296 @@
         </net>
         <net code="3" name="GNDA">
             <node ref="R101" pin="2"/>
-            <node ref="C101" pin="2"/>
             <node ref="R102" pin="2"/>
             <node ref="P101" pin="8"/>
+            <node ref="C101" pin="2"/>
             <node ref="U101" pin="2"/>
             <node ref="U101" pin="8"/>
         </net>
-        <net code="4" name="DGND">
-            <node ref="C104" pin="2"/>
-            <node ref="C103" pin="2"/>
-            <node ref="U301" pin="26"/>
-            <node ref="U301" pin="27"/>
-            <node ref="C303" pin="2"/>
-            <node ref="U301" pin="19"/>
-            <node ref="C304" pin="2"/>
-            <node ref="C306" pin="2"/>
-            <node ref="R301" pin="2"/>
-            <node ref="U102" pin="4"/>
-            <node ref="C312" pin="2"/>
-            <node ref="C310" pin="2"/>
-            <node ref="C308" pin="2"/>
-            <node ref="U101" pin="15"/>
-            <node ref="U104" pin="28"/>
+        <net code="4" name="Net-(D102-Pad2)">
+            <node ref="R102" pin="1"/>
+            <node ref="D102" pin="2"/>
+        </net>
+        <net code="5" name="DGND">
+            <node ref="c602" pin="1"/>
+            <node ref="c603" pin="2"/>
             <node ref="C305" pin="2"/>
-            <node ref="C307" pin="2"/>
-            <node ref="U301" pin="4"/>
-            <node ref="C309" pin="2"/>
-            <node ref="U301" pin="14"/>
-            <node ref="U301" pin="10"/>
-            <node ref="U301" pin="7"/>
-            <node ref="R501" pin="2"/>
-            <node ref="X101" pin="2"/>
-            <node ref="C102" pin="2"/>
-            <node ref="U104" pin="1"/>
-            <node ref="C503" pin="2"/>
-            <node ref="U104" pin="12"/>
-            <node ref="C501" pin="2"/>
-            <node ref="U104" pin="11"/>
-            <node ref="U104" pin="20"/>
-            <node ref="U104" pin="9"/>
-            <node ref="U104" pin="16"/>
-            <node ref="C301" pin="2"/>
-            <node ref="U104" pin="17"/>
-            <node ref="C302" pin="2"/>
-            <node ref="U104" pin="18"/>
-            <node ref="C311" pin="2"/>
-            <node ref="C203" pin="2"/>
-            <node ref="C405" pin="2"/>
-            <node ref="U201" pin="2"/>
+            <node ref="c604" pin="1"/>
             <node ref="C106" pin="2"/>
             <node ref="C107" pin="2"/>
-            <node ref="C201" pin="2"/>
-            <node ref="R401" pin="2"/>
-            <node ref="C412" pin="2"/>
-            <node ref="C410" pin="2"/>
-            <node ref="C408" pin="2"/>
-            <node ref="C401" pin="2"/>
-            <node ref="C402" pin="2"/>
-            <node ref="C411" pin="2"/>
-            <node ref="C406" pin="2"/>
-            <node ref="U501" pin="3"/>
-            <node ref="U101" pin="9"/>
-            <node ref="C409" pin="2"/>
-            <node ref="U401" pin="24"/>
-            <node ref="U401" pin="14"/>
-            <node ref="U401" pin="10"/>
-            <node ref="U401" pin="7"/>
-            <node ref="U401" pin="4"/>
-            <node ref="C407" pin="2"/>
-            <node ref="C403" pin="2"/>
-            <node ref="R103" pin="2"/>
-            <node ref="U401" pin="19"/>
-            <node ref="U401" pin="27"/>
-            <node ref="U401" pin="26"/>
-            <node ref="C404" pin="2"/>
-            <node ref="C703" pin="2"/>
-            <node ref="C702" pin="1"/>
-            <node ref="C704" pin="1"/>
-            <node ref="C105" pin="2"/>
-            <node ref="U103" pin="3"/>
-            <node ref="P105" pin="1"/>
-            <node ref="U701" pin="2"/>
-            <node ref="D104" pin="2"/>
-            <node ref="C601" pin="2"/>
-            <node ref="C701" pin="2"/>
-            <node ref="D105" pin="1"/>
-            <node ref="P103" pin="2"/>
-            <node ref="U702" pin="2"/>
-            <node ref="P102" pin="2"/>
-            <node ref="P104" pin="1"/>
-            <node ref="U104" pin="8"/>
-            <node ref="C603" pin="2"/>
-            <node ref="C602" pin="1"/>
-            <node ref="C604" pin="1"/>
-            <node ref="U501" pin="7"/>
-            <node ref="U104" pin="21"/>
-            <node ref="U602" pin="2"/>
-            <node ref="U501" pin="6"/>
+            <node ref="U104" pin="28"/>
+            <node ref="c601" pin="2"/>
+            <node ref="U301" pin="4"/>
+            <node ref="U104" pin="16"/>
+            <node ref="U104" pin="17"/>
+            <node ref="U104" pin="18"/>
+            <node ref="c306" pin="2"/>
+            <node ref="U301" pin="7"/>
+            <node ref="X101" pin="2"/>
+            <node ref="c701" pin="2"/>
+            <node ref="c702" pin="1"/>
+            <node ref="C102" pin="2"/>
+            <node ref="U104" pin="1"/>
+            <node ref="c703" pin="2"/>
+            <node ref="c704" pin="1"/>
+            <node ref="C302" pin="2"/>
             <node ref="U601" pin="2"/>
+            <node ref="U301" pin="14"/>
+            <node ref="U101" pin="9"/>
+            <node ref="U101" pin="15"/>
+            <node ref="U602" pin="2"/>
+            <node ref="C103" pin="2"/>
+            <node ref="C104" pin="2"/>
+            <node ref="U102" pin="4"/>
+            <node ref="U401" pin="4"/>
+            <node ref="U401" pin="26"/>
+            <node ref="U401" pin="27"/>
+            <node ref="U401" pin="19"/>
+            <node ref="R501" pin="2"/>
+            <node ref="C403" pin="2"/>
+            <node ref="C407" pin="2"/>
+            <node ref="U401" pin="7"/>
+            <node ref="U401" pin="10"/>
+            <node ref="C501" pin="2"/>
+            <node ref="U401" pin="14"/>
+            <node ref="U401" pin="24"/>
+            <node ref="C409" pin="2"/>
+            <node ref="C406" pin="2"/>
+            <node ref="C411" pin="2"/>
+            <node ref="C401" pin="2"/>
+            <node ref="R401" pin="2"/>
+            <node ref="C402" pin="2"/>
+            <node ref="C404" pin="2"/>
+            <node ref="C408" pin="2"/>
+            <node ref="C410" pin="2"/>
+            <node ref="C412" pin="2"/>
+            <node ref="C303" pin="2"/>
+            <node ref="U501" pin="3"/>
+            <node ref="C201" pin="2"/>
+            <node ref="C203" pin="2"/>
+            <node ref="C304" pin="2"/>
+            <node ref="U201" pin="2"/>
+            <node ref="U301" pin="10"/>
+            <node ref="C503" pin="2"/>
+            <node ref="C405" pin="2"/>
+            <node ref="R201" pin="2"/>
+            <node ref="U501" pin="7"/>
+            <node ref="U501" pin="6"/>
+            <node ref="P104" pin="1"/>
+            <node ref="c305" pin="2"/>
+            <node ref="c301" pin="2"/>
+            <node ref="U702" pin="2"/>
+            <node ref="P103" pin="2"/>
+            <node ref="C105" pin="2"/>
+            <node ref="P102" pin="2"/>
+            <node ref="R301" pin="2"/>
+            <node ref="C301" pin="2"/>
+            <node ref="U103" pin="3"/>
+            <node ref="C306" pin="2"/>
+            <node ref="c302" pin="2"/>
+            <node ref="D105" pin="1"/>
+            <node ref="U104" pin="21"/>
+            <node ref="U104" pin="8"/>
+            <node ref="U104" pin="9"/>
+            <node ref="U701" pin="2"/>
+            <node ref="U104" pin="20"/>
+            <node ref="U104" pin="11"/>
+            <node ref="U104" pin="12"/>
+            <node ref="U301" pin="26"/>
+            <node ref="R103" pin="2"/>
+            <node ref="c304" pin="2"/>
+            <node ref="P105" pin="1"/>
+            <node ref="U301" pin="27"/>
+            <node ref="D104" pin="2"/>
+            <node ref="c303" pin="2"/>
+            <node ref="U301" pin="19"/>
         </net>
-        <net code="5" name="Net-(D103-Pad2)">
-            <node ref="D103" pin="2"/>
+        <net code="6" name="Net-(D103-Pad2)">
             <node ref="R103" pin="1"/>
+            <node ref="D103" pin="2"/>
         </net>
-        <net code="6" name="-12V">
-            <node ref="C602" pin="2"/>
-            <node ref="R105" pin="2"/>
+        <net code="7" name="-12V">
+            <node ref="P103" pin="3"/>
             <node ref="U702" pin="6"/>
             <node ref="U701" pin="6"/>
-            <node ref="C606" pin="2"/>
-            <node ref="P103" pin="3"/>
-            <node ref="C705" pin="2"/>
-            <node ref="C706" pin="2"/>
-            <node ref="C704" pin="2"/>
-            <node ref="U601" pin="6"/>
+            <node ref="c604" pin="2"/>
+            <node ref="c602" pin="2"/>
+            <node ref="C602" pin="2"/>
+            <node ref="C601" pin="2"/>
             <node ref="U602" pin="6"/>
+            <node ref="R105" pin="2"/>
+            <node ref="c704" pin="2"/>
+            <node ref="C701" pin="2"/>
             <node ref="C702" pin="2"/>
-            <node ref="C604" pin="2"/>
-            <node ref="C605" pin="2"/>
+            <node ref="c702" pin="2"/>
+            <node ref="U601" pin="6"/>
         </net>
-        <net code="7" name="Net-(D104-Pad1)">
-            <node ref="R104" pin="2"/>
-            <node ref="D104" pin="1"/>
-        </net>
-        <net code="8" name="+12V">
-            <node ref="C605" pin="1"/>
-            <node ref="C601" pin="1"/>
-            <node ref="C705" pin="1"/>
-            <node ref="C701" pin="1"/>
-            <node ref="U601" pin="3"/>
-            <node ref="R104" pin="1"/>
-            <node ref="U602" pin="3"/>
-            <node ref="U701" pin="3"/>
-            <node ref="C706" pin="1"/>
-            <node ref="C703" pin="1"/>
-            <node ref="C606" pin="1"/>
-            <node ref="P103" pin="1"/>
-            <node ref="C603" pin="1"/>
-            <node ref="U702" pin="3"/>
-        </net>
-        <net code="9" name="Net-(D102-Pad2)">
-            <node ref="D102" pin="2"/>
-            <node ref="R102" pin="1"/>
-        </net>
-        <net code="10" name="/FILTER_L/VIN-">
-            <node ref="U401" pin="16"/>
-            <node ref="R602" pin="1"/>
-            <node ref="U401" pin="12"/>
-        </net>
-        <net code="11" name="VDD">
-            <node ref="U301" pin="6"/>
-            <node ref="U301" pin="8"/>
-            <node ref="U301" pin="23"/>
-            <node ref="U301" pin="24"/>
-            <node ref="U101" pin="16"/>
-            <node ref="U301" pin="28"/>
-            <node ref="C103" pin="1"/>
-            <node ref="U301" pin="25"/>
-            <node ref="U401" pin="28"/>
-            <node ref="U101" pin="10"/>
-            <node ref="C401" pin="1"/>
-            <node ref="C402" pin="1"/>
-            <node ref="U104" pin="27"/>
-            <node ref="U104" pin="7"/>
-            <node ref="U501" pin="2"/>
-            <node ref="U501" pin="1"/>
-            <node ref="C502" pin="1"/>
-            <node ref="C105" pin="1"/>
-            <node ref="U103" pin="2"/>
-            <node ref="C301" pin="1"/>
-            <node ref="C302" pin="1"/>
-            <node ref="U104" pin="19"/>
-            <node ref="U104" pin="26"/>
-            <node ref="D501" pin="1"/>
-            <node ref="U104" pin="22"/>
-            <node ref="C501" pin="1"/>
-            <node ref="U104" pin="10"/>
-            <node ref="C106" pin="1"/>
-            <node ref="C107" pin="1"/>
-            <node ref="U401" pin="8"/>
-            <node ref="U401" pin="25"/>
-            <node ref="U401" pin="23"/>
-            <node ref="U401" pin="6"/>
-        </net>
-        <net code="12" name="/~RST">
-            <node ref="U103" pin="1"/>
-            <node ref="U104" pin="13"/>
-        </net>
-        <net code="13" name="Net-(D105-Pad2)">
+        <net code="8" name="Net-(D105-Pad2)">
             <node ref="D105" pin="2"/>
             <node ref="R105" pin="1"/>
         </net>
+        <net code="9" name="Net-(D104-Pad1)">
+            <node ref="R104" pin="2"/>
+            <node ref="D104" pin="1"/>
+        </net>
+        <net code="10" name="+12V">
+            <node ref="C602" pin="1"/>
+            <node ref="C701" pin="1"/>
+            <node ref="U601" pin="3"/>
+            <node ref="P103" pin="1"/>
+            <node ref="U602" pin="3"/>
+            <node ref="C601" pin="1"/>
+            <node ref="R104" pin="1"/>
+            <node ref="c601" pin="1"/>
+            <node ref="C702" pin="1"/>
+            <node ref="c701" pin="1"/>
+            <node ref="c703" pin="1"/>
+            <node ref="U702" pin="3"/>
+            <node ref="U701" pin="3"/>
+            <node ref="c603" pin="1"/>
+        </net>
+        <net code="11" name="/FILTER_L/VIN-">
+            <node ref="R602" pin="1"/>
+            <node ref="U401" pin="16"/>
+            <node ref="U401" pin="12"/>
+        </net>
+        <net code="12" name="VDD">
+            <node ref="C301" pin="1"/>
+            <node ref="C402" pin="1"/>
+            <node ref="C401" pin="1"/>
+            <node ref="U401" pin="25"/>
+            <node ref="U401" pin="23"/>
+            <node ref="C501" pin="1"/>
+            <node ref="U401" pin="8"/>
+            <node ref="U401" pin="6"/>
+            <node ref="D501" pin="1"/>
+            <node ref="U401" pin="28"/>
+            <node ref="U101" pin="16"/>
+            <node ref="U101" pin="10"/>
+            <node ref="U301" pin="24"/>
+            <node ref="U301" pin="23"/>
+            <node ref="U104" pin="26"/>
+            <node ref="U104" pin="22"/>
+            <node ref="U104" pin="10"/>
+            <node ref="U104" pin="7"/>
+            <node ref="U301" pin="28"/>
+            <node ref="U301" pin="25"/>
+            <node ref="U104" pin="19"/>
+            <node ref="U104" pin="27"/>
+            <node ref="U301" pin="6"/>
+            <node ref="U301" pin="8"/>
+            <node ref="C103" pin="1"/>
+            <node ref="C107" pin="1"/>
+            <node ref="C106" pin="1"/>
+            <node ref="c301" pin="1"/>
+            <node ref="C105" pin="1"/>
+            <node ref="C502" pin="1"/>
+            <node ref="U501" pin="1"/>
+            <node ref="U501" pin="2"/>
+            <node ref="U103" pin="2"/>
+        </net>
+        <net code="13" name="/~RST">
+            <node ref="U104" pin="13"/>
+            <node ref="U103" pin="1"/>
+        </net>
         <net code="14" name="+5V">
-            <node ref="C312" pin="1"/>
-            <node ref="C308" pin="1"/>
-            <node ref="U301" pin="9"/>
-            <node ref="U301" pin="20"/>
+            <node ref="C302" pin="1"/>
             <node ref="U301" pin="15"/>
-            <node ref="C303" pin="1"/>
+            <node ref="c302" pin="1"/>
             <node ref="C304" pin="1"/>
-            <node ref="C307" pin="1"/>
-            <node ref="U501" pin="8"/>
-            <node ref="U501" pin="5"/>
+            <node ref="U301" pin="9"/>
+            <node ref="c306" pin="1"/>
+            <node ref="C306" pin="1"/>
+            <node ref="c304" pin="1"/>
+            <node ref="U301" pin="20"/>
+            <node ref="U201" pin="3"/>
+            <node ref="P102" pin="1"/>
             <node ref="C201" pin="1"/>
             <node ref="U201" pin="1"/>
-            <node ref="P102" pin="1"/>
-            <node ref="C311" pin="1"/>
-            <node ref="C503" pin="1"/>
-            <node ref="U401" pin="20"/>
-            <node ref="U401" pin="9"/>
-            <node ref="U401" pin="15"/>
+            <node ref="U501" pin="5"/>
+            <node ref="U501" pin="8"/>
+            <node ref="C404" pin="1"/>
             <node ref="C412" pin="1"/>
             <node ref="C408" pin="1"/>
-            <node ref="C407" pin="1"/>
             <node ref="C411" pin="1"/>
             <node ref="C403" pin="1"/>
-            <node ref="C404" pin="1"/>
+            <node ref="C407" pin="1"/>
+            <node ref="U401" pin="9"/>
+            <node ref="U401" pin="15"/>
+            <node ref="C503" pin="1"/>
+            <node ref="U401" pin="20"/>
         </net>
         <net code="15" name="/DAC_L/MCLK">
-            <node ref="U102" pin="8"/>
             <node ref="U401" pin="5"/>
+            <node ref="U102" pin="8"/>
         </net>
         <net code="16" name="/SRC_MCLK">
             <node ref="U104" pin="2"/>
             <node ref="U102" pin="5"/>
         </net>
         <net code="17" name="/FILTER_L/VOUT-">
-            <node ref="R614" pin="2"/>
             <node ref="P104" pin="3"/>
+            <node ref="R614" pin="2"/>
         </net>
         <net code="18" name="/FILTER_L/VOUT+">
             <node ref="R613" pin="2"/>
             <node ref="P104" pin="2"/>
         </net>
-        <net code="19" name="/FILTER_R/VOUT-">
+        <net code="19" name="/FILTER_R/VIN-">
+            <node ref="U301" pin="17"/>
+            <node ref="R702" pin="1"/>
+            <node ref="U301" pin="13"/>
+        </net>
+        <net code="20" name="/DAC_R/MCLK">
+            <node ref="U301" pin="5"/>
+            <node ref="U102" pin="7"/>
+        </net>
+        <net code="21" name="Net-(U101-Pad6)">
+            <node ref="U101" pin="6"/>
+        </net>
+        <net code="22" name="/FILTER_R/VOUT-">
             <node ref="P105" pin="3"/>
             <node ref="R714" pin="2"/>
         </net>
-        <net code="20" name="/FILTER_R/VOUT+">
-            <node ref="R713" pin="2"/>
+        <net code="23" name="/FILTER_R/VOUT+">
             <node ref="P105" pin="2"/>
+            <node ref="R713" pin="2"/>
         </net>
-        <net code="21" name="/FILTER_R/VIN-">
-            <node ref="R702" pin="1"/>
-            <node ref="U301" pin="17"/>
-            <node ref="U301" pin="13"/>
+        <net code="24" name="Net-(D103-Pad1)">
+            <node ref="U104" pin="15"/>
+            <node ref="U104" pin="14"/>
+            <node ref="D103" pin="1"/>
         </net>
-        <net code="22" name="/DAC_R/MCLK">
-            <node ref="U102" pin="7"/>
-            <node ref="U301" pin="5"/>
-        </net>
-        <net code="23" name="/FILTER_R/VIN+">
+        <net code="25" name="/FILTER_R/VIN+">
+            <node ref="U301" pin="12"/>
             <node ref="R701" pin="1"/>
             <node ref="U301" pin="16"/>
-            <node ref="U301" pin="12"/>
-        </net>
-        <net code="24" name="Net-(U101-Pad6)">
-            <node ref="U101" pin="6"/>
-        </net>
-        <net code="25" name="Net-(D103-Pad1)">
-            <node ref="U104" pin="15"/>
-            <node ref="D103" pin="1"/>
-            <node ref="U104" pin="14"/>
         </net>
         <net code="26" name="/FILTER_L/VIN+">
-            <node ref="U401" pin="13"/>
-            <node ref="U401" pin="17"/>
             <node ref="R601" pin="1"/>
+            <node ref="U401" pin="17"/>
+            <node ref="U401" pin="13"/>
         </net>
-        <net code="27" name="Net-(U102-Pad1)">
-            <node ref="X101" pin="3"/>
-            <node ref="U102" pin="1"/>
-        </net>
-        <net code="28" name="VCC">
-            <node ref="D201" pin="1"/>
-            <node ref="U201" pin="5"/>
-            <node ref="C102" pin="1"/>
-            <node ref="C203" pin="1"/>
-            <node ref="C202" pin="1"/>
-            <node ref="C104" pin="1"/>
-            <node ref="U102" pin="6"/>
-            <node ref="X101" pin="1"/>
-            <node ref="X101" pin="4"/>
-        </net>
-        <net code="29" name="VAA">
-            <node ref="D102" pin="1"/>
-            <node ref="P101" pin="9"/>
-            <node ref="C101" pin="1"/>
+        <net code="27" name="VAA">
             <node ref="U101" pin="1"/>
+            <node ref="C101" pin="1"/>
+            <node ref="P101" pin="9"/>
+            <node ref="D102" pin="1"/>
+        </net>
+        <net code="28" name="Net-(U102-Pad1)">
+            <node ref="U102" pin="1"/>
+            <node ref="X101" pin="3"/>
+        </net>
+        <net code="29" name="VCC">
+            <node ref="C102" pin="1"/>
+            <node ref="U102" pin="6"/>
+            <node ref="C203" pin="1"/>
+            <node ref="X101" pin="4"/>
+            <node ref="U201" pin="5"/>
+            <node ref="C202" pin="1"/>
+            <node ref="D201" pin="1"/>
+            <node ref="C104" pin="1"/>
+            <node ref="X101" pin="1"/>
         </net>
         <net code="30" name="Net-(U104-Pad3)">
             <node ref="U104" pin="3"/>
@@ -2263,8 +2282,8 @@
             <node ref="U101" pin="5"/>
         </net>
         <net code="32" name="/BCLK_1">
-            <node ref="P101" pin="4"/>
             <node ref="U101" pin="4"/>
+            <node ref="P101" pin="4"/>
         </net>
         <net code="33" name="/LRCLK_1">
             <node ref="U101" pin="3"/>
@@ -2324,228 +2343,222 @@
         <net code="51" name="Net-(U101-Pad7)">
             <node ref="U101" pin="7"/>
         </net>
-        <net code="52" name="/DAC_L/DATA">
-            <node ref="U301" pin="2"/>
-            <node ref="U104" pin="23"/>
-            <node ref="U401" pin="2"/>
-        </net>
-        <net code="53" name="/DAC_L/BCLK">
-            <node ref="U401" pin="3"/>
-            <node ref="U104" pin="25"/>
-            <node ref="U301" pin="3"/>
-        </net>
-        <net code="54" name="/DATA_2">
-            <node ref="U104" pin="4"/>
-            <node ref="U101" pin="12"/>
-        </net>
-        <net code="55" name="/BCLK_2">
-            <node ref="U104" pin="5"/>
-            <node ref="U101" pin="13"/>
-        </net>
-        <net code="56" name="/LRCLK_2">
-            <node ref="U101" pin="14"/>
-            <node ref="U104" pin="6"/>
-        </net>
-        <net code="57" name="/DAC_L/LRCLK">
+        <net code="52" name="/DAC_L/LRCLK">
+            <node ref="U104" pin="24"/>
             <node ref="U301" pin="1"/>
             <node ref="U401" pin="1"/>
-            <node ref="U104" pin="24"/>
         </net>
-        <net code="58" name="Net-(D201-Pad2)">
+        <net code="53" name="/DAC_L/BCLK">
+            <node ref="U301" pin="3"/>
+            <node ref="U104" pin="25"/>
+            <node ref="U401" pin="3"/>
+        </net>
+        <net code="54" name="/DATA_2">
+            <node ref="U101" pin="12"/>
+            <node ref="U104" pin="4"/>
+        </net>
+        <net code="55" name="/BCLK_2">
+            <node ref="U101" pin="13"/>
+            <node ref="U104" pin="5"/>
+        </net>
+        <net code="56" name="/LRCLK_2">
+            <node ref="U104" pin="6"/>
+            <node ref="U101" pin="14"/>
+        </net>
+        <net code="57" name="/DAC_L/DATA">
+            <node ref="U401" pin="2"/>
+            <node ref="U301" pin="2"/>
+            <node ref="U104" pin="23"/>
+        </net>
+        <net code="58" name="Net-(C202-Pad2)">
+            <node ref="C202" pin="2"/>
+            <node ref="U201" pin="4"/>
+        </net>
+        <net code="59" name="Net-(D201-Pad2)">
             <node ref="R201" pin="1"/>
             <node ref="D201" pin="2"/>
         </net>
-        <net code="59" name="Net-(R201-Pad2)">
-            <node ref="R201" pin="2"/>
-        </net>
-        <net code="60" name="Net-(U201-Pad3)">
-            <node ref="U201" pin="3"/>
-        </net>
-        <net code="61" name="Net-(C202-Pad2)">
-            <node ref="U201" pin="4"/>
-            <node ref="C202" pin="2"/>
-        </net>
-        <net code="62" name="Net-(U401-Pad22)">
+        <net code="60" name="Net-(U401-Pad22)">
             <node ref="U401" pin="22"/>
         </net>
-        <net code="63" name="Net-(D401-Pad1)">
-            <node ref="U401" pin="21"/>
+        <net code="61" name="Net-(D401-Pad1)">
             <node ref="D401" pin="1"/>
+            <node ref="U401" pin="21"/>
         </net>
-        <net code="64" name="Net-(C409-Pad1)">
-            <node ref="U401" pin="18"/>
-            <node ref="C409" pin="1"/>
-            <node ref="C410" pin="1"/>
-        </net>
-        <net code="65" name="Net-(D401-Pad2)">
+        <net code="62" name="Net-(D401-Pad2)">
             <node ref="D401" pin="2"/>
             <node ref="R401" pin="1"/>
         </net>
-        <net code="66" name="Net-(C405-Pad1)">
-            <node ref="C405" pin="1"/>
+        <net code="63" name="Net-(C409-Pad1)">
+            <node ref="C410" pin="1"/>
+            <node ref="C409" pin="1"/>
+            <node ref="U401" pin="18"/>
+        </net>
+        <net code="64" name="Net-(C405-Pad1)">
             <node ref="U401" pin="11"/>
+            <node ref="C405" pin="1"/>
             <node ref="C406" pin="1"/>
         </net>
-        <net code="67" name="Net-(U301-Pad22)">
+        <net code="65" name="Net-(U301-Pad22)">
             <node ref="U301" pin="22"/>
         </net>
-        <net code="68" name="Net-(D301-Pad1)">
+        <net code="66" name="Net-(D301-Pad1)">
             <node ref="D301" pin="1"/>
             <node ref="U301" pin="21"/>
         </net>
-        <net code="69" name="Net-(C309-Pad1)">
-            <node ref="C309" pin="1"/>
-            <node ref="C310" pin="1"/>
+        <net code="67" name="Net-(C305-Pad1)">
+            <node ref="C305" pin="1"/>
             <node ref="U301" pin="18"/>
+            <node ref="c305" pin="1"/>
         </net>
-        <net code="70" name="Net-(D301-Pad2)">
+        <net code="68" name="Net-(D301-Pad2)">
             <node ref="D301" pin="2"/>
             <node ref="R301" pin="1"/>
         </net>
-        <net code="71" name="Net-(C305-Pad1)">
-            <node ref="C306" pin="1"/>
-            <node ref="C305" pin="1"/>
+        <net code="69" name="Net-(C303-Pad1)">
+            <node ref="C303" pin="1"/>
+            <node ref="c303" pin="1"/>
             <node ref="U301" pin="11"/>
         </net>
-        <net code="72" name="Net-(C502-Pad2)">
-            <node ref="C502" pin="2"/>
+        <net code="70" name="Net-(C502-Pad2)">
             <node ref="U501" pin="4"/>
+            <node ref="C502" pin="2"/>
         </net>
-        <net code="73" name="Net-(D501-Pad2)">
-            <node ref="D501" pin="2"/>
+        <net code="71" name="Net-(D501-Pad2)">
             <node ref="R501" pin="1"/>
+            <node ref="D501" pin="2"/>
         </net>
-        <net code="74" name="Net-(R610-Pad2)">
-            <node ref="U602" pin="1"/>
-            <node ref="R612" pin="1"/>
-            <node ref="R610" pin="2"/>
-        </net>
-        <net code="75" name="Net-(C608-Pad1)">
-            <node ref="R609" pin="1"/>
-            <node ref="R607" pin="2"/>
-            <node ref="C608" pin="1"/>
-        </net>
-        <net code="76" name="Net-(C608-Pad2)">
-            <node ref="R610" pin="1"/>
+        <net code="72" name="Net-(C604-Pad2)">
             <node ref="R608" pin="2"/>
-            <node ref="C608" pin="2"/>
+            <node ref="R610" pin="1"/>
+            <node ref="C604" pin="2"/>
         </net>
-        <net code="77" name="Net-(R604-Pad2)">
-            <node ref="R606" pin="1"/>
+        <net code="73" name="Net-(R604-Pad2)">
             <node ref="R604" pin="2"/>
+            <node ref="R606" pin="1"/>
             <node ref="U601" pin="1"/>
         </net>
-        <net code="78" name="Net-(R606-Pad2)">
-            <node ref="U601" pin="4"/>
-            <node ref="R606" pin="2"/>
-            <node ref="R608" pin="1"/>
+        <net code="74" name="Net-(C604-Pad1)">
+            <node ref="R609" pin="1"/>
+            <node ref="R607" pin="2"/>
+            <node ref="C604" pin="1"/>
         </net>
-        <net code="79" name="Net-(R609-Pad2)">
-            <node ref="R609" pin="2"/>
+        <net code="75" name="Net-(R606-Pad2)">
+            <node ref="U601" pin="4"/>
+            <node ref="R608" pin="1"/>
+            <node ref="R606" pin="2"/>
+        </net>
+        <net code="76" name="Net-(R609-Pad2)">
             <node ref="U602" pin="8"/>
+            <node ref="R609" pin="2"/>
             <node ref="R611" pin="1"/>
         </net>
-        <net code="80" name="Net-(C607-Pad2)">
-            <node ref="C607" pin="2"/>
+        <net code="77" name="Net-(R610-Pad2)">
+            <node ref="R610" pin="2"/>
+            <node ref="R612" pin="1"/>
+            <node ref="U602" pin="1"/>
+        </net>
+        <net code="78" name="Net-(C603-Pad2)">
+            <node ref="C603" pin="2"/>
             <node ref="R604" pin="1"/>
             <node ref="R602" pin="2"/>
         </net>
-        <net code="81" name="Net-(R611-Pad2)">
-            <node ref="R613" pin="1"/>
-            <node ref="R611" pin="2"/>
-            <node ref="U602" pin="5"/>
-        </net>
-        <net code="82" name="Net-(R612-Pad2)">
-            <node ref="R612" pin="2"/>
+        <net code="79" name="Net-(R612-Pad2)">
             <node ref="R614" pin="1"/>
+            <node ref="R612" pin="2"/>
             <node ref="U602" pin="4"/>
         </net>
-        <net code="83" name="Net-(C607-Pad1)">
+        <net code="80" name="Net-(C603-Pad1)">
             <node ref="R601" pin="2"/>
-            <node ref="C607" pin="1"/>
+            <node ref="C603" pin="1"/>
             <node ref="R603" pin="1"/>
         </net>
-        <net code="84" name="Net-(R603-Pad2)">
+        <net code="81" name="Net-(R603-Pad2)">
+            <node ref="R605" pin="1"/>
             <node ref="U601" pin="8"/>
             <node ref="R603" pin="2"/>
-            <node ref="R605" pin="1"/>
         </net>
-        <net code="85" name="Net-(R605-Pad2)">
-            <node ref="R607" pin="1"/>
-            <node ref="U601" pin="5"/>
+        <net code="82" name="Net-(R605-Pad2)">
             <node ref="R605" pin="2"/>
+            <node ref="U601" pin="5"/>
+            <node ref="R607" pin="1"/>
         </net>
-        <net code="86" name="Net-(U601-Pad7)">
+        <net code="83" name="Net-(R611-Pad2)">
+            <node ref="R611" pin="2"/>
+            <node ref="U602" pin="5"/>
+            <node ref="R613" pin="1"/>
+        </net>
+        <net code="84" name="Net-(U601-Pad7)">
             <node ref="U601" pin="7"/>
         </net>
-        <net code="87" name="Net-(U602-Pad7)">
+        <net code="85" name="Net-(U602-Pad7)">
             <node ref="U602" pin="7"/>
         </net>
-        <net code="88" name="Net-(C708-Pad2)">
-            <node ref="R708" pin="2"/>
-            <node ref="C708" pin="2"/>
-            <node ref="R710" pin="1"/>
+        <net code="86" name="Net-(R704-Pad2)">
+            <node ref="R704" pin="2"/>
+            <node ref="R706" pin="1"/>
+            <node ref="U701" pin="1"/>
         </net>
-        <net code="89" name="Net-(R706-Pad2)">
+        <net code="87" name="Net-(C704-Pad1)">
+            <node ref="R709" pin="1"/>
+            <node ref="R707" pin="2"/>
+            <node ref="C704" pin="1"/>
+        </net>
+        <net code="88" name="Net-(C704-Pad2)">
+            <node ref="R710" pin="1"/>
+            <node ref="C704" pin="2"/>
+            <node ref="R708" pin="2"/>
+        </net>
+        <net code="89" name="Net-(R711-Pad2)">
+            <node ref="R713" pin="1"/>
+            <node ref="U702" pin="5"/>
+            <node ref="R711" pin="2"/>
+        </net>
+        <net code="90" name="Net-(R710-Pad2)">
+            <node ref="R712" pin="1"/>
+            <node ref="R710" pin="2"/>
+            <node ref="U702" pin="1"/>
+        </net>
+        <net code="91" name="Net-(R706-Pad2)">
             <node ref="U701" pin="4"/>
             <node ref="R708" pin="1"/>
             <node ref="R706" pin="2"/>
         </net>
-        <net code="90" name="Net-(C708-Pad1)">
-            <node ref="C708" pin="1"/>
-            <node ref="R707" pin="2"/>
-            <node ref="R709" pin="1"/>
-        </net>
-        <net code="91" name="Net-(R710-Pad2)">
-            <node ref="U702" pin="1"/>
-            <node ref="R710" pin="2"/>
-            <node ref="R712" pin="1"/>
-        </net>
-        <net code="92" name="Net-(R704-Pad2)">
-            <node ref="U701" pin="1"/>
-            <node ref="R704" pin="2"/>
-            <node ref="R706" pin="1"/>
-        </net>
-        <net code="93" name="Net-(R709-Pad2)">
-            <node ref="U702" pin="8"/>
-            <node ref="R709" pin="2"/>
-            <node ref="R711" pin="1"/>
-        </net>
-        <net code="94" name="Net-(C707-Pad2)">
-            <node ref="R704" pin="1"/>
+        <net code="92" name="Net-(C703-Pad2)">
             <node ref="R702" pin="2"/>
-            <node ref="C707" pin="2"/>
+            <node ref="C703" pin="2"/>
+            <node ref="R704" pin="1"/>
         </net>
-        <net code="95" name="Net-(R711-Pad2)">
-            <node ref="R713" pin="1"/>
-            <node ref="R711" pin="2"/>
-            <node ref="U702" pin="5"/>
-        </net>
-        <net code="96" name="Net-(R712-Pad2)">
+        <net code="93" name="Net-(R712-Pad2)">
             <node ref="U702" pin="4"/>
             <node ref="R712" pin="2"/>
             <node ref="R714" pin="1"/>
         </net>
-        <net code="97" name="Net-(C707-Pad1)">
-            <node ref="C707" pin="1"/>
-            <node ref="R701" pin="2"/>
+        <net code="94" name="Net-(C703-Pad1)">
             <node ref="R703" pin="1"/>
+            <node ref="C703" pin="1"/>
+            <node ref="R701" pin="2"/>
         </net>
-        <net code="98" name="Net-(R703-Pad2)">
+        <net code="95" name="Net-(R703-Pad2)">
+            <node ref="R703" pin="2"/>
             <node ref="U701" pin="8"/>
             <node ref="R705" pin="1"/>
-            <node ref="R703" pin="2"/>
         </net>
-        <net code="99" name="Net-(U701-Pad7)">
+        <net code="96" name="Net-(R705-Pad2)">
+            <node ref="U701" pin="5"/>
+            <node ref="R705" pin="2"/>
+            <node ref="R707" pin="1"/>
+        </net>
+        <net code="97" name="Net-(U701-Pad7)">
             <node ref="U701" pin="7"/>
         </net>
-        <net code="100" name="Net-(U702-Pad7)">
+        <net code="98" name="Net-(U702-Pad7)">
             <node ref="U702" pin="7"/>
         </net>
-        <net code="101" name="Net-(R705-Pad2)">
-            <node ref="R707" pin="1"/>
-            <node ref="R705" pin="2"/>
-            <node ref="U701" pin="5"/>
+        <net code="99" name="Net-(R709-Pad2)">
+            <node ref="R709" pin="2"/>
+            <node ref="R711" pin="1"/>
+            <node ref="U702" pin="8"/>
         </net>
     </nets>
 </export>

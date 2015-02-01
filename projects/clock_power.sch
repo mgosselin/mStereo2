@@ -3,7 +3,6 @@ LIBS:conn_gosselin
 LIBS:ti_gosselin
 LIBS:oscillator_gosselin
 LIBS:wolfson_gosselin
-LIBS:analog_devices_gosselin
 LIBS:power
 LIBS:device
 LIBS:conn
@@ -59,22 +58,6 @@ Wire Wire Line
 Connection ~ 6900 5000
 Text HLabel 7450 3800 2    60   Input ~ 0
 VOUT
-$Comp
-L C C203
-U 1 1 544A157E
-P 6900 4400
-F 0 "C203" H 6900 4500 40  0000 L CNN
-F 1 "22" H 6906 4315 40  0000 L CNN
-F 2 "" H 6938 4250 30  0000 C CNN
-F 3 "" H 6900 4400 60  0000 C CNN
-F 4 "Digi-Key" H 6900 4400 60  0001 C CNN "Supplier"
-F 5 "P16405CT-ND" H 6900 4400 60  0001 C CNN "Supplier-PN"
-F 6 "Panasonic" H 6900 4400 60  0001 C CNN "Manu"
-F 7 "32SEPF22M+TSS" H 6900 4400 60  0001 C CNN "Manu-PN"
-F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 6900 4400 60  0001 C CNN "Description"
-	1    6900 4400
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C202
 U 1 1 544A1C6E
@@ -169,4 +152,20 @@ Connection ~ 7200 5000
 Wire Wire Line
 	5000 4000 4600 4000
 Connection ~ 4600 4000
+$Comp
+L CP1 C203
+U 1 1 54858D85
+P 6900 4400
+F 0 "C203" H 6950 4500 50  0000 L CNN
+F 1 "22" H 6950 4300 50  0000 L CNN
+F 2 "" H 6900 4400 60  0000 C CNN
+F 3 "" H 6900 4400 60  0000 C CNN
+F 4 "Digi-key" H 6900 4400 60  0001 C CNN "Supplier"
+F 5 "P16405CT-ND" H 6900 4400 60  0001 C CNN "Supplier-PN"
+F 6 "Panasonic" H 6900 4400 60  0001 C CNN "Manu"
+F 7 "32SEPF22M+TSS" H 6900 4400 60  0001 C CNN "Manu-PN"
+F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 6900 4400 60  0001 C CNN "Description"
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
