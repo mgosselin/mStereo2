@@ -2,14 +2,13 @@ EESchema Schematic File Version 2
 LIBS:conn_gosselin
 LIBS:ti_gosselin
 LIBS:oscillator_gosselin
-LIBS:wolfson_gosselin
 LIBS:power
 LIBS:device
 LIBS:conn
 LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
 LIBS:led_gosselin
-LIBS:mStereo2-cache
+LIBS:wolfson_gosselin
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -24,22 +23,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L WM874XX U401
-U 1 1 541316E3
-P 5800 3950
-F 0 "U401" H 5800 3950 60  0000 C CNN
-F 1 "WM8741" H 5850 4750 60  0000 C CNN
-F 2 "" H 5800 3750 60  0000 C CNN
-F 3 "" H 5800 3750 60  0000 C CNN
-F 4 "Mouser" H 5950 5000 60  0001 C CNN "Supplier"
-F 5 "238-WM8741GEDS/V" H 6300 5100 60  0001 C CNN "Supplier-PN"
-F 6 "Wolfson Microelectronics" H 6350 5200 60  0001 C CNN "Manu"
-F 7 "WM8741GEDS/V" H 6150 5300 60  0001 C CNN "Manu-PN"
-F 8 "Audio D/A Converter ICs Stereo DAC, High End " H 6900 5400 60  0001 C CNN "Description"
-	1    5800 3950
-	1    0    0    -1  
-$EndComp
 Text HLabel 4750 3300 0    60   Input ~ 0
 LRCLK
 Text HLabel 4750 3400 0    60   Input ~ 0
@@ -443,6 +426,22 @@ F 6 "Panasonic" H 8800 4650 60  0001 C CNN "Manu"
 F 7 "32SEPF22M+TSS" H 8800 4650 60  0001 C CNN "Manu-PN"
 F 8 "CAP ALUM 22UF 32V 20% RADIAL" H 8800 4650 60  0001 C CNN "Description"
 	1    8800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L WM8741 U401
+U 1 1 54D07979
+P 5800 3950
+F 0 "U401" H 5800 3950 60  0000 C CNN
+F 1 "WM8741" H 5850 4750 60  0000 C CNN
+F 2 "" H 5800 3750 60  0000 C CNN
+F 3 "" H 5800 3750 60  0000 C CNN
+F 4 "238-WM8741GEDS/V" H 6300 5100 60  0001 C CNN "Supplier-PN"
+F 5 "Mouser" H 5950 5000 60  0001 C CNN "Supplier"
+F 6 "Audio D/A Converter ICs Stereo DAC, High End " H 6900 5400 60  0001 C CNN "Description"
+F 7 "WM8741GEDS/V" H 6150 5300 60  0001 C CNN "Manu-PN"
+F 8 "Wolfson Microelectronics" H 6350 5200 60  0001 C CNN "Manu"
+	1    5800 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

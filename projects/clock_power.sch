@@ -2,14 +2,13 @@ EESchema Schematic File Version 2
 LIBS:conn_gosselin
 LIBS:ti_gosselin
 LIBS:oscillator_gosselin
-LIBS:wolfson_gosselin
 LIBS:power
 LIBS:device
 LIBS:conn
 LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
 LIBS:led_gosselin
-LIBS:mStereo2-cache
+LIBS:wolfson_gosselin
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268

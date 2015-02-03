@@ -1,4 +1,4 @@
-update=Sun 01 Feb 2015 12:13:41 AM PST
+update=Mon 02 Feb 2015 10:22:40 PM PST
 version=1
 last_client=eeschema
 [pcbnew]
@@ -60,10 +60,10 @@ LabSize=60
 LibName1=conn_gosselin
 LibName2=ti_gosselin
 LibName3=oscillator_gosselin
-LibName4=wolfson_gosselin
-LibName5=power
-LibName6=device
-LibName7=conn
-LibName8=microchip_gosselin
-LibName9=linear_technology_gosselin
-LibName10=led_gosselin
+LibName4=power
+LibName5=device
+LibName6=conn
+LibName7=microchip_gosselin
+LibName8=linear_technology_gosselin
+LibName9=led_gosselin
+LibName10=wolfson_gosselin
