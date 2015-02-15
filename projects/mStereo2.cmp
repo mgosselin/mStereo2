@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-03 BZR 4658)-product date = Mon 02 Feb 2015 10:47:33 PM PST
+Cmp-Mod V01 Created by CvPcb (2014-02-03 BZR 4658)-product date = Sun 15 Feb 2015 02:26:32 PM PST
 
 BeginCmp
 TimeStamp = /5400AA65;
@@ -760,7 +760,7 @@ BeginCmp
 TimeStamp = /54126B8F/545739AA;
 Reference = U201;
 ValeurCmp = LT1761;
-IdModule  = microchip_gosselin:SOT-23-3;
+IdModule  = linear_gosselin:SOT-23-5;
 EndCmp
 
 BeginCmp
@@ -781,7 +781,7 @@ BeginCmp
 TimeStamp = /541597AB/544E0B1D;
 Reference = U501;
 ValeurCmp = LT1763;
-IdModule  = linear_gosselin:SOT-23-5;
+IdModule  = linear_gosselin:SOIC-8;
 EndCmp
 
 BeginCmp
