@@ -9,7 +9,6 @@ LIBS:microchip_gosselin
 LIBS:linear_technology_gosselin
 LIBS:led_gosselin
 LIBS:wolfson_gosselin
-LIBS:mStereo2-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1706,7 +1705,7 @@ Wire Wire Line
 	10450 4600 10600 4600
 Text Notes 550  750  0    60   ~ 0
 Board perimiter must fit 1U x 8in. deep rack case (400mm W x 200mm L)
-Text Notes 550  1000 0    60   ~ 0
+Text Notes 550  1100 0    60   ~ 0
 Internal layers for GND and VCC. Top and Bottom for signals.\nThis allows solid planes (VCC and GND) under components.
 $Comp
 L CONN_01X03 P105
@@ -1726,6 +1725,8 @@ F 8 "XLR Connectors 3P MALE CHASS HORIZONTAL 1" H 10800 4700 60  0001 C CNN "Des
 $EndComp
 Text Notes 550  7700 0    60   ~ 0
 Meaured mating length for Sullins connectors = 13.11 mm\n\nRec. Amanero standoff = 12.0 mm (0.472 in) [24434K-ND]\nAlt. Amanero standoff = 12.7 mm (0.500 in) [2203K-ND]\nRec. male connector for Amanero: [S9172-ND]\nAlt. male connector for Amanero: [952-2130-ND]\nMating XLR connector: [NC3FXX-B]\nAlternate XLR connector part number: [NC3MAAH]\n
-Text Notes 550  1450 0    60   ~ 0
+Text Notes 550  1550 0    60   ~ 0
 Required board top clearance = 23.83 mm\nBoard-to-board mating height for Amanero connectors = 11.6 mm\nGap from board edge to rear panel = 1 mm\nDist. from XLR ctr. pt. to board edge = 10 mm\n
+Text Notes 550  850  0    60   ~ 0
+Board perimiter actual = 159.5mm x 120mm
 $EndSCHEMATC

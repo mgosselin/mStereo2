@@ -8,4 +8,5 @@
   (lib (name th_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/discrete-th_gosselin.pretty)(options "")(descr ""))
   (lib (name neutrik_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/neutrik_gosselin.pretty)(options "")(descr ""))
   (lib (name phoenix_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/phoenix_gosselin.pretty)(options "")(descr ""))
+  (lib (name mounting_gosselin)(type KiCad)(uri ${KI_GOSSELIN_LIBS}/mounting_gosselin.pretty)(options "")(descr ""))
 )
