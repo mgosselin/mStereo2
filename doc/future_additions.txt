@@ -1,0 +1,14 @@
+1) add voltage test-points for all power and ground planes to schematic so they get into the netlist
+2) add 10 uF electrolytic decoupling caps on SRC4192 in accordance with burr-brown application recommendation
+3) update OPA1632 footprint with better thermal releif
+4) introduce a mute function (use OPA1632 'enable' pins for this ??)
+5) add output coupling transformers
+6) separate +5VDC supply for DAC analog pins into L and R
+7) accommodate different clock footprints
+8) accommodate AMB zeta 1
+9) ferrites for supply isolation between clock and clock buffer
+10) add lightpipes or a pin-headers for wiring a panel-mount LED assembly
+11) add breakout header(s) for i2s bus before and after reclocking
+12) add breakout header(s) for analog before and after LPF
+13) add on-board connectors so that chassis/panel-mount XLR connectors may also be used
+14) add jumpers to optionally disconnect analog stage
