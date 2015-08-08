@@ -6,9 +6,12 @@ mStereo is a two-channel digital-to-analog converter (DAC) for audio. It is unde
 In this repository
 --------------------
     .
-    ├── doc                         # documents and media used in the README documentation
-    ├── projects                    # kicad project files
-    └── libraries                   # kicad library files
+    ├── doc             # documents and media used in the README documentation
+    ├── libraries       # kicad library files
+    └── projects        # kicad project files
+        ├── gerbers     # gerber files for PCB fabrication 
+        └── bom         # bill of materials and supplementary information
+     
     
 Using the contents of this repository
 --------------------
