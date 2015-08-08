@@ -48,7 +48,7 @@ The circuit board is currently not complete.  Its hardware design has been exten
 Bill of Materials
 --------
 
-[BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2_bom_readme.md)
+[BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv)
 
 Assembly
 --------
