@@ -1,7 +1,7 @@
 mStereo: revision 2
 ========
 
-mStereo is a two-channel digital-to-analog converter (DAC) for audio. It is under active development.  mStereo's design is public-domain.  
+mStereo is a two-channel digital-to-analog converter (DAC) for audio. It is under active development.
 
 In this repository
 --------------------
