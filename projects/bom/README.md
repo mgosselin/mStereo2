@@ -3,9 +3,9 @@
 [The Acutal BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv) is best viewed in .CSV on a separate page.  Most vendors provide "BOM-upload tools" that prefer .CSV format.
 
 #### 1. Circuit Board Support-Components
-The listed items are for populating the circuit board only.  Additional recommended hardware is as follows:
+The BOM items are for populating the circuit board only.  Additional recommended hardware is as follows:
   
-  1. A plastic insulation sheet to isolate the exposed pins on the bottom of the board from the chassis beneath (if a metal chassis is being used and the PCB will be mounted less than 5mm from the chassis panel beneth it).
+  1. A plastic insulation sheet to isolate the exposed pins on the bottom of the board (only needed if the PCB will be mounted less than 5mm from the chassis panel beneth it, and that chassis panel is metal).
   2. Standoffs
   3. Machine screws
   4. Hookup wire
