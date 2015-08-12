@@ -43,12 +43,16 @@ Circuit Description
 Circuit Board
 --------
 
-The circuit board is currently not complete.  Its hardware design has been extensively tested, and is currently being prepared for execution in printed circuit format.  Its PCB will be mainly surface-mount, with some select through-hole parts.  One pre-fab board population will occur before the end of 2014.  Earliest date to send to fabs is 01 February 2015.
+The circuit board is currently in the fabrication process.  [Gerber files here](https://github.com/mgosselin/mStereo2/blob/master/projects/gerbers/).
+
+![PCB_top](https://github.com/mgosselin/mStereo2/blob/master/doc/board_top.png)
+
+![PCB_with_plates](https://github.com/mgosselin/mStereo2/blob/master/doc/board_contrast.png)
 
 Bill of Materials
 --------
 
-[BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv)
+[BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom)
 
 Assembly
 --------
