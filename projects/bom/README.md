@@ -32,7 +32,7 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
  2. USB Cable, ideally with a ferrite choke such as Digi-Key part no. [1175-1417-ND](http://www.digikey.com/product-detail/en/102-1030-BL-F0100/1175-1417-ND/3782940)
  3. A USB panel mount jack, such as Neutrik [NAUSB-W-B](http://www.neutrik.com/en/multimedia/usb/nausb-w-b)
  4. Standoffs (see table, below).  The board-to-board mating distance is 13.11 mm.
- 5. M3 x 0.5 or #4-40machine screws to go with standoffs
+ 5. M3 x 0.5 or #4-40 machine screws to go with standoffs
 
 **Combo 384 mounting information**
 
