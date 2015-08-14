@@ -30,7 +30,7 @@ A 12 VDC dual-rail regulated supply and a 5 VDC single-rail regulated supply are
 As indicated in the [main README page](https://github.com/mgosselin/mStereo2), the mStereo circuit only accepts a valid I²S input as its source.  The circuit board is specifically designed around the [Combo 384](http://www.amanero.com/) module from Amanero SRL, which has a female USB type-A jack at its input.  Its mounting holes and connector fit properly with mStereo.  To use this module the following are needed:
  1. An Amanero Combo 384 module
  2. USB Cable, ideally with a ferrite choke such as Digi-Key part no. [1175-1417-ND](http://www.digikey.com/product-detail/en/102-1030-BL-F0100/1175-1417-ND/3782940)
- 3. A USB panel mount jack, such as Neutrik [NAUSB-W-B](http://www.neutrik.com/en/multimedia/usb/nausb-w-b)
+ 3. A USB panel mount jack, such as Neutrik [NAUSB-W-B](http://www.neutrik.com/en/multimedia/usb/nausb-w-b)*
  4. Standoffs (see table, below).  The board-to-board mating distance is 13.11 mm.
  5. M3 x 0.5 or #4-40 machine screws to go with standoffs
 
@@ -39,9 +39,11 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
 | Dimension                              | Recommended Part No. | Alternate Part No.    |
 | -------------                          |:-------------:       | -------------         |
 | Standoff (Female-Female)               | [24434K-ND](http://www.digikey.com/product-search/en?keywords=24434K-ND) (12.0 mm, M3 thread)  | [2203K-ND](http://www.digikey.com/product-search/en?KeyWords=2203K-ND&WT.z_header=search_go) (0.500", 4-40 thread) |
-| Recommended male connector             | [S9172-ND](http://www.digikey.com/product-search/en?KeyWords=S9172-ND&WT.z_header=search_go)             | [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go)           |
+| Recommended male connector**             | [S9172-ND](http://www.digikey.com/product-search/en?KeyWords=S9172-ND&WT.z_header=search_go)             | [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go)           |
 
-Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.
+**Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.*
+
+***The corresponding female connector is [S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv)*
 
 #### 6. Enclosures
   1. Hammond [1455Q1601](http://www.hammondmfg.com/pdf/1455Q1601.pdf) (PCB geometry and connector positioning fits this case perfectly, but without power supply)
