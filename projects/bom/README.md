@@ -43,7 +43,7 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
 
 **Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.*
 
-***The corresponding female connector is [S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv)*
+***The corresponding female connector is [S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv#L20)*
 
 #### 6. Enclosures
   1. Hammond [1455Q1601](http://www.hammondmfg.com/pdf/1455Q1601.pdf) (PCB geometry and connector positioning fits this case perfectly, but without power supply)
