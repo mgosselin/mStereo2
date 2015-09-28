@@ -1,19 +1,27 @@
+Schematic:
 1) add voltage test-points for all power and ground planes to schematic so they get into the netlist
 2) add 10 uF electrolytic decoupling caps on SRC4192 in accordance with burr-brown application recommendation
-3) update OPA1632 footprint with better thermal releif
-4) introduce a mute function at the output (use OPA1632 'enable' pins for this ??)
-5) add output coupling transformers ?
-6) separate +5VDC supply for DAC analog pins into L and R
-7) accommodate different clock footprints
-8) accommodate AMB zeta 1
-9) ferrites for supply isolation between clock and clock buffer
-10) add lightpipes or pin-headers for wiring a panel-mount LED assembly
-11) add breakout header(s) for i2s bus before and after reclocking
-12) add breakout header(s) for analog before and after LPF
-13) add on-board connectors so that chassis/panel-mount XLR connectors may also be used
-14) add jumpers to optionally disconnect buffer stage
-15) add series resistors on bus lines for anti-reflection
-16) add a microcontroller for enable/power up sequencing/DAC configuration ?
-17) add a second set of power connectors on the other side of the PCB
-18) add a power-on indicator for the +5VDC power plane
-19) support more sample rates
+3) separate +5VDC supply for DAC analog pins into L and R
+4) derive a +5VDC supply from the +12VDC analog supply rail
+5) accommodate AMB zeta 1
+6) add lightpipes or pin-headers for wiring a panel-mount LED assembly
+7) ferrites for supply isolation between clock and clock buffer
+8) add breakout header(s) for i2s bus before and after reclocking
+9) add breakout header(s) for analog before and after LPF
+10) add on-board connectors so that chassis/panel-mount XLR connectors may also be used
+11) add jumpers to optionally disconnect buffer stage
+12) add series resistors on bus lines for anti-reflection
+13) add a second set of power connectors on the other side of the PCB
+14) ensure one power LED included for all power lines and/or power planes
+
+Footprints:
+1) update OPA1632 footprint with better thermal releif
+2) accommodate different clock footprints
+3) accommodate AMB zeta 1
+4) change the output connector footprint to accept XLR connectors with a separate ground pin (i.e. NC3MAAH)
+5) lengthen the pads (outward) on the TSSOP-28 footprint by ~ 0.5 - 1.0 mm to aid manual assembly
+
+Layout:
+1) accommodate AMB zeta 1
+2) make a mini "local" power plane for the clock and clock buffer power
+3) move mounting holes so they are at least 1cm from front/back edges of PCB for easier mounting
