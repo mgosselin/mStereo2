@@ -1,7 +1,7 @@
 Schematic:
 1) add voltage test-points for all power and ground planes to schematic so they get into the netlist
 2) add 10 uF electrolytic decoupling caps on SRC4192 in accordance with burr-brown application recommendation
-3) derive a +5VDC supply from the +12VDC analog supply rail
+3) derive a +5VDC supply from the +12VDC analog supply rail, PROB. WITH LT1963A
 4) accommodate AMB zeta 1
 5) add lightpipes or pin-headers for wiring a panel-mount LED assembly
 6) ferrites for supply isolation between clock and clock buffer
