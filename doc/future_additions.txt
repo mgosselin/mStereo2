@@ -12,6 +12,8 @@ Schematic:
 11) add series resistors on bus lines for anti-reflection
 12) add a second set of power connectors on the other side of the PCB
 13) ensure one power LED included for all power lines and/or power planes
+14) add provisions for installing a ground loop breaker or direct connection to chassis at the XLR output connector 
+14) add provisions for installing a ground loop breaker or direct connection to chassis at the the power supply input GND pin
 
 Footprints:
 1) update OPA1632 footprint with better thermal releif
