@@ -1,3 +1,22 @@
 "Quantity", "Refs", "Description", "Supplier-PN", "Manu-PN"
-
-5, R1 R2 R8 R9 R11, RES 10.0K OHM 1/4W 1% AXIAL, CMF10.0KQFCT-ND, CMF5010K000FHEB
+1,	R1, 470K 1/8W miniature resistor, S470KQCT-ND
+1,	R2, 2.2MΩ 1/8W miniature resistor, S2.2MQCT-ND
+1,	R3, 2.2KΩ 1/8W miniature resistor, S2.2KQCT-ND
+1,	R5, 330KΩ 1/8W miniature resistor, S330KQCT-ND
+1,	R6, 10KΩ 1/8W miniature resistor, S10KQCT-ND
+1,	C1, 470µF 25V electrolytic capacitor (8mm diameter 3.5mm lead pitch), P12389-ND
+1,	C2, 10µF 25V dipped tantalum capacitor (2.5mm lead pitch), 399-3565-ND
+1,	C3, 0.33µF 50V Z5U multilayer ceramic capacitor (2.5mm lead pitch), 399-4299-ND
+1,	D1, W01G 1.5A 100V bridge rectifier, W01G-E4/1GI-ND
+1,	D3,	1N4148 small signal diode (DO-35), 1N4148FS-ND
+1,	Q2, 2N3904 NPN transistor (TO-92), 2N3904FS-ND
+1,	Q3, IRLZ24N N-channel MOSFET (TO-220), AMB audio shop
+1,	U1, 7812 voltage regulator (TO-220), MC7812ECT-ND
+1,	J1, Molex KK 4P .100 header 22-23-2041, WM4202-ND
+1, -, Molex KK 4P .100 plug housing, WM2002-ND
+1, J2, Molex KK 6P .100 header, WM4204-ND
+1, -, Molex KK 6P .100 plug housing, WM2004-ND
+10,	-, Molex KK .100 crimp terminal, WM1114-ND
+1, -, RELAY GEN PURPOSE SPST 20A 12V, 255-4179-ND, JM1AN-ZTM-DC12V-F
+1, -, Power Transformer,
+1, -, Vandal Resistant Switch SPST (On) 50 mA 24 V Red/Blue, 75M3520, MPI002/28/D4
