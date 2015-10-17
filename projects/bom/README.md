@@ -36,24 +36,33 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
 
 **Combo 384 mounting information**
 
-| Dimension                              | Recommended Part No. | Alternate Part No.    |
+|                                        | Recommended Part No. | Alternate Part No.    |
 | -------------                          |:-------------:       | -------------         |
 | Standoff (Female-Female)               | [24434K-ND](http://www.digikey.com/product-search/en?keywords=24434K-ND) (12.0 mm, M3 thread)  | [2203K-ND](http://www.digikey.com/product-search/en?KeyWords=2203K-ND&WT.z_header=search_go) (0.500", 4-40 thread) |
-| Recommended male connector**             | [S9172-ND](http://www.digikey.com/product-search/en?KeyWords=S9172-ND&WT.z_header=search_go)             | [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go)           |
+
+|                                        | Female (goes on mStereo) | Male (goes on Amanero) |
+| -------------                          |:-------------:           | -------------          |
+| Connector                                    |[S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) ( _also found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv#L20)_ )| [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go) |
 
 **Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.*
 
-***The corresponding female connector is [S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv#L20)*
-
 #### 6. Enclosures
   1. Hammond [1455Q1601](http://www.hammondmfg.com/pdf/1455Q1601.pdf) (PCB geometry and connector positioning fits this case perfectly, but without power supply)
-  2. 1U standard rack-mount enclosures, such as Par-Metal [10-19172B](http://www.par-metal.com/product-rmc-10series.php)
+  2. 1U standard rack-mount enclosures, from vendors such as [Hifi-2000](http://www.modushop.biz/site/index.php?route=product/category&path=20_27_61)
   3. Custom enclosures (DIY)
 
-#### 7. Alternative XLR analog output connectors
-Discussed in depth in Wiring and Ground section.  The recommended connectors are: 
+#### 7. XLR analog output connectors
+Discussed in depth in Wiring and Ground section.  
+
+The connectors listed below permit connection to the front or rear chassis panel with screws.  They should be fastened securely to the chassis panel so the force of inserting or pulling the mating XLR connector is not transferred to the PCB.  When received from the distributor, they come with straight, smooth-bore holes, which may be tapped with threads to permit easy attachment with machine screws to the chassis panel.  Use a UNC #4-40 tap or a metric size M3 tap and a tap wrench to tap threads in the appropriate plactes on these connectors.  
 
 | Connector                  | Recommended Part No. | Alternate Part No.                       |
 | -------------              | -------------        | -------------                            |
-| XLR chassis connector male | Neutrik [NC3MAAH-1](http://www.neutrik.com/en/xlr/aa-series/nc3maah-1)  | Neutrik [NC3MAAH](http://www.neutrik.com/en/xlr/aa-series/nc3maah) |
+| XLR chassis connector male |  Neutrik [NC3MAAH](http://www.neutrik.com/en/xlr/aa-series/nc3maah) | Neutrik [NC3MAAH-1](http://www.neutrik.com/en/xlr/aa-series/nc3maah-1) |
+| Grounding Notes | _NOTE: with this connector, the PCB's signal ground plane (and therefore also the power supply ground) will connect to pin 1 only.  The signal ground plane will be isolated from the chassis panel and the mating connector.  It will ensure the chassis panel is connected to the mating connector shell for continuous sheilding._ |  _NOTE: with this connector the PCB's signal ground plane (and therefore also the power supply ground) will connect to the mating connector shell, the chassis panel, and pin 1, all at a common node._ |
+
+The following female XLR cable connectors may be used to mate with the male chassis connectors on mStereo.  
+
+| Connector                  | Recommended Part No. | Alternate Part No.                       |
+| -------------              | -------------        | -------------                            |
 | XLR cable connector female | Neutrik [NC3FXX-B](http://www.neutrik.com/en/xlr/xx-series/nc3fxx-b)    | Neutrik [NC3FXX](http://www.neutrik.com/en/xlr/xx-series/nc3fxx)|
