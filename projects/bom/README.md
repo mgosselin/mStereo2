@@ -40,9 +40,9 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
 | -------------                          |:-------------:       | -------------         |
 | Standoff (Female-Female)               | [24434K-ND](http://www.digikey.com/product-search/en?keywords=24434K-ND) (12.0 mm, M3 thread)  | [2203K-ND](http://www.digikey.com/product-search/en?KeyWords=2203K-ND&WT.z_header=search_go) (0.500", 4-40 thread) |
 
-|                                        | Female (goes on mStereo) | Male (goes on Amanero) |
-| -------------                          |:-------------:           | -------------          |
-| Connector                                    |[S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) ( _also found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv#L20)_ )| [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go) |
+|                                        |  Female                  | Male                    |
+| -------------                          |:-------------:           | -------------           |
+| Connector                                    |[S7078-ND](http://www.digikey.com/product-search/en?keywords=S7078-ND) ( _also found on the mStereo circuit board [BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv#L20)_ ) | [952-2130-ND](http://www.digikey.com/product-search/en?KeyWords=952-2130-ND&WT.z_header=search_go) |
 
 **Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.*
 
