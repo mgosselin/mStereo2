@@ -5,7 +5,7 @@
 #### 1. Circuit Board Support-Components
 The BOM items are for populating the circuit board only.  Additional recommended hardware is as follows:
   
-  1. A plastic insulation sheet to isolate the exposed pins on the bottom of the board (only needed if the PCB will be mounted less than 5mm from the chassis panel beneth it, and that chassis panel is metal).
+  1. A plastic insulation sheet to isolate the exposed pins on the bottom of the board (only needed if the PCB will be mounted less than 5mm from the chassis panel beneath it, and that chassis panel is metal).
   2. Standoffs
   3. Machine screws
   4. Hookup wire
