@@ -37,7 +37,16 @@ The circuit board is currently in the fabrication process.  [Gerber files here](
 
 ## [Assembly](https://github.com/mgosselin/mStereo2/blob/master/assembly.md)
 
-## Specifications
+## Electrical Specifications
+
+|                                                                    | Value     | Unit     |
+| -------------                                                      |:---:      | -----    |
+| +12 V supply current draw (measured **)                            | 70        | mA       |
+| -12 V supply current draw (measured **)                            | 69        | mA       |
+| +5 V supply current draw (measured **)                             | 259       | mA       |
+| Output DC voltage offset (meaured across + and - output terminals) | +/- 1     | mV       |
+
+** _with each channel driving 100 Ώ resistive load_
 
 ## Ordering
 
