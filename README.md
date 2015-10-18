@@ -19,6 +19,21 @@ This repo is built and maintained with Linux users in mind.  Some contents are .
 
 mStereo is intended to be used as a component in systems for playback of high-resolution digital audio stored on computers.
 
+## Electrical Specifications
+
+| Specification                                                      | Value     | Unit     |
+| -------------                                                      |:---:      | -----    |
+| +12 V supply current draw (measured **)                            | 70        | mA       |
+| -12 V supply current draw (measured **)                            | 69        | mA       |
+| +5 V supply current draw (measured **)                             | 259       | mA       |
+| Output impedance (across + and - output terminals)                 | 20.3      | Ώ        |
+| Output DC voltage offset ***                                       | ± 1       | mV       |
+| Output RMS voltage level at 0 dBFS *** ([Philips Red Book Standard](https://en.wikipedia.org/wiki/Rainbow_Books#Red_Book_.281980.29)) | 2.000     | V        |
+
+**  _measured with each channel driving 100 Ώ resistive load_
+
+*** _measured across + and - output terminals_
+
 ## Schematic
 
 ![schematic](https://github.com/mgosselin/mStereo2/blob/master/doc/mStereo2.jpg)
@@ -27,7 +42,7 @@ mStereo is intended to be used as a component in systems for playback of high-re
 
 ## Circuit Board
 
-The circuit board is currently in the fabrication process.  [Gerber files here](https://github.com/mgosselin/mStereo2/blob/master/projects/gerbers/).
+[Gerber files here](https://github.com/mgosselin/mStereo2/blob/master/projects/gerbers/).
 
 ![PCB_top](https://github.com/mgosselin/mStereo2/blob/master/doc/board_top.png)
 
@@ -36,17 +51,6 @@ The circuit board is currently in the fabrication process.  [Gerber files here](
 ## [BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom)
 
 ## [Assembly](https://github.com/mgosselin/mStereo2/blob/master/assembly.md)
-
-## Electrical Specifications
-
-|                                                                    | Value     | Unit     |
-| -------------                                                      |:---:      | -----    |
-| +12 V supply current draw (measured **)                            | 70        | mA       |
-| -12 V supply current draw (measured **)                            | 69        | mA       |
-| +5 V supply current draw (measured **)                             | 259       | mA       |
-| Output DC voltage offset (meaured across + and - output terminals) | +/- 1     | mV       |
-
-** _with each channel driving 100 Ώ resistive load_
 
 ## Ordering
 
