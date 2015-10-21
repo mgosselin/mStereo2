@@ -23,12 +23,12 @@ mStereo is intended to be used as a component in systems for playback of high-re
 
 | Specification                                                      | Value     | Unit     |
 | -------------                                                      |:---:      | -----    |
-| +12 V supply current draw (measured **)                            | 70        | mA       |
-| -12 V supply current draw (measured **)                            | 69        | mA       |
-| +5 V supply current draw (measured **)                             | 259       | mA       |
-| Output impedance (across + and - output terminals)                 | 20.3      | Ώ        |
+| +12 V supply current draw **                                       | 70        | mA       |
+| -12 V supply current draw **                                       | 69        | mA       |
+| +5 V supply current draw **                                        | 259       | mA       |
+| Output impedance ***                                               | 20.3      | Ώ        |
 | Output DC voltage offset ***                                       | ± 1       | mV       |
-| Output RMS voltage level at 0 dBFS *** ([Philips Red Book Standard](https://en.wikipedia.org/wiki/Rainbow_Books#Red_Book_.281980.29)) | 2.000     | V        |
+| Output RMS voltage level at 0 dBFS ***                             | 4.000     | V        |
 
 **  _measured with each channel driving 100 Ώ resistive load_
 
