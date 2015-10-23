@@ -15,12 +15,12 @@ The BOM items are for populating the circuit board only.  Additional recommended
 A 12 VDC dual-rail regulated supply and a 5 VDC single-rail regulated supply are required.  The recommended supplies are the [AMB Labs](http://www.amb.org/audio/) [σ22](http://www.amb.org/audio/sigma22/) (a dual-rail linear regulated supply) and [σ11](http://www.amb.org/audio/sigma11/) (a single-rail linear regulated supply).  Both have been tested and are known to give excellent performance.  They are generally available on the [AMB Audio Shop](http://www.amb.org/shop/).  Alternatives may be used at your discretion.
 
 #### 3. Vendor Recommendations
-**Electronics:**
+#####Electronics:
   1. [Mouser](http://www.mouser.com/)
   2. [Digi-Key](http://www.digikey.com/)
   3. [Farnell](http://farnell.com/)
 
-**Mechanical Hardware:**
+#####Mechanical Hardware:
   1. [McMaster-Carr](http://www.mcmaster.com/)
   2. [Amazon](http://www.amazon.com/)
 
@@ -34,7 +34,7 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
  4. Standoffs (see table, below).  The board-to-board mating distance is 13.11 mm.
  5. M3 x 0.5 or #4-40 machine screws to go with standoffs
 
-**Combo 384 mounting information**
+#####Combo 384 mounting information
 
 |                                        | Recommended Part No. | Alternate Part No.    |
 | -------------                          |:-------------:       | -------------         |
@@ -46,13 +46,23 @@ As indicated in the [main README page](https://github.com/mgosselin/mStereo2), t
 
 **Ensure the USB cable and panel mount jack combination will work with the female USB-A-style jack on the Amanero Combo 384.*
 
-#### 6. Enclosures
+#### 6. Enclosure and Mounting Considerations
+
   1. Hammond [1455Q1601](http://www.hammondmfg.com/pdf/1455Q1601.pdf) (PCB geometry and connector positioning fits this case perfectly, but without power supply)
   2. 1U standard rack-mount enclosures, from vendors such as [Hifi-2000](http://www.modushop.biz/site/index.php?route=product/category&path=20_27_61)
   3. Custom enclosures (DIY)
 
-#### 7. XLR analog output connectors
-Discussed in depth in Wiring and Ground section.  
+#####Key PCB and connector geometry
+
+| Dimension                                                          | Quantity           |
+| -------------                                                      |:-------------:     |
+| Board perimeter limits                                             | 160 mm W x 120 mm L|
+| Minimum clearance above top of PCB                                 | 23.83 mm           |
+| Required gap from board edge to rear chassis panel                 | 1.0 mm             |
+| Required distance from XLR silkscreen centerpoint to chassis panel | 10 mm              |
+| Distance from XLR connector centerpoint to top of PCB              | 12.5 mm            |
+
+#####XLR analog output connectors
 
 The connectors listed below permit connection to the front or rear chassis panel with screws.  They should be fastened securely to the chassis panel so the force of inserting or pulling the mating XLR connector is not transferred to the PCB.  When received from the distributor, they come with straight, smooth-bore holes, which may be tapped with threads to permit easy attachment with machine screws to the chassis panel.  Use a UNC #4-40 tap or a metric size M3 tap and a tap wrench to tap threads in the appropriate plactes on these connectors.  
 
