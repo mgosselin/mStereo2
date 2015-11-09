@@ -1,6 +1,6 @@
 ## BOM Notes
 
-[The Acutal BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv) is best viewed in .CSV on a separate page.  Most vendors provide "BOM-upload tools" that prefer .CSV format.
+[The mStereo BOM](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/mStereo2.csv) is best viewed in .CSV on a separate page.  Most vendors provide "BOM-upload tools" that prefer .CSV format.
 
 #### 1. Circuit Board Support-Components
 The BOM items are for populating the circuit board only.  Additional recommended hardware is as follows:
