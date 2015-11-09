@@ -1,0 +1,35 @@
+"Part ID", "Qty", "Description", "Mouser", "Digi-Key", "Manu-PN"
+R1+ R1-, 2, resistor array 1KΩx10 bussed (SIP-11), AMB audio shop, AMB audio shop, AMB audio shop
+R2+ R2-, 2,	resistor array 47Ωx8 bussed (SIP-9), AMB audio shop, AMB audio shop, AMB audio shop
+R5+ R5-, 2, esistor array 47KΩx8 bussed (SIP-9), AMB audio shop, AMB audio shop, AMB audio shop
+R3 R4,   2,	miniature 1/8W resistor 3.3KΩ,	270-3.3K-RC,	S3.3KCACT-ND, N/A
+RSnL RSnR RPnL RPnR RTL RTR, 22-34, attenuator resistors, N/A, N/A, N/A
+RGL RGR, 2,	wirewound resistor 10Ω 5W, 280-CR5-10-RC or N/A71-CW5-10 or 594-AC05W10R00J, PPC5W10.0CT-ND, N/A
+C1 C3,   2,	aluminum electrolytic capacitor 470µF 10V, 647-UHE1A471MPD,	P10221-ND, N/A
+C2+ C2- C4,	3, multilayer ceramic capacitor 0.1µF 50V X7R, 80-C320C104K5R, 399-4264-ND, N/A
+CGL CGR, 2,	suppression capacitor 0.1µF 250V, 539-158X104, P11116-ND, N/A
+L1,	     1, Ferrite bead axial-lead, AMB audio shop, AMB audio shop, AMB audio shop
+U1+ U1-, 2,	PCF8574A or PCF8574 I²C port expander (DIP-16), AMB audio shop, AMB audio shop, AMB audio shop
+U2+ U2-, 2,	ULN2803A darlington transistor array (DIP-18), 595-ULN2803AN, ULN2803APG-ND or 497-2356-5-ND, N/A
+LED+ LED-, 2, 10-LED bargraph array (DIP-20), 604-DC-10EWA, 754-1176-5-ND, N/A
+K0-K7,	 5-8, miniature latching DPDT relay Panasonic AGN2104H, AMB audio shop, AMB audio shop, AMB audio shop
+-,       2,	DIP-16 low-profile socket tin or gold for U1+ and U1-, 575-11044316 or 575-11043316, ED90034-ND or ED90050-ND, N/A
+-,	     2,	DIP-18 low-profile socket tin or gold for U2+ and U2-, 575-11044318 or 575-11043318, ED90051-ND or ED90035-ND, N/A
+J1,	     1,	6P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3061 or 538-22-12-2064, WM4304-ND or WM2715-ND, N/A
+J1,      1, 6P Molex KK .100 inch plug housing, 538-22-01-3067, WM2004-ND, N/A
+J2 J3,   1,	6P vertical pin headers tin or gold,	538-22-03-2061 or 538-22-10-2061,	WM4004-ND or WM2726-ND, N/A
+J2 J3,   1,	SIP-6 pin receptacle, AMB audio shop, AMB audio shop, AMB audio shop
+J4,      1,	16P dual-row header right-angle unshrouded,	538-10-88-3161, SAM1049-08-ND, N/A
+J5,	     1,	16P dual-row receptacle right-angle, SAM1006-08-ND,	N/A
+J4 J5,	 2,	16P dual-row header right-angle shrouded, 517-D2516-5002-AR, MHE16E-ND, N/A
+J4 J5,   2,	16P dual-row IDC socket with strain-relief, 517-D89116-0131HK and 517-D3448-89116, MKC16E-ND and MESR16-ND, N/A
+J4 J5,   1,	16-conductor 0.050 inch ribbon cable, 517-3365/16FT, MC16G-5-ND, N/A
+INPUTL INPUTR OUTPUTL OUTPUTR, 4, 2P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3021 or 538-22-12-2024, WM4300 ND or WM2711-ND, N/A
+INPUTL INPUTR OUTPUTL OUTPUTR, 4, 2P Molex KK .100 inch plug housing, 538-22-01-3027, WM2000-ND, N/A
+INOUTL INOUTR, 2, 3P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3031 or 538-22-12-2034, WM4301-ND or WM2712-ND, N/A
+INOUTL INOUTR, 2, 3P Molex KK .100 inch plug housing, 538-22-01-3037, WM2001-ND, N/A
+-,	     20, Molex KK .100 inch crimp terminals tin or gold, 538-08-50-0114 or 538-08-55-0102, WM1114-ND or WM2312-ND, N/A
+JP1A+ JP1B+ JP1C+ JP1A- JP1B- JP1C- JP2 JP3, 1,	36P pin headers break-apart, 517-647-01-36, S1011E-36-ND, N/A
+-,	      8, jumper shunts 2P 0.100 inch, 649-68786-202LF, S9001-ND (10-pack), N/A
+-,	      -, PCB standoffs 0.5inch or 13mm long imperial #4-40 or metric M3 threaded, N/A, N/A, N/A
+-,	      -, Machine screws imperial #4-40 or metric M3	(your choice), N/A, N/A, N/A
