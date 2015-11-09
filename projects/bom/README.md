@@ -14,6 +14,8 @@ The BOM items are for populating the circuit board only.  Additional recommended
 #### 2. Power supplies
 A 12 VDC dual-rail regulated supply and a 5 VDC single-rail regulated supply are required.  The recommended supplies are the [AMB Labs](http://www.amb.org/audio/) [σ22](http://www.amb.org/audio/sigma22/) (a dual-rail linear regulated supply) and [σ11](http://www.amb.org/audio/sigma11/) (a single-rail linear regulated supply).  Both have been tested and are known to give excellent performance.  They are generally available on the [AMB Audio Shop](http://www.amb.org/shop/).  Alternatives may be used at your discretion.
 
+BOMs for select [AMB Labs](http://www.amb.org/audio/) projects can be found [here](https://github.com/mgosselin/mStereo2/blob/master/projects/bom/AMB_Laboratories_Devices).
+
 #### 3. Vendor Recommendations
 #####Electronics:
   1. [Mouser](http://www.mouser.com/)
