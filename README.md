@@ -50,7 +50,7 @@ mStereo is intended to be used as a component in systems for playback of high-re
 
 ## [BOM Page](https://github.com/mgosselin/mStereo2/blob/master/projects/bom)
 
-## [Assembly](https://github.com/mgosselin/mStereo2/blob/master/assembly.md)
+## Assembly
 
 ## Ordering
 
