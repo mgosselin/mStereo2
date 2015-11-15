@@ -1,35 +1,51 @@
-"Part ID", "Qty", "Description", "Mouser", "Digi-Key", "Manu-PN"
-R1+ R1-, 2, resistor array 1KΩx10 bussed (SIP-11), AMB audio shop, AMB audio shop, AMB audio shop
-R2+ R2-, 2,	resistor array 47Ωx8 bussed (SIP-9), AMB audio shop, AMB audio shop, AMB audio shop
-R5+ R5-, 2, esistor array 47KΩx8 bussed (SIP-9), AMB audio shop, AMB audio shop, AMB audio shop
-R3 R4,   2,	miniature 1/8W resistor 3.3KΩ,	270-3.3K-RC,	S3.3KCACT-ND, N/A
-RSnL RSnR RPnL RPnR RTL RTR, 22-34, attenuator resistors, N/A, N/A, N/A
-RGL RGR, 2,	wirewound resistor 10Ω 5W, 280-CR5-10-RC or N/A71-CW5-10 or 594-AC05W10R00J, PPC5W10.0CT-ND, N/A
-C1 C3,   2,	aluminum electrolytic capacitor 470µF 10V, 647-UHE1A471MPD,	P10221-ND, N/A
-C2+ C2- C4,	3, multilayer ceramic capacitor 0.1µF 50V X7R, 80-C320C104K5R, 399-4264-ND, N/A
-CGL CGR, 2,	suppression capacitor 0.1µF 250V, 539-158X104, P11116-ND, N/A
-L1,	     1, Ferrite bead axial-lead, AMB audio shop, AMB audio shop, AMB audio shop
-U1+ U1-, 2,	PCF8574A or PCF8574 I²C port expander (DIP-16), AMB audio shop, AMB audio shop, AMB audio shop
-U2+ U2-, 2,	ULN2803A darlington transistor array (DIP-18), 595-ULN2803AN, ULN2803APG-ND or 497-2356-5-ND, N/A
-LED+ LED-, 2, 10-LED bargraph array (DIP-20), 604-DC-10EWA, 754-1176-5-ND, N/A
-K0-K7,	 5-8, miniature latching DPDT relay Panasonic AGN2104H, AMB audio shop, AMB audio shop, AMB audio shop
--,       2,	DIP-16 low-profile socket tin or gold for U1+ and U1-, 575-11044316 or 575-11043316, ED90034-ND or ED90050-ND, N/A
--,	     2,	DIP-18 low-profile socket tin or gold for U2+ and U2-, 575-11044318 or 575-11043318, ED90051-ND or ED90035-ND, N/A
-J1,	     1,	6P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3061 or 538-22-12-2064, WM4304-ND or WM2715-ND, N/A
-J1,      1, 6P Molex KK .100 inch plug housing, 538-22-01-3067, WM2004-ND, N/A
-J2 J3,   1,	6P vertical pin headers tin or gold,	538-22-03-2061 or 538-22-10-2061,	WM4004-ND or WM2726-ND, N/A
-J2 J3,   1,	SIP-6 pin receptacle, AMB audio shop, AMB audio shop, AMB audio shop
-J4,      1,	16P dual-row header right-angle unshrouded,	538-10-88-3161, SAM1049-08-ND, N/A
-J5,	     1,	16P dual-row receptacle right-angle, SAM1006-08-ND,	N/A
-J4 J5,	 2,	16P dual-row header right-angle shrouded, 517-D2516-5002-AR, MHE16E-ND, N/A
-J4 J5,   2,	16P dual-row IDC socket with strain-relief, 517-D89116-0131HK and 517-D3448-89116, MKC16E-ND and MESR16-ND, N/A
-J4 J5,   1,	16-conductor 0.050 inch ribbon cable, 517-3365/16FT, MC16G-5-ND, N/A
-INPUTL INPUTR OUTPUTL OUTPUTR, 4, 2P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3021 or 538-22-12-2024, WM4300 ND or WM2711-ND, N/A
-INPUTL INPUTR OUTPUTL OUTPUTR, 4, 2P Molex KK .100 inch plug housing, 538-22-01-3027, WM2000-ND, N/A
-INOUTL INOUTR, 2, 3P Molex KK .100 inch headers right angle tin or gold, 538-22-05-3031 or 538-22-12-2034, WM4301-ND or WM2712-ND, N/A
-INOUTL INOUTR, 2, 3P Molex KK .100 inch plug housing, 538-22-01-3037, WM2001-ND, N/A
--,	     20, Molex KK .100 inch crimp terminals tin or gold, 538-08-50-0114 or 538-08-55-0102, WM1114-ND or WM2312-ND, N/A
-JP1A+ JP1B+ JP1C+ JP1A- JP1B- JP1C- JP2 JP3, 1,	36P pin headers break-apart, 517-647-01-36, S1011E-36-ND, N/A
--,	      8, jumper shunts 2P 0.100 inch, 649-68786-202LF, S9001-ND (10-pack), N/A
--,	      -, PCB standoffs 0.5inch or 13mm long imperial #4-40 or metric M3 threaded, N/A, N/A, N/A
--,	      -, Machine screws imperial #4-40 or metric M3	(your choice), N/A, N/A, N/A
+"Quantity","Refs","Description","Supplier-PN","Manu-PN"
+2,     R1+ R1-,   RES ARRAY 10 RES 1K OHM 11SIP, 4611X-101-102LF-ND, 4611X-101-102LF
+2,     R2+ R2-,   RES ARRAY 8 RES 47 OHM 9SIP, 4609X-101-470LF-ND, 4609X-101-470LF
+2,     R5+ R5-,   RES ARRAY 8 RES 47K OHM 9SIP, 4609X-101-473LF-ND, 4609X-101-473LF
+2,     R3 R4,     miniature 1/8W resistor 3.3KΩ, S3.3KCACT-ND, RNMF14FTC3K30
+2,     RS0L RS0R, Metal Film Resistors - Through Hole 1/10watt 1.4Kohms 1% 50ppm,  71-RN55C-F-1.4K,  RN55C1401FB14
+2,     RS1L RS1R, Metal Film Resistors - Through Hole 1/10watt 2.74Kohms 1% 50ppm, 71-RN55C-F-2.74K, RN55C2741FB14
+2,     RS2L RS2R, Metal Film Resistors - Through Hole 1/10watt 5.11Kohms 1% 50ppm, 71-RN55C-F-5.11K, RN55C5111FB14
+2,     RS3L RS3R, Metal Film Resistors - Through Hole 1/10watt 9.31Kohms 1% 50ppm, 71-RN55C9311F,    RN55C9311FB14
+2,     RS4L RS4R, Metal Film Resistors - Through Hole 1/10watt 15Kohms   1% 50ppm, 71-RN55C-F-15K,   RN55C1502FB14
+2,     RS5L RS5R, Metal Film Resistors - Through Hole 1/10watt 21Kohms   1% 50ppm, 71-RN55C-F-21K,   RN55C2102FB14
+2,     RS6L RS6R, Metal Film Resistors - Through Hole 1/10watt 24.3Kohms 1% 50ppm, 71-RN55C2432F,    RN55C2432FB14
+2,     RS7L RS7R, Metal Film Resistors - Through Hole 1/10watt 24.9Kohms 1% 50ppm, 71-RN55C-F-24.9K, RN55C2492FB14
+2,     RP0L RP0R, Metal Film Resistors - Through Hole 1/10watt 422Kohms 1% 50ppm,  71-RN55C-F-422K,  RN55C4223FB14
+2,     RP1L RP1R, Metal Film Resistors - Through Hole 1/10watt 205Kohms  1% 50ppm, 71-RN55C2053F,    RN55C2053FB14
+2,     RP2L RP2R, Metal Film Resistors - Through Hole 1/10watt 97.6Kohms 1% 50ppm, 71-RN55C-F-97.6K, RN55C9762FB14	
+2,     RP3L RP3R, Metal Film Resistors - Through Hole 1/10watt 43.2Kohms 1% 50ppm, 71-RN55C-F-43.2K, RN55C4322FB14
+2,     RP4L RP4R, Metal Film Resistors - Through Hole 1/10watt 16.5Kohms 1% 50ppm, 71-RN55C1652F,    RN55C1652FB14
+2,     RP5L RP5R, Metal Film Resistors - Through Hole 1/10watt 4.75Kohms 1% 50ppm, 71-RN55C-F-4.75K, RN55C4751FB14
+2,     RP6L RP6R, Metal Film Resistors - Through Hole 1/10watt 649ohms 1% 50ppm,   71-RN55C-F-649,   RN55C6490FB14
+2,     RP7L RP7R, Metal Film Resistors - Through Hole 1/10watt 16.2ohms 1% 50ppm,  71-RN55C-F-16.2,  RN55C16R2FB14
+2,     RTL RTR,   Metal Film Resistors - Through Hole 1/10watt 25.5ohms 1% 50ppm,  71-RN55C25R5F,    RN55C25R5FB14
+2,     RGL RGR,   RES 10 OHM 5W 5% AXIAL, PPC5W10.0CT-ND, AC05000001009JAC00
+2,     C1 C3,     CAP POLYMER 470UF 20% 16V T/H, 565-3620-ND, APSG160ELL471MH08S
+3,     C2+ C2- C4,CAP CER 0.1UF 50V X7R RADIAL, 399-4264-ND, C320C104K5R5TA
+2,     CGL CGR,   CAP FILM 0.1UF 20% 300VAC RADIAL, P11116-ND, ECQ-U3A104MG
+1,     L1,        FERRITE BEAD AXIAL LEAD 75 OHMS, 240-2438-1-ND, 28L0138-10R-10
+2,     U1+ U1-,   IC I/O EXPANDER I2C 8B 16DIP, 296-13106-5-ND, APCF8574AN
+2,     U2+ U2-,   TRANS 8NPN DARL 50V 0.5A 18DIP, ULN2803APG-ND, ULN2803APGCN
+2,     LED+ LED-, LED BAR GRAPH 10SEG 627NM RED, 754-1176-5-ND, DC10EWA
+8,     K0-K7,     RELAY TELECOM DPDT 1A 4.5V, Z2143-ND, G6JU-2P-Y DC4.5
+2,     -,         CONN IC DIP SOCKET 16POS GOLD, ED90034-ND, 110-43-316-41-001000
+2,     -,         CONN IC DIP SOCKET 18POS GOLD, ED90035-ND, 110-43-318-41-001000
+1,     J1,        CONN HEADER 6POS .100 R/A TIN, WM4304-ND, 0022053061
+1,     J1,        CONN HOUS 6POS .100 W/RAMP/RIB, WM2004-ND, 0022013067
+1,     J2 J3,     CONN HEADER 6POS .100 VERT TIN, WM4004-ND, 0022032061
+1,     J2 J3,     Connector Receptacle Bottom or Top Entry 6 Position 0.100 inch (2.54mm) Tin Through Hole, WM18594-ND, 0448120006
+1,     J4,        CONN HEADER 16PS .100 DL R/A TIN, SAM1049-08-ND, TSW-108-08-T-D-RA
+1,     J5,        CONN RCPT 16POS .100 inch DUAL HORZ, SAM1006-08-ND, BCS-108-L-D-HE
+2,     J4 J5,     [for ribbon cbl assly only] CONN HEADER 16POS R/A 10GOLD, MHE16E-ND, D2516-5002-AR
+2,     J4 J5,     [for ribbon cbl assly only] CONN 16POS IDC SOCKET 10AU W/POL, MKC16E-ND, D89116-0131HK
+2,     J4 J5,     [for ribbon cbl assly only] STRAIN RELIEF 16POS D89-SERIES, MESR16-ND, D3448-89116
+1,     J4 J5,     [for ribbon cbl assly only] CBL RIBN 16COND 0.050 GRAY 5', MC16G-5-ND, 3365/16 300SF
+4,     INPUTL INPUTR OUTPUTL OUTPUTR, CONN HEADER 2POS .100 R/A TIN, WM4300-ND, 0022053021
+4,     INPUTL INPUTR OUTPUTL OUTPUTR, CONN HOUS 2POS .100 W/RAMP/RIB, WM2000-ND, 0022013027
+2,     INOUTL INOUTR, CONN HEADER 3POS .100 R/A TIN, WM4301-ND, 0022053031
+2,     INOUTL INOUTR, CONN HOUS 3POS .100 W/RAMP/RIB, WM2001-ND, 0022013037
+20,    -,         CONN TERM FEMALE 22-30AWG TIN, WM1114-ND, 0008500114
+1,     JP1A+ JP1B+ JP1C+ JP1A- JP1B- JP1C- JP2 JP3, CONN HEADER .100 SINGL STR 36POS, S1011E-36-ND, PBC36SAAN
+10,    -,         CONN JUMPER SHORTING GOLD FLASH, S9001-ND, SPC02SYAN
+4,     -,         HEX STANDOFF M3 ALUMINUM 12MM, P36-24434-ND, 24434
