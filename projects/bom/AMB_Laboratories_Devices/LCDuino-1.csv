@@ -2,11 +2,11 @@
 1,    R1,             RES 10K OHM 1/4W 1% AXIAL, S10KCACT-ND, RNMF14FTC10K0
 2,    R2 R3,          RES 1K OHM 1/4W 1% AXIAL, S1KCACT-ND, RNMF14FTC1K00
 1,    VR1,            TRIMMER 10K OHM 0.5W TH, 490-2875-ND, PV36W103C01B00
-1,    -,              [motor pot motorized]
+1,    -,              [motor pot motorized], ,
 1,    C1,             CAP ALUM 100UF 20% 6.3V RADIAL, P958-ND, ECE-A0JKS101
 4,    C2 C3 C4 C5,    CAP CER 0.1UF 50V X7R RADIAL, 399-4264-ND, C320C104K5R5TA
 1,    C6,             CAP TANT 1UF 25V 10% RADIAL, 478-1834-ND, TAP105K025SCS
-1,    Cs,             [MOUSER 80-FR0H223ZF] [SUPERCAPACITOR]
+1,    Cs,             [MOUSER 80-FR0H223ZF] [SUPERCAPACITOR], , 
 1,    U1,             Atmel ATmega328P-PU pre-flashed with bootloader and Volu-Master firmware, AMB audio shop, AMB audio shop
 1,    U2,             IC RTC CLK/CALENDAR SER 8-DIP, DS1302+-ND, DS1302+
 1,    U3,             IC I/O EXPANDER I2C 8B 18DIP, MCP23008-E/P-ND, MCP23008-E/P
@@ -23,8 +23,8 @@
 1,    -,              CONN IC DIP SOCKET 8POS TIN, ED90048-ND, 110-44-308-41-001000
 1,    -,              CONN IC DIP SOCKET 18POS TIN, ED90051-ND, 110-44-318-41-001000
 1,    -,              CONN IC DIP SOCKET 16POS TIN, ED90050-ND, 110-44-316-41-001000
-2,    J1 J2,          [6 pin single row header 0.1 inch pitch]
-2,    J1' J2',        [6 pin single row receptacle 0.1 inch pitch]
+2,    J1 J2,          [6 pin single row header 0.1 inch pitch], , 
+2,    J1' J2',        [6 pin single row receptacle 0.1 inch pitch], , 
 2,    J3 J4,          CONN HEADER 6POS .100 VERT TIN, WM4204-ND, 0022232061
 2,    J3 J4,          CONN HOUS 6POS .100 W/RAMP/RIB, WM2004-ND, 0022013067
 2,    J5 J6,          CONN HEADER 2POS .100 VERT TIN, WM4200-ND, 0022232021
