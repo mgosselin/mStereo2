@@ -7,12 +7,11 @@ Schematic:
 6) ferrites for supply isolation between clock and clock buffer
 7) add breakout header(s) for i2s bus before and after reclocking
 8) add breakout header(s) for analog before and after LPF
-9) add on-board connectors so that chassis/panel-mount XLR connectors may also be used
+9) change from board-mount connectors to air-wired connectors (and still isolate chassis from signal GND)
 10) add jumpers to optionally disconnect buffer stage
 11) add series resistors on bus lines for anti-reflection
 12) add a second set of power connectors on the other side of the PCB
 13) ensure one power LED included for all power lines and/or power planes
-14) add provisions for installing a ground loop breaker or direct connection to chassis at the XLR output connector 
 14) add provisions for installing a ground loop breaker or direct connection to chassis at the the power supply input GND pin
 
 Footprints:
