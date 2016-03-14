@@ -1,31 +1,32 @@
 Schematic:
 1) add voltage test-points for all power and ground planes to schematic so they get into the netlist
 2) add 10 uF electrolytic decoupling caps on SRC4192 in accordance with burr-brown application recommendation
-3) derive a +5VDC supply from the +12VDC analog supply rail, PROB. WITH LT1963A
-4) accommodate AMB zeta 1
-5) add lightpipes or pin-headers for wiring a panel-mount LED assembly
+3) derive a +5VDC supply from the +12VDC analog supply rail
+4) accommodate AMB zeta 1 plus support components
+5) add pin-headers for wiring a panel-mount LED assembly
 6) ferrites for supply isolation between clock and clock buffer
 7) add breakout header(s) for i2s bus before and after reclocking
 8) add breakout header(s) for analog before and after LPF
-9) change from board-mount connectors to air-wired connectors (and still isolate chassis from signal GND)
-10) add jumpers to optionally disconnect buffer stage
-11) add series resistors on bus lines for anti-reflection
-12) add a second set of power connectors on the other side of the PCB
-13) ensure one power LED included for all power lines and/or power planes
-14) add provisions for installing a ground loop breaker or direct connection to chassis at the the power supply input GND pin
+9) change from board-mount XLR connectors to air-wired XLR connectors
+10) add series resistors on bus lines for anti-reflection
+11) ensure one power LED included for all power lines and/or power planes
+12) add provisions for installing seclectable ground loop breaker vs. direct connection to chassis via one of the mounting holes
+13) use AND gates to gather PCM status pins from ICs --> output resulting state to a single bicolor LED (gree/red toggle)
+14) major overhaul of power supply architecture (move all of it onto main PCB, incl. transformers)
+15) add M3 chassis-mount holes to schematic
 
 Footprints:
-1) update OPA1632 footprint with better thermal releif
+1) update OPA1632 MSOP-8 footprint with better thermal releif
 2) accommodate different clock footprints
 3) accommodate AMB zeta 1
-4) change the output connector footprint to accept XLR connectors with a separate ground pin (i.e. NC3MAAH)
+4) change the output connector footprint to acommodate XLR connectors with a separate chassis-connection pin
 5) lengthen the pads (outward) on the TSSOP-28 footprint by ~ 0.5 - 1.0 mm to aid manual assembly
 6) make all text sizes the same
 
 Layout:
 1) accommodate AMB zeta 1
 2) make a mini "local" power plane for the clock and clock buffer power
-3) move mounting holes so they are at least 1cm from front/back edges of PCB for easier mounting
-4) increase the text size for labels on LED indicators
-5) add a "PCM only" notice on the USB->i2s converter module
-6) make more "free space" around bank of LED indicators
+3) increase the text size for labels on LED indicators
+4) add a "PCM only" notice on the USB->i2s converter module
+5) make more "empty space" around bank of LED indicators
+6) move the LED "indicator bank" along the "front" edge of the PCB
