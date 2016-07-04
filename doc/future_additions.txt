@@ -2,27 +2,33 @@ Schematic:
 1) add voltage test-points for all power and ground planes to schematic so they get into the netlist
 2) add 10 uF electrolytic decoupling caps on SRC4192 in accordance with burr-brown application recommendation
 3) major overhaul of power supply architecture (move all of it onto main PCB, incl. transformers)
-4) ensure one power LED included for all power lines and/or power planes
-5) accommodate AMB zeta 1 plus support components
-6) add pin-headers for wiring a panel-mount LED assembly (support an IDC ribbon connector)
-7) separate supply LDOs for clock oscillator and clock distrubutor
-8) add breakout header(s) for i2s bus before reclocking
-9) add breakout header(s) for i2s bus after reclocking
-10) add breakout header at clock oscillator output
-11) add breakout header(s) for analog before and after LPF
-12) change from board-mount XLR connectors to air-wired XLR connectors
-13) add series resistors on bus lines for anti-reflection (47Ω)
-14) add provisions for installing seclectable ground loop breaker vs. direct connection to chassis via one of the mounting holes
-15) use AND gates to gather PCM status pins from ICs --> output resulting state to a single bicolor LED (gree/red toggle)
-16) add provisions for output enable/disable at power up/down (based on OPA1632 EN pin or relay-based)
-17) add M3 chassis-mount holes to schematic
-`
+4) add jumpers to optionally disconnect power supplies
+5) add jumpers onto ENABLE pins of LDO's
+6) ensure one power LED included for all power lines and/or power planes
+7) accommodate AMB zeta 1 plus support components mounted up against rear panel
+8) add pin-headers for wiring a panel-mount LED assembly (support an IDC ribbon connector)
+9) separate supply LDOs for clock oscillator and clock distrubutor
+10) allow breakout for i2s bus after reclocking
+11) allow breakout for clock oscillator output
+12) allow breakout for analog before LPF
+13) allow breakout for analog before XLR output connectors
+14) allow disconnect of i2c arriving at DACs
+15) allow disconnect of analog arriving at LPF
+16) allow disconnect of analog arriving at XLR output connectors
+17) add series resistors on bus lines for anti-reflection (47Ω)
+18) add provisions for installing seclectable ground loop breaker vs. direct connection to chassis via one of the mounting holes
+19) use AND gates to gather PCM status pins from ICs --> output resulting state to a single bicolor LED (green/red toggle)
+20) add provisions for output enable/disable at power up/down (based on OPA1632 EN pin or relay-based)
+21) add M3 chassis-mount holes to schematic
+22) accommodate an off-board (probably chassis-mount) AC mains power switch
+
 Footprints:
 1) update OPA1632 MSOP-8 footprint with better thermal releif
 2) accommodate different clock footprints
 3) accommodate AMB zeta 1
 4) lengthen the pads (outward) on the TSSOP-28 footprint by ~ 0.5 - 1.0 mm to aid assembly
 5) make all text sizes the same
+6) pick an IEC entry module which can directly PCB mount
 
 Layout:
 1) accommodate AMB zeta 1
